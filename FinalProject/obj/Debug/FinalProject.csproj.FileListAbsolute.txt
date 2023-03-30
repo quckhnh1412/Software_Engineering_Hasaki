@@ -24,3 +24,17 @@ D:\CNPM\Project\FinalProject\FinalProject\obj\Debug\FinalProject.exe
 D:\CNPM\Project\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
 D:\CNPM\Project\FinalProject\FinalProject\obj\Debug\FinalProject.HomePage.resources
 D:\CNPM\Project\FinalProject\FinalProject\obj\Debug\FinalProject.HomePage_Search.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\HP\source\repos\Final_app\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\HP\source\repos\Final_app\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.HomePage.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.HomePage_Search.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Login.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Signup.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.pdb

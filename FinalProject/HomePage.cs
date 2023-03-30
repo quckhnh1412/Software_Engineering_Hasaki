@@ -16,20 +16,5 @@ namespace FinalProject
         {
             InitializeComponent();
         }
-
-        private void HomePage_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox21_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
