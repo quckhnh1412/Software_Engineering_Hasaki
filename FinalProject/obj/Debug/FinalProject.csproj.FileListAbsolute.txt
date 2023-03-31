@@ -38,3 +38,5 @@ C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.Ge
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.exe
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Profile.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Main_admin.resources

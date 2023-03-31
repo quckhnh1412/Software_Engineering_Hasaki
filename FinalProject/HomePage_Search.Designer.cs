@@ -37,7 +37,6 @@
             this.button11 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -84,9 +83,9 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -202,19 +201,6 @@
             this.pictureBox15.Size = new System.Drawing.Size(1192, 1070);
             this.pictureBox15.TabIndex = 53;
             this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pictureBox16.ErrorImage = null;
-            this.pictureBox16.InitialImage = null;
-            this.pictureBox16.Location = new System.Drawing.Point(-1, 0);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(1192, 65);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 54;
-            this.pictureBox16.TabStop = false;
             // 
             // panel11
             // 
@@ -740,6 +726,14 @@
             this.label25.TabIndex = 72;
             this.label25.Text = "1";
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Silver;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(-1, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1187, 65);
+            this.flowLayoutPanel1.TabIndex = 76;
+            // 
             // HomePage_Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -768,9 +762,9 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomePage_Search";
@@ -778,7 +772,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -817,7 +810,6 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -864,5 +856,6 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

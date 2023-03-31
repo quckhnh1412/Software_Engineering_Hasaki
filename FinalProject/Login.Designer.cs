@@ -44,6 +44,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -72,6 +73,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(64, 302);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 34);
@@ -83,6 +85,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 254);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(235, 34);
@@ -101,6 +104,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.panel6);
@@ -228,6 +232,17 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(301, 370);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(187, 26);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Login as Admin";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -270,6 +285,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
     }
 }
 
