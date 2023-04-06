@@ -47,6 +47,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_bill_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_bill_list.Designer.cs">
+      <DependentUpon>Admin_bill_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_customer_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_customer_list.Designer.cs">
+      <DependentUpon>Admin_customer_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_employee_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_employee_detail.Designer.cs">
+      <DependentUpon>Admin_employee_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_employee_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_employee_list.Designer.cs">
+      <DependentUpon>Admin_employee_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_login.Designer.cs">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_order_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_order_list.Designer.cs">
+      <DependentUpon>Admin_order_list.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin_product_detail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +106,12 @@
     </Compile>
     <Compile Include="Admin_report_by_product_type.Designer.cs">
       <DependentUpon>Admin_report_by_product_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_supplier_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_supplier_list.Designer.cs">
+      <DependentUpon>Admin_supplier_list.cs</DependentUpon>
     </Compile>
     <Compile Include="HomePage_Search.cs">
       <SubType>Form</SubType>
@@ -109,6 +151,24 @@
     <Compile Include="Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin_bill_list.resx">
+      <DependentUpon>Admin_bill_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_customer_list.resx">
+      <DependentUpon>Admin_customer_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_employee_detail.resx">
+      <DependentUpon>Admin_employee_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_employee_list.resx">
+      <DependentUpon>Admin_employee_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_login.resx">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_order_list.resx">
+      <DependentUpon>Admin_order_list.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin_product_detail.resx">
       <DependentUpon>Admin_product_detail.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin_report_by_product_type.resx">
       <DependentUpon>Admin_report_by_product_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_supplier_list.resx">
+      <DependentUpon>Admin_supplier_list.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
