@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace FinalProject
 {
-    public partial class Main_admin : Form
+    public partial class Admin_report : Form
     {
-        public Main_admin()
+        public Admin_report()
         {
             InitializeComponent();
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
