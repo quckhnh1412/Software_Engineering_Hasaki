@@ -42,3 +42,4 @@ C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Profile.r
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Main_admin.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_product_detail.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_report.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_report_by_day.resources

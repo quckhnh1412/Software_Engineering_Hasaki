@@ -59,6 +59,12 @@
     <Compile Include="Admin_report.Designer.cs">
       <DependentUpon>Admin_report.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin_report_by_day.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_report_by_day.Designer.cs">
+      <DependentUpon>Admin_report_by_day.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomePage_Search.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin_report.resx">
       <DependentUpon>Admin_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_report_by_day.resx">
+      <DependentUpon>Admin_report_by_day.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
