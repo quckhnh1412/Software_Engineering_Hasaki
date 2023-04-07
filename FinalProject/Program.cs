@@ -16,7 +16,7 @@ namespace FinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Admin_report_by_day());
+            Application.Run(new Login());
         }
     }
 }

@@ -113,6 +113,11 @@
     <Compile Include="Admin_supplier_list.Designer.cs">
       <DependentUpon>Admin_supplier_list.cs</DependentUpon>
     </Compile>
+    <Compile Include="HASAKIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HASAKIDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="HomePage_Search.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +216,17 @@
     <EmbeddedResource Include="Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HASAKIDataSet.xsc">
+      <DependentUpon>HASAKIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HASAKIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HASAKIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HASAKIDataSet.xss">
+      <DependentUpon>HASAKIDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -49,6 +50,45 @@ namespace FinalProject
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void lbSignUpAsAdmin_Click(object sender, EventArgs e)
+        {
+            Admin_login adminLogin = new Admin_login();
+            adminLogin.Show();
+            this.Hide();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
+            string query = "SELECT HOTEN FROM KHACHHANG WHERE SDT=@username AND MATKHAU=@password";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@username", userName.Text);
+                    command.Parameters.AddWithValue("@password", password.Text);
+
+                    connection.Open();
+
+                    string username = (string)command.ExecuteScalar();
+
+                    if (username != null)
+                    {
+                        // User has successfully logged in
+                        HomePage userlogin = new HomePage();
+                        userlogin.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        // Invalid username or password
+                        MessageBox.Show("Invalid username or password");
+                    }
+                }
+            }
         }
     }
 }

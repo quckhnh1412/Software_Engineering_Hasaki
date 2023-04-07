@@ -16,5 +16,12 @@ namespace FinalProject
         {
             InitializeComponent();
         }
+
+        private void lbShopAll_Click(object sender, EventArgs e)
+        {
+            HomePage_Search homePage_Search = new HomePage_Search();
+            homePage_Search.Show();
+            this.Hide();
+        }
     }
 }
