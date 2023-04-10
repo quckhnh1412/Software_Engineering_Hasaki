@@ -418,7 +418,7 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(3)))), ((int)(((byte)(29)))));
             this.panel3.Location = new System.Drawing.Point(0, -2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(196, 69);
+            this.panel3.Size = new System.Drawing.Size(211, 69);
             this.panel3.TabIndex = 93;
             // 
             // panel2

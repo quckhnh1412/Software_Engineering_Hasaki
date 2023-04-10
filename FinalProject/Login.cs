@@ -90,5 +90,12 @@ namespace FinalProject
                 }
             }
         }
+
+        private void btnSignup_Click(object sender, EventArgs e)
+        {
+            Signup signup = new Signup();
+            signup.Show();
+            this.Hide();
+        }
     }
 }

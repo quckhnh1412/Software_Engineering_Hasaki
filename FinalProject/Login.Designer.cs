@@ -35,7 +35,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbSignUpAsAdmin = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnSignup = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.password = new System.Windows.Forms.TextBox();
@@ -105,7 +105,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.lbSignUpAsAdmin);
-            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.btnSignup);
             this.panel2.Controls.Add(this.btnLogin);
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.panel4);
@@ -129,19 +129,19 @@
             this.lbSignUpAsAdmin.Text = "Login as Admin";
             this.lbSignUpAsAdmin.Click += new System.EventHandler(this.lbSignUpAsAdmin_Click);
             // 
-            // button3
+            // btnSignup
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(138, 318);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 38);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "SIGNUP";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnSignup.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSignup.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSignup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSignup.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignup.Location = new System.Drawing.Point(138, 318);
+            this.btnSignup.Name = "btnSignup";
+            this.btnSignup.Size = new System.Drawing.Size(116, 38);
+            this.btnSignup.TabIndex = 6;
+            this.btnSignup.Text = "SIGNUP";
+            this.btnSignup.UseVisualStyleBackColor = false;
+            this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
             // btnLogin
             // 
@@ -284,7 +284,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.TextBox userName;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnSignup;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lbSignUpAsAdmin;
