@@ -13,6 +13,8 @@ namespace FinalProject
 {
     public partial class Login : Form
     {
+        Manager manager;
+        User user;
         public Login()
         {
             InitializeComponent();
@@ -78,8 +80,9 @@ namespace FinalProject
                     if (username != null)
                     {
                         // User has successfully logged in
-                        HomePage userlogin = new HomePage();
-                        userlogin.Show();
+                        user = new User(username);
+                        manager = new Manager(user);
+                        manager.openMainPage();
                         this.Hide();
                     }
                     else

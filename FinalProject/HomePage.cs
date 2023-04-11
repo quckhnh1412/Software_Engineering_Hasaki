@@ -40,7 +40,7 @@ namespace FinalProject
 
         private void pbProfile_Click(object sender, EventArgs e)
         {
-            Profile profile = new Profile();
+            ProfilePage profile = new ProfilePage();
             profile.Show();
             this.Hide();
         }

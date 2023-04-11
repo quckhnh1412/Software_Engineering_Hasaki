@@ -38,7 +38,6 @@ C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.Ge
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.exe
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.pdb
-C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Profile.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Main_admin.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_product_detail.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_report.resources
@@ -51,3 +50,6 @@ C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_emp
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_login.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_order_list.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_supplier_list.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.ProfilePage.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Shopping_history.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Order.resources

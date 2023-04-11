@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Signup));
             this.btnSignUp = new System.Windows.Forms.Button();
-            this.dateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -49,6 +48,7 @@
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.dateOfBirth = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,14 +67,6 @@
             this.btnSignUp.Text = "SIGNUP";
             this.btnSignUp.UseVisualStyleBackColor = false;
             this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
-            // 
-            // dateOfBirth
-            // 
-            this.dateOfBirth.Location = new System.Drawing.Point(662, 543);
-            this.dateOfBirth.Margin = new System.Windows.Forms.Padding(4);
-            this.dateOfBirth.Name = "dateOfBirth";
-            this.dateOfBirth.Size = new System.Drawing.Size(298, 22);
-            this.dateOfBirth.TabIndex = 27;
             // 
             // txtPassword
             // 
@@ -301,6 +293,16 @@
             this.pictureBox12.TabIndex = 83;
             this.pictureBox12.TabStop = false;
             // 
+            // dateOfBirth
+            // 
+            this.dateOfBirth.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateOfBirth.Location = new System.Drawing.Point(663, 549);
+            this.dateOfBirth.Mask = "00/00/0000";
+            this.dateOfBirth.Name = "dateOfBirth";
+            this.dateOfBirth.Size = new System.Drawing.Size(180, 34);
+            this.dateOfBirth.TabIndex = 102;
+            this.dateOfBirth.ValidatingType = typeof(System.DateTime);
+            // 
             // Signup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -308,6 +310,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1065, 688);
+            this.Controls.Add(this.dateOfBirth);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label7);
@@ -315,7 +318,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnSignUp);
-            this.Controls.Add(this.dateOfBirth);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtName);
@@ -340,7 +342,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnSignUp;
-        private System.Windows.Forms.DateTimePicker dateOfBirth;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtName;
@@ -359,5 +360,6 @@
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.MaskedTextBox dateOfBirth;
     }
 }
