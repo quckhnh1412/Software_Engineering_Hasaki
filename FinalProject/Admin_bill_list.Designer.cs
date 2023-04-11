@@ -72,6 +72,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -97,11 +98,13 @@
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(86)))), ((int)(((byte)(53)))));
+            this.panel1.Controls.Add(this.pictureBox12);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(176, -2);
             this.panel1.Name = "panel1";
@@ -465,9 +468,9 @@
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(56, 9);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(106, 27);
+            this.label13.Size = new System.Drawing.Size(84, 27);
             this.label13.TabIndex = 1;
-            this.label13.Text = "Báo cáo";
+            this.label13.Text = "Report";
             // 
             // panel13
             // 
@@ -495,9 +498,9 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(47, 9);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(134, 27);
+            this.label10.Size = new System.Drawing.Size(150, 27);
             this.label10.TabIndex = 1;
-            this.label10.Text = "Nhập hàng";
+            this.label10.Text = "Import good";
             // 
             // panel12
             // 
@@ -548,6 +551,17 @@
             this.label9.Size = new System.Drawing.Size(125, 27);
             this.label9.TabIndex = 1;
             this.label9.Text = "Comment";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(341, 10);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(200, 2, 3, 2);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(79, 57);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 101;
+            this.pictureBox12.TabStop = false;
             // 
             // Admin_bill_list
             // 
@@ -604,6 +618,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -654,5 +669,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox12;
     }
 }

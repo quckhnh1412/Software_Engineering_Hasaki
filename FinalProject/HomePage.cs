@@ -12,6 +12,7 @@ namespace FinalProject
 {
     public partial class HomePage : Form
     {
+       
         public HomePage()
         {
             InitializeComponent();
@@ -24,19 +25,24 @@ namespace FinalProject
             this.Hide();
         }
 
-        private void panel11_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
+        }
+
+        private void llbShopAll_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            HomePage_Search homePage_Search = new HomePage_Search();
+            homePage_Search.Show();
+            this.Hide();
+        }
+
+        private void pbProfile_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.Show();
+            this.Hide();
         }
     }
 }

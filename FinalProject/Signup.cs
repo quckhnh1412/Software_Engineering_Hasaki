@@ -47,7 +47,7 @@ namespace FinalProject
             connection.Open();
 
             // Insert data into the KHACHHANG table
-            string insertQuery = "INSERT INTO KHACHHANG ( HOTEN, EMAIL, SDT, DIACHI, MATKHAU, GIOITINH, NGAYSINH) VALUES (@HOTEN, @EMAIL, @SDT, @DIACHI, @MATKHAU, @GIOITINH, @NGAYSINH)";
+            string insertQuery = "INSERT INTO KHACHHANG (MAKH, HOTEN, EMAIL, SDT, DIACHI, MATKHAU, GIOITINH, NGAYSINH) VALUES (dbo.GET_NEW_MAKH(),@HOTEN, @EMAIL, @SDT, @DIACHI, @MATKHAU, @GIOITINH, @NGAYSINH)";
             SqlCommand command = new SqlCommand(insertQuery, connection);
  // replace with your own logic for generating customer ID
             command.Parameters.AddWithValue("@HOTEN", "Full Name"); // replace with actual name entered by user
