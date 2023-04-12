@@ -169,5 +169,10 @@ namespace FinalProject
             // Return the wrapped text
             return sb.ToString().Trim();
         }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
