@@ -58,17 +58,16 @@ namespace FinalProject
                 SqlConnection connection = new SqlConnection(connectionString);
                 connection.Open();
 
-                // Insert data into the KHACHHANG table
-                string insertQuery = "INSERT INTO KHACHHANG (MAKH, HOTEN, EMAIL, SDT, DIACHI, MATKHAU, GIOITINH, NGAYSINH) VALUES (dbo.GET_NEW_MAKH(),@HOTEN, @EMAIL, @SDT, @DIACHI, @MATKHAU, @GIOITINH, @NGAYSINH)";
+                string insertQuery = "INSERT INTO Customers (Name, Email, Phone, Address, Password, Gender, Birthday) VALUES (@Name, @Email, @Phone, @Address, @Password, @Gender, @Birthday)";
                 SqlCommand command = new SqlCommand(insertQuery, connection);
                 // replace with your own logic for generating customer ID
-                command.Parameters.AddWithValue("@HOTEN", name); // replace with actual name entered by user
-                command.Parameters.AddWithValue("@EMAIL", email);
-                command.Parameters.AddWithValue("@SDT", sdt);
-                command.Parameters.AddWithValue("@DIACHI", address);
-                command.Parameters.AddWithValue("@MATKHAU", password);
-                command.Parameters.AddWithValue("@GIOITINH", gioiTinh); // replace with actual gender selected by user
-                command.Parameters.AddWithValue("@NGAYSINH", formattedDate);
+                command.Parameters.AddWithValue("@Name", name); // replace with actual name entered by user
+                command.Parameters.AddWithValue("@Email", email);
+                command.Parameters.AddWithValue("@Phone", sdt);
+                command.Parameters.AddWithValue("@Address", address);
+                command.Parameters.AddWithValue("@Password", password);
+                command.Parameters.AddWithValue("@Gender", gioiTinh); // replace with actual gender selected by user
+                command.Parameters.AddWithValue("@Birthday", formattedDate);
                 command.ExecuteNonQuery();
 
                 // Close the database connection

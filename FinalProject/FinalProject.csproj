@@ -142,7 +142,6 @@
     <Compile Include="Main_admin.Designer.cs">
       <DependentUpon>Main_admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager.cs" />
     <Compile Include="Order.cs">
       <SubType>Form</SubType>
     </Compile>

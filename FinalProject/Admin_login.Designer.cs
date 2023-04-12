@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin_login));
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.password = new System.Windows.Forms.TextBox();
@@ -56,7 +55,6 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.btnLogin);
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.panel4);
@@ -77,19 +75,6 @@
             this.label3.Size = new System.Drawing.Size(156, 26);
             this.label3.TabIndex = 7;
             this.label3.Text = "Login as User";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(138, 318);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 38);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "SIGNUP";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // btnLogin
             // 
@@ -252,7 +237,6 @@
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.TextBox password;

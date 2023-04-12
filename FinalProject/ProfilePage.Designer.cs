@@ -42,16 +42,16 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lbName = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbName = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbEmail = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tbPhone = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -72,13 +72,14 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tbAddress = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.btnSave = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel19.SuspendLayout();
@@ -217,7 +218,7 @@
             // panel13
             // 
             this.panel13.Controls.Add(this.pictureBox6);
-            this.panel13.Controls.Add(this.label7);
+            this.panel13.Controls.Add(this.lbName);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel13.Location = new System.Drawing.Point(0, 0);
             this.panel13.Name = "panel13";
@@ -235,15 +236,15 @@
             this.pictureBox6.TabIndex = 62;
             this.pictureBox6.TabStop = false;
             // 
-            // label7
+            // lbName
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(147, 24);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 27);
-            this.label7.TabIndex = 63;
-            this.label7.Text = "Họ và Tên";
+            this.lbName.AutoSize = true;
+            this.lbName.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbName.Location = new System.Drawing.Point(147, 24);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(124, 27);
+            this.lbName.TabIndex = 63;
+            this.lbName.Text = "Họ và Tên";
             // 
             // label13
             // 
@@ -268,38 +269,38 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.tbName);
             this.panel5.Location = new System.Drawing.Point(357, 81);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(334, 44);
             this.panel5.TabIndex = 67;
             // 
-            // textBox2
+            // tbName
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(14, 9);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(295, 21);
-            this.textBox2.TabIndex = 72;
+            this.tbName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbName.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbName.Location = new System.Drawing.Point(14, 9);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(295, 21);
+            this.tbName.TabIndex = 72;
             // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.tbEmail);
             this.panel6.Location = new System.Drawing.Point(358, 159);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(333, 44);
             this.panel6.TabIndex = 69;
             // 
-            // textBox3
+            // tbEmail
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(22, 11);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(286, 21);
-            this.textBox3.TabIndex = 73;
+            this.tbEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbEmail.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbEmail.Location = new System.Drawing.Point(22, 11);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(286, 21);
+            this.tbEmail.TabIndex = 73;
             // 
             // label14
             // 
@@ -314,20 +315,20 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.textBox4);
+            this.panel7.Controls.Add(this.tbPhone);
             this.panel7.Location = new System.Drawing.Point(358, 234);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(333, 44);
             this.panel7.TabIndex = 71;
             // 
-            // textBox4
+            // tbPhone
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(22, 11);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(286, 21);
-            this.textBox4.TabIndex = 73;
+            this.tbPhone.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbPhone.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPhone.Location = new System.Drawing.Point(22, 11);
+            this.tbPhone.Name = "tbPhone";
+            this.tbPhone.Size = new System.Drawing.Size(286, 21);
+            this.tbPhone.TabIndex = 73;
             // 
             // label15
             // 
@@ -546,6 +547,7 @@
             // 
             // panel11
             // 
+            this.panel11.Controls.Add(this.btnSave);
             this.panel11.Controls.Add(this.panel21);
             this.panel11.Controls.Add(this.label2);
             this.panel11.Controls.Add(this.panel20);
@@ -568,21 +570,21 @@
             // panel21
             // 
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel21.Controls.Add(this.textBox6);
+            this.panel21.Controls.Add(this.tbPassword);
             this.panel21.Location = new System.Drawing.Point(357, 394);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(333, 44);
             this.panel21.TabIndex = 76;
             // 
-            // textBox6
+            // tbPassword
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(22, 11);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(286, 21);
-            this.textBox6.TabIndex = 73;
-            this.textBox6.UseSystemPasswordChar = true;
+            this.tbPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbPassword.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPassword.Location = new System.Drawing.Point(22, 11);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(286, 21);
+            this.tbPassword.TabIndex = 73;
+            this.tbPassword.UseSystemPasswordChar = true;
             // 
             // label2
             // 
@@ -597,20 +599,20 @@
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Controls.Add(this.textBox5);
+            this.panel20.Controls.Add(this.tbAddress);
             this.panel20.Location = new System.Drawing.Point(358, 312);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(333, 44);
             this.panel20.TabIndex = 74;
             // 
-            // textBox5
+            // tbAddress
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(22, 11);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(286, 21);
-            this.textBox5.TabIndex = 73;
+            this.tbAddress.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbAddress.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbAddress.Location = new System.Drawing.Point(22, 11);
+            this.tbAddress.Name = "tbAddress";
+            this.tbAddress.Size = new System.Drawing.Size(286, 21);
+            this.tbAddress.TabIndex = 73;
             // 
             // label1
             // 
@@ -640,6 +642,20 @@
             this.panel10.Size = new System.Drawing.Size(72, 787);
             this.panel10.TabIndex = 0;
             // 
+            // btnSave
+            // 
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(358, 461);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(149, 38);
+            this.btnSave.TabIndex = 78;
+            this.btnSave.Text = "SAVE";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
             // ProfilePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -653,6 +669,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "ProfilePage";
             this.Text = "Profile";
+            this.Load += new System.EventHandler(this.ProfilePage_Load);
             this.panel1.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
@@ -703,17 +720,17 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tbPhone;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
@@ -741,10 +758,11 @@
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Label lbSignOut;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tbAddress;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnSave;
     }
 }

@@ -13,13 +13,14 @@ namespace FinalProject
 {
     public partial class Login : Form
     {
-        Manager manager;
+
         User user;
         public Login()
         {
             InitializeComponent();
         }
 
+  
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -63,35 +64,44 @@ namespace FinalProject
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
-            string query = "SELECT HOTEN FROM KHACHHANG WHERE SDT=@username AND MATKHAU=@password";
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            if (!userName.Text.Equals("") && !password.Text.Equals(""))
             {
-                using (SqlCommand command = new SqlCommand(query, connection))
+                string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
+                string query = "SELECT CustomerID FROM Customers WHERE Phone=@username AND Password=@password";
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    command.Parameters.AddWithValue("@username", userName.Text);
-                    command.Parameters.AddWithValue("@password", password.Text);
-
-                    connection.Open();
-
-                    string username = (string)command.ExecuteScalar();
-
-                    if (username != null)
+                    using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        // User has successfully logged in
-                        user = new User(username);
-                        manager = new Manager(user);
-                        manager.openMainPage();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        // Invalid username or password
-                        MessageBox.Show("Invalid username or password");
+                        command.Parameters.AddWithValue("@username", userName.Text);
+                        command.Parameters.AddWithValue("@password", password.Text);
+
+                        connection.Open();
+
+                        object result = command.ExecuteScalar();
+                        if (result != null)
+                        {
+                            int customerID = (int)result;
+
+                            // User has successfully logged in
+                            user = new User(customerID);
+                            HomePage homePage = new HomePage(user);
+                            homePage.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            // Invalid username or password
+                            MessageBox.Show("Invalid username or password");
+                        }
                     }
                 }
             }
+            else
+            {
+                MessageBox.Show("Invalid username or password");
+            }
+
         }
 
         private void btnSignup_Click(object sender, EventArgs e)

@@ -21,7 +21,7 @@ namespace FinalProject
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
-            string query = "SELECT HOTEN FROM NHANVIEN WHERE SDT=@username AND MATKHAU=@password";
+            string query = "SELECT EmployeeID FROM Employees WHERE Phone=@username AND Password=@password";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -32,9 +32,9 @@ namespace FinalProject
 
                     connection.Open();
 
-                    string username = (string)command.ExecuteScalar();
+                    int employeeID = (int)command.ExecuteScalar();
 
-                    if (username != null)
+                    if (employeeID != null)
                     {
                         // User has successfully logged in
                         Main_admin adminLogin = new Main_admin();

@@ -8,12 +8,35 @@ namespace FinalProject
 {
     public class User
     {
-        public String UserID { get; set; }
-        public string[] ShoppingCart { get; set; }
+        public int UserID { get; set; }
+        public int[] ShoppingCart { get; set; }
 
-        public User(String userID)
+        public User(int userID)
         {
             UserID = userID;
+        }
+
+        public void addToCart(int itemID)
+        {
+            if (ShoppingCart == null)
+            {
+                ShoppingCart = new int[] { itemID };
+            }
+            else
+            {
+                List<int> items = new List<int>(ShoppingCart);
+                items.Add(itemID);
+                ShoppingCart = items.ToArray();
+            }
+        }
+
+        public void signOut()
+        {
+            ShoppingCart = null;
+            UserID = -1;
+            Login login = new Login();
+            login.Show();
+
         }
 
 

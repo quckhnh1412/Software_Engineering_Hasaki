@@ -38,11 +38,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelProduct1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.lbProductPrice1 = new System.Windows.Forms.Label();
+            this.lbProductName1 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct1 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
@@ -151,65 +151,65 @@
             this.label62 = new System.Windows.Forms.Label();
             this.pictureBox40 = new System.Windows.Forms.PictureBox();
             this.panel29 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
+            this.panelProduct9 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.panel22 = new System.Windows.Forms.Panel();
+            this.lbProductName9 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct9 = new System.Windows.Forms.PictureBox();
+            this.panelProduct10 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.panel23 = new System.Windows.Forms.Panel();
+            this.lbProductName10 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct10 = new System.Windows.Forms.PictureBox();
+            this.panelProduct8 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.panel24 = new System.Windows.Forms.Panel();
+            this.lbProductName8 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct8 = new System.Windows.Forms.PictureBox();
+            this.panelProduct7 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.panel28 = new System.Windows.Forms.Panel();
+            this.lbProductName7 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct7 = new System.Windows.Forms.PictureBox();
+            this.panelProduct6 = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.panel25 = new System.Windows.Forms.Panel();
+            this.lbProductName6 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct6 = new System.Windows.Forms.PictureBox();
+            this.panelProduct4 = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.panel26 = new System.Windows.Forms.Panel();
+            this.lbProductName4 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct4 = new System.Windows.Forms.PictureBox();
+            this.panelProduct5 = new System.Windows.Forms.Panel();
             this.button14 = new System.Windows.Forms.Button();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.panel27 = new System.Windows.Forms.Panel();
+            this.lbProductName5 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct5 = new System.Windows.Forms.PictureBox();
+            this.panelProduct3 = new System.Windows.Forms.Panel();
             this.button15 = new System.Windows.Forms.Button();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.panel20 = new System.Windows.Forms.Panel();
+            this.lbProductName3 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct3 = new System.Windows.Forms.PictureBox();
+            this.panelProduct2 = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.lbProductName2 = new System.Windows.Forms.Label();
+            this.pictureBoxProduct2 = new System.Windows.Forms.PictureBox();
             this.panel19 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel30 = new System.Windows.Forms.Panel();
             this.label42 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.lbProductPrice2 = new System.Windows.Forms.Label();
+            this.lbProductPrice3 = new System.Windows.Forms.Label();
+            this.lbProductPrice4 = new System.Windows.Forms.Label();
+            this.lbProductPrice5 = new System.Windows.Forms.Label();
+            this.lbProductPrice6 = new System.Windows.Forms.Label();
+            this.lbProductPrice7 = new System.Windows.Forms.Label();
+            this.lbProductPrice8 = new System.Windows.Forms.Label();
+            this.lbProductPrice9 = new System.Windows.Forms.Label();
+            this.lbProductPrice10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.panelProduct1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
@@ -259,24 +259,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
             this.panel40.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-            this.panel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            this.panel22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            this.panel23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            this.panel24.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            this.panel28.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            this.panel25.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            this.panel26.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            this.panel27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            this.panel20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.panelProduct9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct9)).BeginInit();
+            this.panelProduct10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct10)).BeginInit();
+            this.panelProduct8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct8)).BeginInit();
+            this.panelProduct7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct7)).BeginInit();
+            this.panelProduct6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct6)).BeginInit();
+            this.panelProduct4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct4)).BeginInit();
+            this.panelProduct5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct5)).BeginInit();
+            this.panelProduct3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct3)).BeginInit();
+            this.panelProduct2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct2)).BeginInit();
             this.panel19.SuspendLayout();
             this.panel30.SuspendLayout();
             this.SuspendLayout();
@@ -389,17 +389,17 @@
             this.pictureBox12.TabIndex = 1;
             this.pictureBox12.TabStop = false;
             // 
-            // panel2
+            // panelProduct1
             // 
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.pictureBox9);
-            this.panel2.Location = new System.Drawing.Point(112, 123);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(246, 395);
-            this.panel2.TabIndex = 32;
+            this.panelProduct1.Controls.Add(this.button2);
+            this.panelProduct1.Controls.Add(this.lbProductPrice1);
+            this.panelProduct1.Controls.Add(this.lbProductName1);
+            this.panelProduct1.Controls.Add(this.pictureBoxProduct1);
+            this.panelProduct1.Location = new System.Drawing.Point(112, 123);
+            this.panelProduct1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct1.Name = "panelProduct1";
+            this.panelProduct1.Size = new System.Drawing.Size(261, 444);
+            this.panelProduct1.TabIndex = 32;
             // 
             // button2
             // 
@@ -407,48 +407,48 @@
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(10, 331);
+            this.button2.Location = new System.Drawing.Point(0, 406);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(149, 38);
             this.button2.TabIndex = 77;
             this.button2.Text = "ADD";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // label9
+            // lbProductPrice1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(6, 290);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 20);
-            this.label9.TabIndex = 39;
-            this.label9.Text = "$80.00";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductPrice1.AutoSize = true;
+            this.lbProductPrice1.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice1.Location = new System.Drawing.Point(5, 361);
+            this.lbProductPrice1.Name = "lbProductPrice1";
+            this.lbProductPrice1.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice1.TabIndex = 39;
+            this.lbProductPrice1.Text = "$80.00";
+            this.lbProductPrice1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // lbProductName1
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(6, 253);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(194, 21);
-            this.label10.TabIndex = 36;
-            this.label10.Text = "2 Oz Deal Watermelon ";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName1.AutoSize = true;
+            this.lbProductName1.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName1.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName1.Name = "lbProductName1";
+            this.lbProductName1.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName1.TabIndex = 36;
+            this.lbProductName1.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox9
+            // pictureBoxProduct1
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
+            this.pictureBoxProduct1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct1.Image")));
+            this.pictureBoxProduct1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct1.Name = "pictureBoxProduct1";
+            this.pictureBoxProduct1.Size = new System.Drawing.Size(261, 240);
+            this.pictureBoxProduct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct1.TabIndex = 0;
+            this.pictureBoxProduct1.TabStop = false;
             // 
             // pictureBox17
             // 
@@ -1101,6 +1101,8 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.White;
+            this.panel10.Controls.Add(this.panel29);
+            this.panel10.Controls.Add(this.panel30);
             this.panel10.Controls.Add(this.panel31);
             this.panel10.Controls.Add(this.panel32);
             this.panel10.Controls.Add(this.panel33);
@@ -1111,21 +1113,19 @@
             this.panel10.Controls.Add(this.panel38);
             this.panel10.Controls.Add(this.panel39);
             this.panel10.Controls.Add(this.panel40);
-            this.panel10.Controls.Add(this.panel29);
-            this.panel10.Controls.Add(this.panel21);
-            this.panel10.Controls.Add(this.panel22);
-            this.panel10.Controls.Add(this.panel23);
-            this.panel10.Controls.Add(this.panel24);
-            this.panel10.Controls.Add(this.panel28);
-            this.panel10.Controls.Add(this.panel25);
-            this.panel10.Controls.Add(this.panel26);
-            this.panel10.Controls.Add(this.panel27);
-            this.panel10.Controls.Add(this.panel20);
+            this.panel10.Controls.Add(this.panelProduct9);
+            this.panel10.Controls.Add(this.panelProduct10);
+            this.panel10.Controls.Add(this.panelProduct8);
+            this.panel10.Controls.Add(this.panelProduct7);
+            this.panel10.Controls.Add(this.panelProduct6);
+            this.panel10.Controls.Add(this.panelProduct4);
+            this.panel10.Controls.Add(this.panelProduct5);
+            this.panel10.Controls.Add(this.panelProduct3);
+            this.panel10.Controls.Add(this.panelProduct2);
             this.panel10.Controls.Add(this.panel19);
             this.panel10.Controls.Add(this.panel18);
             this.panel10.Controls.Add(this.panel11);
-            this.panel10.Controls.Add(this.panel2);
-            this.panel10.Controls.Add(this.panel30);
+            this.panel10.Controls.Add(this.panelProduct1);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(0, 976);
             this.panel10.Name = "panel10";
@@ -1138,7 +1138,7 @@
             this.panel31.Controls.Add(this.label43);
             this.panel31.Controls.Add(this.label44);
             this.panel31.Controls.Add(this.pictureBox31);
-            this.panel31.Location = new System.Drawing.Point(902, 1525);
+            this.panel31.Location = new System.Drawing.Point(902, 1767);
             this.panel31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(246, 395);
@@ -1199,7 +1199,7 @@
             this.panel32.Controls.Add(this.label45);
             this.panel32.Controls.Add(this.label46);
             this.panel32.Controls.Add(this.pictureBox32);
-            this.panel32.Location = new System.Drawing.Point(1163, 1525);
+            this.panel32.Location = new System.Drawing.Point(1163, 1767);
             this.panel32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(246, 395);
@@ -1260,7 +1260,7 @@
             this.panel33.Controls.Add(this.label47);
             this.panel33.Controls.Add(this.label48);
             this.panel33.Controls.Add(this.pictureBox33);
-            this.panel33.Location = new System.Drawing.Point(640, 1525);
+            this.panel33.Location = new System.Drawing.Point(640, 1767);
             this.panel33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(246, 395);
@@ -1321,7 +1321,7 @@
             this.panel34.Controls.Add(this.label49);
             this.panel34.Controls.Add(this.label50);
             this.panel34.Controls.Add(this.pictureBox34);
-            this.panel34.Location = new System.Drawing.Point(379, 1525);
+            this.panel34.Location = new System.Drawing.Point(379, 1767);
             this.panel34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(246, 395);
@@ -1382,7 +1382,7 @@
             this.panel35.Controls.Add(this.label51);
             this.panel35.Controls.Add(this.label52);
             this.panel35.Controls.Add(this.pictureBox35);
-            this.panel35.Location = new System.Drawing.Point(112, 1525);
+            this.panel35.Location = new System.Drawing.Point(112, 1767);
             this.panel35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(246, 395);
@@ -1443,7 +1443,7 @@
             this.panel36.Controls.Add(this.label53);
             this.panel36.Controls.Add(this.label54);
             this.panel36.Controls.Add(this.pictureBox36);
-            this.panel36.Location = new System.Drawing.Point(902, 1090);
+            this.panel36.Location = new System.Drawing.Point(902, 1332);
             this.panel36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel36.Name = "panel36";
             this.panel36.Size = new System.Drawing.Size(246, 395);
@@ -1504,7 +1504,7 @@
             this.panel37.Controls.Add(this.label55);
             this.panel37.Controls.Add(this.label56);
             this.panel37.Controls.Add(this.pictureBox37);
-            this.panel37.Location = new System.Drawing.Point(1163, 1090);
+            this.panel37.Location = new System.Drawing.Point(1163, 1332);
             this.panel37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel37.Name = "panel37";
             this.panel37.Size = new System.Drawing.Size(246, 395);
@@ -1565,7 +1565,7 @@
             this.panel38.Controls.Add(this.label57);
             this.panel38.Controls.Add(this.label58);
             this.panel38.Controls.Add(this.pictureBox38);
-            this.panel38.Location = new System.Drawing.Point(640, 1090);
+            this.panel38.Location = new System.Drawing.Point(640, 1332);
             this.panel38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel38.Name = "panel38";
             this.panel38.Size = new System.Drawing.Size(246, 395);
@@ -1626,7 +1626,7 @@
             this.panel39.Controls.Add(this.label59);
             this.panel39.Controls.Add(this.label60);
             this.panel39.Controls.Add(this.pictureBox39);
-            this.panel39.Location = new System.Drawing.Point(379, 1090);
+            this.panel39.Location = new System.Drawing.Point(379, 1332);
             this.panel39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(246, 395);
@@ -1687,7 +1687,7 @@
             this.panel40.Controls.Add(this.label61);
             this.panel40.Controls.Add(this.label62);
             this.panel40.Controls.Add(this.pictureBox40);
-            this.panel40.Location = new System.Drawing.Point(112, 1090);
+            this.panel40.Location = new System.Drawing.Point(112, 1332);
             this.panel40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel40.Name = "panel40";
             this.panel40.Size = new System.Drawing.Size(246, 395);
@@ -1745,22 +1745,22 @@
             // panel29
             // 
             this.panel29.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel29.Location = new System.Drawing.Point(99, 973);
+            this.panel29.Location = new System.Drawing.Point(100, 1103);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(1344, 29);
             this.panel29.TabIndex = 85;
             // 
-            // panel21
+            // panelProduct9
             // 
-            this.panel21.Controls.Add(this.button7);
-            this.panel21.Controls.Add(this.label4);
-            this.panel21.Controls.Add(this.label5);
-            this.panel21.Controls.Add(this.pictureBox16);
-            this.panel21.Location = new System.Drawing.Point(902, 558);
-            this.panel21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(246, 395);
-            this.panel21.TabIndex = 81;
+            this.panelProduct9.Controls.Add(this.lbProductPrice9);
+            this.panelProduct9.Controls.Add(this.button7);
+            this.panelProduct9.Controls.Add(this.lbProductName9);
+            this.panelProduct9.Controls.Add(this.pictureBoxProduct9);
+            this.panelProduct9.Location = new System.Drawing.Point(902, 613);
+            this.panelProduct9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct9.Name = "panelProduct9";
+            this.panelProduct9.Size = new System.Drawing.Size(255, 444);
+            this.panelProduct9.TabIndex = 81;
             // 
             // button7
             // 
@@ -1768,60 +1768,48 @@
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(10, 331);
+            this.button7.Location = new System.Drawing.Point(1, 406);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(149, 38);
             this.button7.TabIndex = 77;
             this.button7.Text = "ADD";
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // lbProductName9
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(6, 290);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 20);
-            this.label4.TabIndex = 39;
-            this.label4.Text = "$80.00";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName9.AutoSize = true;
+            this.lbProductName9.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName9.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName9.Name = "lbProductName9";
+            this.lbProductName9.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName9.TabIndex = 36;
+            this.lbProductName9.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // pictureBoxProduct9
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 253);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(194, 21);
-            this.label5.TabIndex = 36;
-            this.label5.Text = "2 Oz Deal Watermelon ";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct9.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct9.Image")));
+            this.pictureBoxProduct9.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct9.Name = "pictureBoxProduct9";
+            this.pictureBoxProduct9.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxProduct9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct9.TabIndex = 0;
+            this.pictureBoxProduct9.TabStop = false;
             // 
-            // pictureBox16
+            // panelProduct10
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 0;
-            this.pictureBox16.TabStop = false;
-            // 
-            // panel22
-            // 
-            this.panel22.Controls.Add(this.button8);
-            this.panel22.Controls.Add(this.label6);
-            this.panel22.Controls.Add(this.label21);
-            this.panel22.Controls.Add(this.pictureBox24);
-            this.panel22.Location = new System.Drawing.Point(1163, 558);
-            this.panel22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(246, 395);
-            this.panel22.TabIndex = 82;
+            this.panelProduct10.Controls.Add(this.lbProductPrice10);
+            this.panelProduct10.Controls.Add(this.button8);
+            this.panelProduct10.Controls.Add(this.lbProductName10);
+            this.panelProduct10.Controls.Add(this.pictureBoxProduct10);
+            this.panelProduct10.Location = new System.Drawing.Point(1163, 613);
+            this.panelProduct10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct10.Name = "panelProduct10";
+            this.panelProduct10.Size = new System.Drawing.Size(257, 444);
+            this.panelProduct10.TabIndex = 82;
             // 
             // button8
             // 
@@ -1829,60 +1817,48 @@
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(10, 331);
+            this.button8.Location = new System.Drawing.Point(0, 406);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(149, 38);
             this.button8.TabIndex = 77;
             this.button8.Text = "ADD";
             this.button8.UseVisualStyleBackColor = false;
             // 
-            // label6
+            // lbProductName10
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(6, 290);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 20);
-            this.label6.TabIndex = 39;
-            this.label6.Text = "$80.00";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName10.AutoSize = true;
+            this.lbProductName10.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName10.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName10.Name = "lbProductName10";
+            this.lbProductName10.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName10.TabIndex = 36;
+            this.lbProductName10.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label21
+            // pictureBoxProduct10
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(6, 253);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(194, 21);
-            this.label21.TabIndex = 36;
-            this.label21.Text = "2 Oz Deal Watermelon ";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct10.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct10.Image")));
+            this.pictureBoxProduct10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct10.Name = "pictureBoxProduct10";
+            this.pictureBoxProduct10.Size = new System.Drawing.Size(257, 240);
+            this.pictureBoxProduct10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct10.TabIndex = 0;
+            this.pictureBoxProduct10.TabStop = false;
             // 
-            // pictureBox24
+            // panelProduct8
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox24.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 0;
-            this.pictureBox24.TabStop = false;
-            // 
-            // panel23
-            // 
-            this.panel23.Controls.Add(this.button9);
-            this.panel23.Controls.Add(this.label22);
-            this.panel23.Controls.Add(this.label23);
-            this.panel23.Controls.Add(this.pictureBox25);
-            this.panel23.Location = new System.Drawing.Point(640, 558);
-            this.panel23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(246, 395);
-            this.panel23.TabIndex = 83;
+            this.panelProduct8.Controls.Add(this.lbProductPrice8);
+            this.panelProduct8.Controls.Add(this.button9);
+            this.panelProduct8.Controls.Add(this.lbProductName8);
+            this.panelProduct8.Controls.Add(this.pictureBoxProduct8);
+            this.panelProduct8.Location = new System.Drawing.Point(640, 613);
+            this.panelProduct8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct8.Name = "panelProduct8";
+            this.panelProduct8.Size = new System.Drawing.Size(256, 444);
+            this.panelProduct8.TabIndex = 83;
             // 
             // button9
             // 
@@ -1890,60 +1866,48 @@
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(10, 331);
+            this.button9.Location = new System.Drawing.Point(0, 410);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(149, 38);
             this.button9.TabIndex = 77;
             this.button9.Text = "ADD";
             this.button9.UseVisualStyleBackColor = false;
             // 
-            // label22
+            // lbProductName8
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.Red;
-            this.label22.Location = new System.Drawing.Point(6, 290);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(58, 20);
-            this.label22.TabIndex = 39;
-            this.label22.Text = "$80.00";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName8.AutoSize = true;
+            this.lbProductName8.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName8.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName8.Name = "lbProductName8";
+            this.lbProductName8.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName8.TabIndex = 36;
+            this.lbProductName8.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label23
+            // pictureBoxProduct8
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(6, 253);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(194, 21);
-            this.label23.TabIndex = 36;
-            this.label23.Text = "2 Oz Deal Watermelon ";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct8.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct8.Image")));
+            this.pictureBoxProduct8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct8.Name = "pictureBoxProduct8";
+            this.pictureBoxProduct8.Size = new System.Drawing.Size(256, 240);
+            this.pictureBoxProduct8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct8.TabIndex = 0;
+            this.pictureBoxProduct8.TabStop = false;
             // 
-            // pictureBox25
+            // panelProduct7
             // 
-            this.pictureBox25.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox25.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox25.TabIndex = 0;
-            this.pictureBox25.TabStop = false;
-            // 
-            // panel24
-            // 
-            this.panel24.Controls.Add(this.button10);
-            this.panel24.Controls.Add(this.label24);
-            this.panel24.Controls.Add(this.label33);
-            this.panel24.Controls.Add(this.pictureBox26);
-            this.panel24.Location = new System.Drawing.Point(379, 558);
-            this.panel24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(246, 395);
-            this.panel24.TabIndex = 84;
+            this.panelProduct7.Controls.Add(this.lbProductPrice7);
+            this.panelProduct7.Controls.Add(this.button10);
+            this.panelProduct7.Controls.Add(this.lbProductName7);
+            this.panelProduct7.Controls.Add(this.pictureBoxProduct7);
+            this.panelProduct7.Location = new System.Drawing.Point(379, 613);
+            this.panelProduct7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct7.Name = "panelProduct7";
+            this.panelProduct7.Size = new System.Drawing.Size(255, 444);
+            this.panelProduct7.TabIndex = 84;
             // 
             // button10
             // 
@@ -1951,60 +1915,48 @@
             this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(10, 331);
+            this.button10.Location = new System.Drawing.Point(0, 406);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(149, 38);
             this.button10.TabIndex = 77;
             this.button10.Text = "ADD";
             this.button10.UseVisualStyleBackColor = false;
             // 
-            // label24
+            // lbProductName7
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.Red;
-            this.label24.Location = new System.Drawing.Point(6, 290);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(58, 20);
-            this.label24.TabIndex = 39;
-            this.label24.Text = "$80.00";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName7.AutoSize = true;
+            this.lbProductName7.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName7.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName7.Name = "lbProductName7";
+            this.lbProductName7.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName7.TabIndex = 36;
+            this.lbProductName7.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label33
+            // pictureBoxProduct7
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(6, 253);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(194, 21);
-            this.label33.TabIndex = 36;
-            this.label33.Text = "2 Oz Deal Watermelon ";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct7.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct7.Image")));
+            this.pictureBoxProduct7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct7.Name = "pictureBoxProduct7";
+            this.pictureBoxProduct7.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxProduct7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct7.TabIndex = 0;
+            this.pictureBoxProduct7.TabStop = false;
             // 
-            // pictureBox26
+            // panelProduct6
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox26.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox26.TabIndex = 0;
-            this.pictureBox26.TabStop = false;
-            // 
-            // panel28
-            // 
-            this.panel28.Controls.Add(this.button11);
-            this.panel28.Controls.Add(this.label40);
-            this.panel28.Controls.Add(this.label41);
-            this.panel28.Controls.Add(this.pictureBox30);
-            this.panel28.Location = new System.Drawing.Point(112, 558);
-            this.panel28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(246, 395);
-            this.panel28.TabIndex = 80;
+            this.panelProduct6.Controls.Add(this.lbProductPrice6);
+            this.panelProduct6.Controls.Add(this.button11);
+            this.panelProduct6.Controls.Add(this.lbProductName6);
+            this.panelProduct6.Controls.Add(this.pictureBoxProduct6);
+            this.panelProduct6.Location = new System.Drawing.Point(112, 613);
+            this.panelProduct6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct6.Name = "panelProduct6";
+            this.panelProduct6.Size = new System.Drawing.Size(257, 444);
+            this.panelProduct6.TabIndex = 80;
             // 
             // button11
             // 
@@ -2012,60 +1964,48 @@
             this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(10, 331);
+            this.button11.Location = new System.Drawing.Point(0, 406);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(149, 38);
             this.button11.TabIndex = 77;
             this.button11.Text = "ADD";
             this.button11.UseVisualStyleBackColor = false;
             // 
-            // label40
+            // lbProductName6
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.Red;
-            this.label40.Location = new System.Drawing.Point(6, 290);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(58, 20);
-            this.label40.TabIndex = 39;
-            this.label40.Text = "$80.00";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName6.AutoSize = true;
+            this.lbProductName6.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName6.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName6.Name = "lbProductName6";
+            this.lbProductName6.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName6.TabIndex = 36;
+            this.lbProductName6.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label41
+            // pictureBoxProduct6
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(6, 253);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(194, 21);
-            this.label41.TabIndex = 36;
-            this.label41.Text = "2 Oz Deal Watermelon ";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct6.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct6.Image")));
+            this.pictureBoxProduct6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct6.Name = "pictureBoxProduct6";
+            this.pictureBoxProduct6.Size = new System.Drawing.Size(257, 240);
+            this.pictureBoxProduct6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct6.TabIndex = 0;
+            this.pictureBoxProduct6.TabStop = false;
             // 
-            // pictureBox30
+            // panelProduct4
             // 
-            this.pictureBox30.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox30.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
-            this.pictureBox30.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox30.TabIndex = 0;
-            this.pictureBox30.TabStop = false;
-            // 
-            // panel25
-            // 
-            this.panel25.Controls.Add(this.button13);
-            this.panel25.Controls.Add(this.label34);
-            this.panel25.Controls.Add(this.label35);
-            this.panel25.Controls.Add(this.pictureBox27);
-            this.panel25.Location = new System.Drawing.Point(902, 123);
-            this.panel25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(246, 395);
-            this.panel25.TabIndex = 78;
+            this.panelProduct4.Controls.Add(this.lbProductPrice4);
+            this.panelProduct4.Controls.Add(this.button13);
+            this.panelProduct4.Controls.Add(this.lbProductName4);
+            this.panelProduct4.Controls.Add(this.pictureBoxProduct4);
+            this.panelProduct4.Location = new System.Drawing.Point(902, 123);
+            this.panelProduct4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct4.Name = "panelProduct4";
+            this.panelProduct4.Size = new System.Drawing.Size(255, 444);
+            this.panelProduct4.TabIndex = 78;
             // 
             // button13
             // 
@@ -2073,60 +2013,48 @@
             this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(10, 331);
+            this.button13.Location = new System.Drawing.Point(0, 406);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(149, 38);
             this.button13.TabIndex = 77;
             this.button13.Text = "ADD";
             this.button13.UseVisualStyleBackColor = false;
             // 
-            // label34
+            // lbProductName4
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.Red;
-            this.label34.Location = new System.Drawing.Point(6, 290);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(58, 20);
-            this.label34.TabIndex = 39;
-            this.label34.Text = "$80.00";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName4.AutoSize = true;
+            this.lbProductName4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName4.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName4.Name = "lbProductName4";
+            this.lbProductName4.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName4.TabIndex = 36;
+            this.lbProductName4.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label35
+            // pictureBoxProduct4
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(6, 253);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(194, 21);
-            this.label35.TabIndex = 36;
-            this.label35.Text = "2 Oz Deal Watermelon ";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct4.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct4.Image")));
+            this.pictureBoxProduct4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct4.Name = "pictureBoxProduct4";
+            this.pictureBoxProduct4.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxProduct4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct4.TabIndex = 0;
+            this.pictureBoxProduct4.TabStop = false;
             // 
-            // pictureBox27
+            // panelProduct5
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 0;
-            this.pictureBox27.TabStop = false;
-            // 
-            // panel26
-            // 
-            this.panel26.Controls.Add(this.button14);
-            this.panel26.Controls.Add(this.label36);
-            this.panel26.Controls.Add(this.label37);
-            this.panel26.Controls.Add(this.pictureBox28);
-            this.panel26.Location = new System.Drawing.Point(1163, 123);
-            this.panel26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(246, 395);
-            this.panel26.TabIndex = 78;
+            this.panelProduct5.Controls.Add(this.lbProductPrice5);
+            this.panelProduct5.Controls.Add(this.button14);
+            this.panelProduct5.Controls.Add(this.lbProductName5);
+            this.panelProduct5.Controls.Add(this.pictureBoxProduct5);
+            this.panelProduct5.Location = new System.Drawing.Point(1163, 123);
+            this.panelProduct5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct5.Name = "panelProduct5";
+            this.panelProduct5.Size = new System.Drawing.Size(257, 444);
+            this.panelProduct5.TabIndex = 78;
             // 
             // button14
             // 
@@ -2134,60 +2062,48 @@
             this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(10, 331);
+            this.button14.Location = new System.Drawing.Point(0, 406);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(149, 38);
             this.button14.TabIndex = 77;
             this.button14.Text = "ADD";
             this.button14.UseVisualStyleBackColor = false;
             // 
-            // label36
+            // lbProductName5
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.Red;
-            this.label36.Location = new System.Drawing.Point(6, 290);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(58, 20);
-            this.label36.TabIndex = 39;
-            this.label36.Text = "$80.00";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName5.AutoSize = true;
+            this.lbProductName5.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName5.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName5.Name = "lbProductName5";
+            this.lbProductName5.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName5.TabIndex = 36;
+            this.lbProductName5.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label37
+            // pictureBoxProduct5
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(6, 253);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(194, 21);
-            this.label37.TabIndex = 36;
-            this.label37.Text = "2 Oz Deal Watermelon ";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct5.Image")));
+            this.pictureBoxProduct5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct5.Name = "pictureBoxProduct5";
+            this.pictureBoxProduct5.Size = new System.Drawing.Size(257, 240);
+            this.pictureBoxProduct5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct5.TabIndex = 0;
+            this.pictureBoxProduct5.TabStop = false;
             // 
-            // pictureBox28
+            // panelProduct3
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox28.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 0;
-            this.pictureBox28.TabStop = false;
-            // 
-            // panel27
-            // 
-            this.panel27.Controls.Add(this.button15);
-            this.panel27.Controls.Add(this.label38);
-            this.panel27.Controls.Add(this.label39);
-            this.panel27.Controls.Add(this.pictureBox29);
-            this.panel27.Location = new System.Drawing.Point(640, 123);
-            this.panel27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(246, 395);
-            this.panel27.TabIndex = 78;
+            this.panelProduct3.Controls.Add(this.lbProductPrice3);
+            this.panelProduct3.Controls.Add(this.button15);
+            this.panelProduct3.Controls.Add(this.lbProductName3);
+            this.panelProduct3.Controls.Add(this.pictureBoxProduct3);
+            this.panelProduct3.Location = new System.Drawing.Point(640, 123);
+            this.panelProduct3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct3.Name = "panelProduct3";
+            this.panelProduct3.Size = new System.Drawing.Size(256, 444);
+            this.panelProduct3.TabIndex = 78;
             // 
             // button15
             // 
@@ -2195,60 +2111,48 @@
             this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(10, 331);
+            this.button15.Location = new System.Drawing.Point(0, 406);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(149, 38);
             this.button15.TabIndex = 77;
             this.button15.Text = "ADD";
             this.button15.UseVisualStyleBackColor = false;
             // 
-            // label38
+            // lbProductName3
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.Red;
-            this.label38.Location = new System.Drawing.Point(6, 290);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(58, 20);
-            this.label38.TabIndex = 39;
-            this.label38.Text = "$80.00";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName3.AutoSize = true;
+            this.lbProductName3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName3.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName3.Name = "lbProductName3";
+            this.lbProductName3.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName3.TabIndex = 36;
+            this.lbProductName3.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label39
+            // pictureBoxProduct3
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(6, 253);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(194, 21);
-            this.label39.TabIndex = 36;
-            this.label39.Text = "2 Oz Deal Watermelon ";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxProduct3.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct3.Image")));
+            this.pictureBoxProduct3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct3.Name = "pictureBoxProduct3";
+            this.pictureBoxProduct3.Size = new System.Drawing.Size(256, 240);
+            this.pictureBoxProduct3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct3.TabIndex = 0;
+            this.pictureBoxProduct3.TabStop = false;
             // 
-            // pictureBox29
+            // panelProduct2
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox29.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox29.TabIndex = 0;
-            this.pictureBox29.TabStop = false;
-            // 
-            // panel20
-            // 
-            this.panel20.Controls.Add(this.button12);
-            this.panel20.Controls.Add(this.label2);
-            this.panel20.Controls.Add(this.label3);
-            this.panel20.Controls.Add(this.pictureBox8);
-            this.panel20.Location = new System.Drawing.Point(379, 123);
-            this.panel20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(246, 395);
-            this.panel20.TabIndex = 79;
+            this.panelProduct2.Controls.Add(this.lbProductPrice2);
+            this.panelProduct2.Controls.Add(this.button12);
+            this.panelProduct2.Controls.Add(this.lbProductName2);
+            this.panelProduct2.Controls.Add(this.pictureBoxProduct2);
+            this.panelProduct2.Location = new System.Drawing.Point(379, 123);
+            this.panelProduct2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelProduct2.Name = "panelProduct2";
+            this.panelProduct2.Size = new System.Drawing.Size(255, 444);
+            this.panelProduct2.TabIndex = 79;
             // 
             // button12
             // 
@@ -2256,48 +2160,36 @@
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(10, 331);
+            this.button12.Location = new System.Drawing.Point(0, 406);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(149, 38);
             this.button12.TabIndex = 77;
             this.button12.Text = "ADD";
             this.button12.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // lbProductName2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(6, 290);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
-            this.label2.TabIndex = 39;
-            this.label2.Text = "$80.00";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductName2.AutoSize = true;
+            this.lbProductName2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName2.Location = new System.Drawing.Point(6, 253);
+            this.lbProductName2.Name = "lbProductName2";
+            this.lbProductName2.Size = new System.Drawing.Size(194, 21);
+            this.lbProductName2.TabIndex = 36;
+            this.lbProductName2.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // pictureBoxProduct2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 253);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(194, 21);
-            this.label3.TabIndex = 36;
-            this.label3.Text = "2 Oz Deal Watermelon ";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(246, 240);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
+            this.pictureBoxProduct2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxProduct2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxProduct2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxProduct2.Image")));
+            this.pictureBoxProduct2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxProduct2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxProduct2.Name = "pictureBoxProduct2";
+            this.pictureBoxProduct2.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxProduct2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxProduct2.TabIndex = 0;
+            this.pictureBoxProduct2.TabStop = false;
             // 
             // panel19
             // 
@@ -2331,7 +2223,7 @@
             // 
             this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(161)))), ((int)(((byte)(138)))));
             this.panel30.Controls.Add(this.label42);
-            this.panel30.Location = new System.Drawing.Point(100, 999);
+            this.panel30.Location = new System.Drawing.Point(100, 1127);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(1343, 55);
             this.panel30.TabIndex = 86;
@@ -2356,6 +2248,114 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(1548, 29);
             this.panel17.TabIndex = 68;
+            // 
+            // lbProductPrice2
+            // 
+            this.lbProductPrice2.AutoSize = true;
+            this.lbProductPrice2.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice2.Location = new System.Drawing.Point(15, 361);
+            this.lbProductPrice2.Name = "lbProductPrice2";
+            this.lbProductPrice2.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice2.TabIndex = 78;
+            this.lbProductPrice2.Text = "$80.00";
+            this.lbProductPrice2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice3
+            // 
+            this.lbProductPrice3.AutoSize = true;
+            this.lbProductPrice3.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice3.Location = new System.Drawing.Point(14, 361);
+            this.lbProductPrice3.Name = "lbProductPrice3";
+            this.lbProductPrice3.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice3.TabIndex = 78;
+            this.lbProductPrice3.Text = "$80.00";
+            this.lbProductPrice3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice4
+            // 
+            this.lbProductPrice4.AutoSize = true;
+            this.lbProductPrice4.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice4.Location = new System.Drawing.Point(10, 361);
+            this.lbProductPrice4.Name = "lbProductPrice4";
+            this.lbProductPrice4.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice4.TabIndex = 78;
+            this.lbProductPrice4.Text = "$80.00";
+            this.lbProductPrice4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice5
+            // 
+            this.lbProductPrice5.AutoSize = true;
+            this.lbProductPrice5.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice5.Location = new System.Drawing.Point(13, 361);
+            this.lbProductPrice5.Name = "lbProductPrice5";
+            this.lbProductPrice5.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice5.TabIndex = 78;
+            this.lbProductPrice5.Text = "$80.00";
+            this.lbProductPrice5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice6
+            // 
+            this.lbProductPrice6.AutoSize = true;
+            this.lbProductPrice6.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice6.Location = new System.Drawing.Point(5, 365);
+            this.lbProductPrice6.Name = "lbProductPrice6";
+            this.lbProductPrice6.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice6.TabIndex = 78;
+            this.lbProductPrice6.Text = "$80.00";
+            this.lbProductPrice6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice7
+            // 
+            this.lbProductPrice7.AutoSize = true;
+            this.lbProductPrice7.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice7.Location = new System.Drawing.Point(15, 365);
+            this.lbProductPrice7.Name = "lbProductPrice7";
+            this.lbProductPrice7.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice7.TabIndex = 78;
+            this.lbProductPrice7.Text = "$80.00";
+            this.lbProductPrice7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice8
+            // 
+            this.lbProductPrice8.AutoSize = true;
+            this.lbProductPrice8.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice8.Location = new System.Drawing.Point(14, 365);
+            this.lbProductPrice8.Name = "lbProductPrice8";
+            this.lbProductPrice8.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice8.TabIndex = 78;
+            this.lbProductPrice8.Text = "$80.00";
+            this.lbProductPrice8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice9
+            // 
+            this.lbProductPrice9.AutoSize = true;
+            this.lbProductPrice9.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice9.Location = new System.Drawing.Point(10, 365);
+            this.lbProductPrice9.Name = "lbProductPrice9";
+            this.lbProductPrice9.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice9.TabIndex = 78;
+            this.lbProductPrice9.Text = "$80.00";
+            this.lbProductPrice9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbProductPrice10
+            // 
+            this.lbProductPrice10.AutoSize = true;
+            this.lbProductPrice10.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductPrice10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbProductPrice10.Location = new System.Drawing.Point(21, 365);
+            this.lbProductPrice10.Name = "lbProductPrice10";
+            this.lbProductPrice10.Size = new System.Drawing.Size(67, 27);
+            this.lbProductPrice10.TabIndex = 78;
+            this.lbProductPrice10.Text = "$80.00";
+            this.lbProductPrice10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // HomePage
             // 
@@ -2387,6 +2387,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomePage";
             this.Text = "HomePage";
+            this.Load += new System.EventHandler(this.HomePage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).EndInit();
@@ -2394,9 +2395,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.panelProduct1.ResumeLayout(false);
+            this.panelProduct1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
@@ -2466,33 +2467,33 @@
             this.panel40.ResumeLayout(false);
             this.panel40.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            this.panel22.ResumeLayout(false);
-            this.panel22.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            this.panel24.ResumeLayout(false);
-            this.panel24.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            this.panel28.ResumeLayout(false);
-            this.panel28.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            this.panel25.ResumeLayout(false);
-            this.panel25.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            this.panel27.ResumeLayout(false);
-            this.panel27.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.panelProduct9.ResumeLayout(false);
+            this.panelProduct9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct9)).EndInit();
+            this.panelProduct10.ResumeLayout(false);
+            this.panelProduct10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct10)).EndInit();
+            this.panelProduct8.ResumeLayout(false);
+            this.panelProduct8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct8)).EndInit();
+            this.panelProduct7.ResumeLayout(false);
+            this.panelProduct7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct7)).EndInit();
+            this.panelProduct6.ResumeLayout(false);
+            this.panelProduct6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct6)).EndInit();
+            this.panelProduct4.ResumeLayout(false);
+            this.panelProduct4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct4)).EndInit();
+            this.panelProduct5.ResumeLayout(false);
+            this.panelProduct5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct5)).EndInit();
+            this.panelProduct3.ResumeLayout(false);
+            this.panelProduct3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct3)).EndInit();
+            this.panelProduct2.ResumeLayout(false);
+            this.panelProduct2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct2)).EndInit();
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
             this.panel30.ResumeLayout(false);
@@ -2510,10 +2511,10 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panelProduct1;
+        private System.Windows.Forms.PictureBox pictureBoxProduct1;
+        private System.Windows.Forms.Label lbProductPrice1;
+        private System.Windows.Forms.Label lbProductName1;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
@@ -2578,51 +2579,42 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel25;
+        private System.Windows.Forms.Panel panelProduct4;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.Label lbProductName4;
+        private System.Windows.Forms.PictureBox pictureBoxProduct4;
+        private System.Windows.Forms.Panel panelProduct5;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.Label lbProductName5;
+        private System.Windows.Forms.PictureBox pictureBoxProduct5;
+        private System.Windows.Forms.Panel panelProduct3;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Label lbProductName3;
+        private System.Windows.Forms.PictureBox pictureBoxProduct3;
+        private System.Windows.Forms.Panel panelProduct2;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.Label lbProductName2;
+        private System.Windows.Forms.PictureBox pictureBoxProduct2;
+        private System.Windows.Forms.Panel panelProduct9;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Label lbProductName9;
+        private System.Windows.Forms.PictureBox pictureBoxProduct9;
+        private System.Windows.Forms.Panel panelProduct10;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.Label lbProductName10;
+        private System.Windows.Forms.PictureBox pictureBoxProduct10;
+        private System.Windows.Forms.Panel panelProduct8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.Label lbProductName8;
+        private System.Windows.Forms.PictureBox pictureBoxProduct8;
+        private System.Windows.Forms.Panel panelProduct7;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.Label lbProductName7;
+        private System.Windows.Forms.PictureBox pictureBoxProduct7;
+        private System.Windows.Forms.Panel panelProduct6;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.Label lbProductName6;
+        private System.Windows.Forms.PictureBox pictureBoxProduct6;
         private System.Windows.Forms.Panel panel29;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Label label42;
@@ -2676,5 +2668,14 @@
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.Label lbProductPrice9;
+        private System.Windows.Forms.Label lbProductPrice10;
+        private System.Windows.Forms.Label lbProductPrice8;
+        private System.Windows.Forms.Label lbProductPrice7;
+        private System.Windows.Forms.Label lbProductPrice6;
+        private System.Windows.Forms.Label lbProductPrice4;
+        private System.Windows.Forms.Label lbProductPrice5;
+        private System.Windows.Forms.Label lbProductPrice3;
+        private System.Windows.Forms.Label lbProductPrice2;
     }
 }
