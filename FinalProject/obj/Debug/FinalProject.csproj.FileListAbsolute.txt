@@ -53,3 +53,6 @@ C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Admin_sup
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.ProfilePage.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Shopping_history.resources
 C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Order.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Cart.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Product_detail.resources
+C:\Users\HP\source\repos\Final_app\FinalProject\obj\Debug\FinalProject.Checkout.resources

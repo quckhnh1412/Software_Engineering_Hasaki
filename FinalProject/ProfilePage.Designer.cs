@@ -36,7 +36,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lbOrder = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
@@ -61,9 +61,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lbBrand = new System.Windows.Forms.Label();
+            this.pbCart = new System.Windows.Forms.PictureBox();
+            this.pbProfile = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
@@ -71,6 +71,7 @@
             this.llbShopAll = new System.Windows.Forms.LinkLabel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.btnSave = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -79,7 +80,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.btnSave = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel19.SuspendLayout();
@@ -97,8 +97,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
             this.panel12.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -171,22 +171,23 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.lbOrder);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 44);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(311, 44);
             this.panel2.TabIndex = 62;
             // 
-            // label10
+            // lbOrder
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(23, 10);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 21);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Orders";
+            this.lbOrder.AutoSize = true;
+            this.lbOrder.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbOrder.Location = new System.Drawing.Point(23, 10);
+            this.lbOrder.Name = "lbOrder";
+            this.lbOrder.Size = new System.Drawing.Size(65, 21);
+            this.lbOrder.TabIndex = 0;
+            this.lbOrder.Text = "Orders";
+            this.lbOrder.Click += new System.EventHandler(this.lbOrder_Click);
             // 
             // panel3
             // 
@@ -360,8 +361,8 @@
             this.flowLayoutPanel1.Controls.Add(this.panel16);
             this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
             this.flowLayoutPanel1.Controls.Add(this.panel15);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
+            this.flowLayoutPanel1.Controls.Add(this.pbCart);
+            this.flowLayoutPanel1.Controls.Add(this.pbProfile);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -427,7 +428,7 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.label16);
+            this.panel15.Controls.Add(this.lbBrand);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(833, 3);
             this.panel15.Margin = new System.Windows.Forms.Padding(3, 3, 150, 3);
@@ -435,40 +436,43 @@
             this.panel15.Size = new System.Drawing.Size(200, 82);
             this.panel15.TabIndex = 49;
             // 
-            // label16
+            // lbBrand
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Bold);
-            this.label16.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label16.Location = new System.Drawing.Point(26, 22);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(161, 44);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "HASAKI";
+            this.lbBrand.AutoSize = true;
+            this.lbBrand.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Bold);
+            this.lbBrand.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lbBrand.Location = new System.Drawing.Point(26, 22);
+            this.lbBrand.Name = "lbBrand";
+            this.lbBrand.Size = new System.Drawing.Size(161, 44);
+            this.lbBrand.TabIndex = 1;
+            this.lbBrand.Text = "HASAKI";
+            this.lbBrand.Click += new System.EventHandler(this.lbBrand_Click);
             // 
-            // pictureBox1
+            // pbCart
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1363, 20);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(180, 20, 20, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(57, 52);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
+            this.pbCart.BackColor = System.Drawing.Color.Transparent;
+            this.pbCart.Image = ((System.Drawing.Image)(resources.GetObject("pbCart.Image")));
+            this.pbCart.Location = new System.Drawing.Point(1363, 20);
+            this.pbCart.Margin = new System.Windows.Forms.Padding(180, 20, 20, 2);
+            this.pbCart.Name = "pbCart";
+            this.pbCart.Size = new System.Drawing.Size(57, 52);
+            this.pbCart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCart.TabIndex = 13;
+            this.pbCart.TabStop = false;
+            this.pbCart.Click += new System.EventHandler(this.pbCart_Click);
             // 
-            // pictureBox2
+            // pbProfile
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1443, 20);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 20, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(59, 52);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
+            this.pbProfile.BackColor = System.Drawing.Color.Transparent;
+            this.pbProfile.Image = ((System.Drawing.Image)(resources.GetObject("pbProfile.Image")));
+            this.pbProfile.Location = new System.Drawing.Point(1443, 20);
+            this.pbProfile.Margin = new System.Windows.Forms.Padding(3, 20, 3, 2);
+            this.pbProfile.Name = "pbProfile";
+            this.pbProfile.Size = new System.Drawing.Size(59, 52);
+            this.pbProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbProfile.TabIndex = 14;
+            this.pbProfile.TabStop = false;
+            this.pbProfile.Click += new System.EventHandler(this.pbProfile_Click);
             // 
             // panel12
             // 
@@ -567,6 +571,20 @@
             this.panel11.Size = new System.Drawing.Size(1497, 787);
             this.panel11.TabIndex = 1;
             // 
+            // btnSave
+            // 
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(358, 461);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(149, 38);
+            this.btnSave.TabIndex = 78;
+            this.btnSave.Text = "SAVE";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
             // panel21
             // 
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -642,20 +660,6 @@
             this.panel10.Size = new System.Drawing.Size(72, 787);
             this.panel10.TabIndex = 0;
             // 
-            // btnSave
-            // 
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(358, 461);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(149, 38);
-            this.btnSave.TabIndex = 78;
-            this.btnSave.Text = "SAVE";
-            this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
             // ProfilePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -697,8 +701,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel8.ResumeLayout(false);
@@ -717,7 +721,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lbOrder;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lbName;
@@ -740,9 +744,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lbBrand;
+        private System.Windows.Forms.PictureBox pbCart;
+        private System.Windows.Forms.PictureBox pbProfile;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel13;

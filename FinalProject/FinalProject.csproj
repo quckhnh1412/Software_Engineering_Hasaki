@@ -113,6 +113,18 @@
     <Compile Include="Admin_supplier_list.Designer.cs">
       <DependentUpon>Admin_supplier_list.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkout.Designer.cs">
+      <DependentUpon>Checkout.cs</DependentUpon>
+    </Compile>
     <Compile Include="HASAKIDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -147,6 +159,12 @@
     </Compile>
     <Compile Include="Order.Designer.cs">
       <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_detail.Designer.cs">
+      <DependentUpon>Product_detail.cs</DependentUpon>
     </Compile>
     <Compile Include="ProfilePage.cs">
       <SubType>Form</SubType>
@@ -202,6 +220,12 @@
     <EmbeddedResource Include="Admin_supplier_list.resx">
       <DependentUpon>Admin_supplier_list.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checkout.resx">
+      <DependentUpon>Checkout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,6 +240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Order.resx">
       <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product_detail.resx">
+      <DependentUpon>Product_detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfilePage.resx">
       <DependentUpon>ProfilePage.cs</DependentUpon>

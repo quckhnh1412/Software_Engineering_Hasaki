@@ -36,9 +36,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lbBrand = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pbProfile = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
@@ -50,7 +50,9 @@
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
             this.linkLabel7 = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel18 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
@@ -65,10 +67,8 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.tblOrder = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -76,10 +76,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
             this.panel12.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel19.SuspendLayout();
@@ -88,8 +89,6 @@
             this.panel6.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -100,7 +99,7 @@
             this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
             this.flowLayoutPanel1.Controls.Add(this.panel15);
             this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
+            this.flowLayoutPanel1.Controls.Add(this.pbProfile);
             this.flowLayoutPanel1.Controls.Add(this.panel12);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -167,7 +166,7 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.label16);
+            this.panel15.Controls.Add(this.lbBrand);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(833, 3);
             this.panel15.Margin = new System.Windows.Forms.Padding(3, 3, 150, 3);
@@ -175,16 +174,17 @@
             this.panel15.Size = new System.Drawing.Size(200, 82);
             this.panel15.TabIndex = 49;
             // 
-            // label16
+            // lbBrand
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Bold);
-            this.label16.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label16.Location = new System.Drawing.Point(26, 22);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(161, 44);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "HASAKI";
+            this.lbBrand.AutoSize = true;
+            this.lbBrand.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Bold);
+            this.lbBrand.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lbBrand.Location = new System.Drawing.Point(26, 22);
+            this.lbBrand.Name = "lbBrand";
+            this.lbBrand.Size = new System.Drawing.Size(161, 44);
+            this.lbBrand.TabIndex = 1;
+            this.lbBrand.Text = "HASAKI";
+            this.lbBrand.Click += new System.EventHandler(this.lbBrand_Click);
             // 
             // pictureBox1
             // 
@@ -198,17 +198,18 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // pbProfile
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1443, 20);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 20, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(59, 52);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
+            this.pbProfile.BackColor = System.Drawing.Color.Transparent;
+            this.pbProfile.Image = ((System.Drawing.Image)(resources.GetObject("pbProfile.Image")));
+            this.pbProfile.Location = new System.Drawing.Point(1443, 20);
+            this.pbProfile.Margin = new System.Windows.Forms.Padding(3, 20, 3, 2);
+            this.pbProfile.Name = "pbProfile";
+            this.pbProfile.Size = new System.Drawing.Size(59, 52);
+            this.pbProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbProfile.TabIndex = 14;
+            this.pbProfile.TabStop = false;
+            this.pbProfile.Click += new System.EventHandler(this.pbProfile_Click);
             // 
             // panel12
             // 
@@ -352,14 +353,34 @@
             this.panel2.Size = new System.Drawing.Size(1569, 708);
             this.panel2.TabIndex = 77;
             // 
-            // panel10
+            // panel7
             // 
-            this.panel10.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel10.Location = new System.Drawing.Point(0, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(72, 708);
-            this.panel10.TabIndex = 1;
+            this.panel7.Controls.Add(this.tblOrder);
+            this.panel7.Controls.Add(this.label12);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(387, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1182, 708);
+            this.panel7.TabIndex = 74;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(25, 24);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(88, 27);
+            this.label12.TabIndex = 75;
+            this.label12.Text = "Orders";
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel18.Location = new System.Drawing.Point(376, 0);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(11, 708);
+            this.panel18.TabIndex = 73;
             // 
             // panel3
             // 
@@ -500,44 +521,33 @@
             this.label7.TabIndex = 63;
             this.label7.Text = "Họ và Tên";
             // 
-            // panel18
+            // panel10
             // 
-            this.panel18.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel18.Location = new System.Drawing.Point(376, 0);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(11, 708);
-            this.panel18.TabIndex = 73;
+            this.panel10.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Location = new System.Drawing.Point(0, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(72, 708);
+            this.panel10.TabIndex = 1;
             // 
-            // panel7
+            // tblOrder
             // 
-            this.panel7.Controls.Add(this.dataGridView1);
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(387, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1182, 708);
-            this.panel7.TabIndex = 74;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(25, 24);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 27);
-            this.label12.TabIndex = 75;
-            this.label12.Text = "Orders";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 84);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(782, 270);
-            this.dataGridView1.TabIndex = 76;
+            this.tblOrder.BackColor = System.Drawing.Color.White;
+            this.tblOrder.ColumnCount = 7;
+            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.1831F));
+            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.8169F));
+            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 99F));
+            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 104F));
+            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 143F));
+            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 474F));
+            this.tblOrder.Location = new System.Drawing.Point(42, 74);
+            this.tblOrder.Name = "tblOrder";
+            this.tblOrder.RowCount = 2;
+            this.tblOrder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblOrder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblOrder.Size = new System.Drawing.Size(1085, 100);
+            this.tblOrder.TabIndex = 76;
             // 
             // Order
             // 
@@ -549,6 +559,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Order";
             this.Text = "Order";
+            this.Load += new System.EventHandler(this.Order_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
@@ -558,12 +569,14 @@
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
@@ -577,9 +590,6 @@
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -593,9 +603,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lbBrand;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pbProfile;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.LinkLabel linkLabel3;
@@ -624,7 +634,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TableLayoutPanel tblOrder;
     }
 }

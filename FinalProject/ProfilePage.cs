@@ -14,10 +14,7 @@ namespace FinalProject
     public partial class ProfilePage : Form
     {
         public User user;
-        public ProfilePage()
-        {
-            InitializeComponent();
-        }
+
         public ProfilePage(User user)
         {
             InitializeComponent();
@@ -118,6 +115,34 @@ namespace FinalProject
             }
             lines.Add(text);
             return lines.ToArray();
+        }
+
+        private void lbOrder_Click(object sender, EventArgs e)
+        {
+            Order order = new Order(user);
+            order.Show();
+            this.Hide();
+        }
+
+        private void pbCart_Click(object sender, EventArgs e)
+        {
+            Cart cart = new Cart(user);
+            cart.Show();
+            this.Hide();
+        }
+
+        private void pbProfile_Click(object sender, EventArgs e)
+        {
+            ProfilePage profilePage = new ProfilePage(user);
+            profilePage.Show();
+            this.Hide();
+        }
+
+        private void lbBrand_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage(user);
+            homePage.Show();
+            this.Hide();
         }
     }
 }
