@@ -58,99 +58,118 @@
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lbSkinCarePrice9 = new System.Windows.Forms.Label();
+            this.btnSkincareDetail9 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC9 = new System.Windows.Forms.Button();
+            this.lbSkinCare9 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare9 = new System.Windows.Forms.PictureBox();
+            this.btnProductDetail10 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnSkincareDetail10 = new System.Windows.Forms.Button();
+            this.lbSkinCarePrice10 = new System.Windows.Forms.Label();
+            this.btnAddToCartSC10 = new System.Windows.Forms.Button();
+            this.lbSkinCare10 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare10 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.lbSkinCarePrice8 = new System.Windows.Forms.Label();
+            this.btnSkincareDetail8 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC8 = new System.Windows.Forms.Button();
+            this.lbSkinCare8 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare8 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.lbSkinCarePrice7 = new System.Windows.Forms.Label();
+            this.btnSkincareDetail7 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC7 = new System.Windows.Forms.Button();
+            this.lbSkinCare7 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare7 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.btnAddToCartSC6 = new System.Windows.Forms.Button();
+            this.btnSkincareDetail6 = new System.Windows.Forms.Button();
+            this.lbSkinCarePrice6 = new System.Windows.Forms.Label();
+            this.lbSkinCare6 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare6 = new System.Windows.Forms.PictureBox();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.lbSkinCarePrice4 = new System.Windows.Forms.Label();
+            this.btnSkincareDetail4 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC4 = new System.Windows.Forms.Button();
+            this.lbSkinCare4 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare4 = new System.Windows.Forms.PictureBox();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.label34 = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
-            this.label35 = new System.Windows.Forms.Label();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.lbSkinCarePrice5 = new System.Windows.Forms.Label();
+            this.btnSkincareDetail5 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC5 = new System.Windows.Forms.Button();
+            this.lbSkinCare5 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare5 = new System.Windows.Forms.PictureBox();
             this.panel26 = new System.Windows.Forms.Panel();
-            this.label36 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
-            this.label37 = new System.Windows.Forms.Label();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.lbSkinCarePrice3 = new System.Windows.Forms.Label();
+            this.btnSkincareDetail3 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC3 = new System.Windows.Forms.Button();
+            this.lbSkinCare3 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare3 = new System.Windows.Forms.PictureBox();
             this.panel27 = new System.Windows.Forms.Panel();
-            this.label38 = new System.Windows.Forms.Label();
-            this.button24 = new System.Windows.Forms.Button();
-            this.label39 = new System.Windows.Forms.Label();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.lbSkinCarePrice2 = new System.Windows.Forms.Label();
+            this.btnSkincareDetail2 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC2 = new System.Windows.Forms.Button();
+            this.lbSkinCare2 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare2 = new System.Windows.Forms.PictureBox();
             this.panel28 = new System.Windows.Forms.Panel();
-            this.button25 = new System.Windows.Forms.Button();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.btnSkincareDetail1 = new System.Windows.Forms.Button();
+            this.btnAddToCartSC1 = new System.Windows.Forms.Button();
+            this.lbSkinCarePrice1 = new System.Windows.Forms.Label();
+            this.lbSkinCare1 = new System.Windows.Forms.Label();
+            this.pictureBoxSkinCare1 = new System.Windows.Forms.PictureBox();
             this.panel29 = new System.Windows.Forms.Panel();
             this.panelProduct9 = new System.Windows.Forms.Panel();
             this.lbProductPrice9 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnProductDetail9 = new System.Windows.Forms.Button();
+            this.btnAddToCart9 = new System.Windows.Forms.Button();
             this.lbProductName9 = new System.Windows.Forms.Label();
             this.pictureBoxProduct9 = new System.Windows.Forms.PictureBox();
             this.panelProduct10 = new System.Windows.Forms.Panel();
             this.lbProductPrice10 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnAddToCart10 = new System.Windows.Forms.Button();
             this.lbProductName10 = new System.Windows.Forms.Label();
             this.pictureBoxProduct10 = new System.Windows.Forms.PictureBox();
             this.panelProduct8 = new System.Windows.Forms.Panel();
             this.lbProductPrice8 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnProductDetail8 = new System.Windows.Forms.Button();
+            this.btnAddToCart8 = new System.Windows.Forms.Button();
             this.lbProductName8 = new System.Windows.Forms.Label();
             this.pictureBoxProduct8 = new System.Windows.Forms.PictureBox();
             this.panelProduct7 = new System.Windows.Forms.Panel();
+            this.btnProductDetail7 = new System.Windows.Forms.Button();
             this.lbProductPrice7 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btnAddToCart7 = new System.Windows.Forms.Button();
             this.lbProductName7 = new System.Windows.Forms.Label();
             this.pictureBoxProduct7 = new System.Windows.Forms.PictureBox();
             this.panelProduct6 = new System.Windows.Forms.Panel();
             this.lbProductPrice6 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnProductDetail6 = new System.Windows.Forms.Button();
+            this.btnAddToCart6 = new System.Windows.Forms.Button();
             this.lbProductName6 = new System.Windows.Forms.Label();
             this.pictureBoxProduct6 = new System.Windows.Forms.PictureBox();
             this.panelProduct4 = new System.Windows.Forms.Panel();
             this.lbProductPrice4 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btnProductDetail4 = new System.Windows.Forms.Button();
+            this.btnAddToCart4 = new System.Windows.Forms.Button();
             this.lbProductName4 = new System.Windows.Forms.Label();
             this.pictureBoxProduct4 = new System.Windows.Forms.PictureBox();
             this.panelProduct5 = new System.Windows.Forms.Panel();
             this.lbProductPrice5 = new System.Windows.Forms.Label();
-            this.button14 = new System.Windows.Forms.Button();
+            this.btnProductDetail5 = new System.Windows.Forms.Button();
+            this.btnAddToCart5 = new System.Windows.Forms.Button();
             this.lbProductName5 = new System.Windows.Forms.Label();
             this.pictureBoxProduct5 = new System.Windows.Forms.PictureBox();
             this.panelProduct3 = new System.Windows.Forms.Panel();
             this.lbProductPrice3 = new System.Windows.Forms.Label();
-            this.button15 = new System.Windows.Forms.Button();
+            this.btnProductDetail3 = new System.Windows.Forms.Button();
+            this.btnAddToCart3 = new System.Windows.Forms.Button();
             this.lbProductName3 = new System.Windows.Forms.Label();
             this.pictureBoxProduct3 = new System.Windows.Forms.PictureBox();
             this.panelProduct2 = new System.Windows.Forms.Panel();
+            this.btnProductDetail2 = new System.Windows.Forms.Button();
             this.lbProductPrice2 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btnAddToCart2 = new System.Windows.Forms.Button();
             this.lbProductName2 = new System.Windows.Forms.Label();
             this.pictureBoxProduct2 = new System.Windows.Forms.PictureBox();
             this.panel19 = new System.Windows.Forms.Panel();
@@ -159,22 +178,13 @@
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panelProduct1 = new System.Windows.Forms.Panel();
+            this.btnProductDetail1 = new System.Windows.Forms.Button();
             this.btnAddToCart1 = new System.Windows.Forms.Button();
             this.lbProductPrice1 = new System.Windows.Forms.Label();
             this.lbProductName1 = new System.Windows.Forms.Label();
             this.pictureBoxProduct1 = new System.Windows.Forms.PictureBox();
             this.panel30 = new System.Windows.Forms.Panel();
             this.label42 = new System.Windows.Forms.Label();
-            this.btnProductDetail1 = new System.Windows.Forms.Button();
-            this.btnProductDetail10 = new System.Windows.Forms.Button();
-            this.btnProductDetail9 = new System.Windows.Forms.Button();
-            this.btnProductDetail8 = new System.Windows.Forms.Button();
-            this.btnProductDetail7 = new System.Windows.Forms.Button();
-            this.btnProductDetail6 = new System.Windows.Forms.Button();
-            this.btnProductDetail5 = new System.Windows.Forms.Button();
-            this.btnProductDetail4 = new System.Windows.Forms.Button();
-            this.btnProductDetail3 = new System.Windows.Forms.Button();
-            this.btnProductDetail2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
@@ -193,25 +203,25 @@
             this.panel17.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare9)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare10)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare8)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare7)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare6)).BeginInit();
             this.panel24.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare4)).BeginInit();
             this.panel25.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare5)).BeginInit();
             this.panel26.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare3)).BeginInit();
             this.panel27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare2)).BeginInit();
             this.panel28.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare1)).BeginInit();
             this.panelProduct9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct9)).BeginInit();
             this.panelProduct10.SuspendLayout();
@@ -594,613 +604,766 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.lbSkinCarePrice9);
+            this.panel1.Controls.Add(this.btnSkincareDetail9);
+            this.panel1.Controls.Add(this.btnAddToCartSC9);
+            this.panel1.Controls.Add(this.lbSkinCare9);
+            this.panel1.Controls.Add(this.pictureBoxSkinCare9);
             this.panel1.Location = new System.Drawing.Point(902, 1695);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(255, 444);
             this.panel1.TabIndex = 93;
             // 
-            // label2
+            // lbSkinCarePrice9
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(10, 361);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 27);
-            this.label2.TabIndex = 78;
-            this.label2.Text = "$80.00";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice9.AutoSize = true;
+            this.lbSkinCarePrice9.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice9.Location = new System.Drawing.Point(10, 361);
+            this.lbSkinCarePrice9.Name = "lbSkinCarePrice9";
+            this.lbSkinCarePrice9.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice9.TabIndex = 78;
+            this.lbSkinCarePrice9.Text = "$80.00";
+            this.lbSkinCarePrice9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btnSkincareDetail9
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 406);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 38);
-            this.button1.TabIndex = 77;
-            this.button1.Text = "ADD";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail9.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail9.Location = new System.Drawing.Point(119, 406);
+            this.btnSkincareDetail9.Name = "btnSkincareDetail9";
+            this.btnSkincareDetail9.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail9.TabIndex = 82;
+            this.btnSkincareDetail9.Text = "DETAIL";
+            this.btnSkincareDetail9.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // btnAddToCartSC9
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 253);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(194, 21);
-            this.label3.TabIndex = 36;
-            this.label3.Text = "2 Oz Deal Watermelon ";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC9.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC9.Name = "btnAddToCartSC9";
+            this.btnAddToCartSC9.Size = new System.Drawing.Size(121, 38);
+            this.btnAddToCartSC9.TabIndex = 77;
+            this.btnAddToCartSC9.Text = "ADD";
+            this.btnAddToCartSC9.UseVisualStyleBackColor = false;
             // 
-            // pictureBox2
+            // lbSkinCare9
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(255, 240);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.lbSkinCare9.AutoSize = true;
+            this.lbSkinCare9.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare9.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare9.Name = "lbSkinCare9";
+            this.lbSkinCare9.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare9.TabIndex = 36;
+            this.lbSkinCare9.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare9
+            // 
+            this.pictureBoxSkinCare9.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare9.Image")));
+            this.pictureBoxSkinCare9.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare9.Name = "pictureBoxSkinCare9";
+            this.pictureBoxSkinCare9.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxSkinCare9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare9.TabIndex = 0;
+            this.pictureBoxSkinCare9.TabStop = false;
+            // 
+            // btnProductDetail10
+            // 
+            this.btnProductDetail10.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail10.Location = new System.Drawing.Point(1284, 1019);
+            this.btnProductDetail10.Name = "btnProductDetail10";
+            this.btnProductDetail10.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail10.TabIndex = 79;
+            this.btnProductDetail10.Text = "DETAIL";
+            this.btnProductDetail10.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.pictureBox6);
+            this.panel2.Controls.Add(this.btnSkincareDetail10);
+            this.panel2.Controls.Add(this.lbSkinCarePrice10);
+            this.panel2.Controls.Add(this.btnAddToCartSC10);
+            this.panel2.Controls.Add(this.lbSkinCare10);
+            this.panel2.Controls.Add(this.pictureBoxSkinCare10);
             this.panel2.Location = new System.Drawing.Point(1163, 1695);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(257, 444);
             this.panel2.TabIndex = 94;
             // 
-            // label4
+            // btnSkincareDetail10
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(13, 361);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 27);
-            this.label4.TabIndex = 78;
-            this.label4.Text = "$80.00";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSkincareDetail10.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail10.Location = new System.Drawing.Point(121, 406);
+            this.btnSkincareDetail10.Name = "btnSkincareDetail10";
+            this.btnSkincareDetail10.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail10.TabIndex = 83;
+            this.btnSkincareDetail10.Text = "DETAIL";
+            this.btnSkincareDetail10.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // lbSkinCarePrice10
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(0, 406);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 38);
-            this.button3.TabIndex = 77;
-            this.button3.Text = "ADD";
-            this.button3.UseVisualStyleBackColor = false;
+            this.lbSkinCarePrice10.AutoSize = true;
+            this.lbSkinCarePrice10.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice10.Location = new System.Drawing.Point(13, 361);
+            this.lbSkinCarePrice10.Name = "lbSkinCarePrice10";
+            this.lbSkinCarePrice10.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice10.TabIndex = 78;
+            this.lbSkinCarePrice10.Text = "$80.00";
+            this.lbSkinCarePrice10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // btnAddToCartSC10
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 253);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(194, 21);
-            this.label5.TabIndex = 36;
-            this.label5.Text = "2 Oz Deal Watermelon ";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC10.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC10.Name = "btnAddToCartSC10";
+            this.btnAddToCartSC10.Size = new System.Drawing.Size(128, 38);
+            this.btnAddToCartSC10.TabIndex = 77;
+            this.btnAddToCartSC10.Text = "ADD";
+            this.btnAddToCartSC10.UseVisualStyleBackColor = false;
             // 
-            // pictureBox6
+            // lbSkinCare10
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(257, 240);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
+            this.lbSkinCare10.AutoSize = true;
+            this.lbSkinCare10.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare10.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare10.Name = "lbSkinCare10";
+            this.lbSkinCare10.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare10.TabIndex = 36;
+            this.lbSkinCare10.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare10
+            // 
+            this.pictureBoxSkinCare10.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare10.Image")));
+            this.pictureBoxSkinCare10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare10.Name = "pictureBoxSkinCare10";
+            this.pictureBoxSkinCare10.Size = new System.Drawing.Size(257, 240);
+            this.pictureBoxSkinCare10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare10.TabIndex = 0;
+            this.pictureBoxSkinCare10.TabStop = false;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.pictureBox8);
+            this.panel3.Controls.Add(this.lbSkinCarePrice8);
+            this.panel3.Controls.Add(this.btnSkincareDetail8);
+            this.panel3.Controls.Add(this.btnAddToCartSC8);
+            this.panel3.Controls.Add(this.lbSkinCare8);
+            this.panel3.Controls.Add(this.pictureBoxSkinCare8);
             this.panel3.Location = new System.Drawing.Point(640, 1695);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(256, 444);
             this.panel3.TabIndex = 95;
             // 
-            // label6
+            // lbSkinCarePrice8
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(14, 361);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 27);
-            this.label6.TabIndex = 78;
-            this.label6.Text = "$80.00";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice8.AutoSize = true;
+            this.lbSkinCarePrice8.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice8.Location = new System.Drawing.Point(14, 361);
+            this.lbSkinCarePrice8.Name = "lbSkinCarePrice8";
+            this.lbSkinCarePrice8.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice8.TabIndex = 78;
+            this.lbSkinCarePrice8.Text = "$80.00";
+            this.lbSkinCarePrice8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button4
+            // btnSkincareDetail8
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(0, 406);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(149, 38);
-            this.button4.TabIndex = 77;
-            this.button4.Text = "ADD";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail8.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail8.Location = new System.Drawing.Point(121, 406);
+            this.btnSkincareDetail8.Name = "btnSkincareDetail8";
+            this.btnSkincareDetail8.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail8.TabIndex = 83;
+            this.btnSkincareDetail8.Text = "DETAIL";
+            this.btnSkincareDetail8.UseVisualStyleBackColor = false;
             // 
-            // label7
+            // btnAddToCartSC8
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 253);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(194, 21);
-            this.label7.TabIndex = 36;
-            this.label7.Text = "2 Oz Deal Watermelon ";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC8.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC8.Name = "btnAddToCartSC8";
+            this.btnAddToCartSC8.Size = new System.Drawing.Size(123, 38);
+            this.btnAddToCartSC8.TabIndex = 77;
+            this.btnAddToCartSC8.Text = "ADD";
+            this.btnAddToCartSC8.UseVisualStyleBackColor = false;
             // 
-            // pictureBox8
+            // lbSkinCare8
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(256, 240);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
+            this.lbSkinCare8.AutoSize = true;
+            this.lbSkinCare8.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare8.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare8.Name = "lbSkinCare8";
+            this.lbSkinCare8.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare8.TabIndex = 36;
+            this.lbSkinCare8.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare8
+            // 
+            this.pictureBoxSkinCare8.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare8.Image")));
+            this.pictureBoxSkinCare8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare8.Name = "pictureBoxSkinCare8";
+            this.pictureBoxSkinCare8.Size = new System.Drawing.Size(256, 240);
+            this.pictureBoxSkinCare8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare8.TabIndex = 0;
+            this.pictureBoxSkinCare8.TabStop = false;
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.button5);
-            this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.pictureBox9);
+            this.panel4.Controls.Add(this.lbSkinCarePrice7);
+            this.panel4.Controls.Add(this.btnSkincareDetail7);
+            this.panel4.Controls.Add(this.btnAddToCartSC7);
+            this.panel4.Controls.Add(this.lbSkinCare7);
+            this.panel4.Controls.Add(this.pictureBoxSkinCare7);
             this.panel4.Location = new System.Drawing.Point(379, 1695);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(255, 444);
             this.panel4.TabIndex = 96;
             // 
-            // label8
+            // lbSkinCarePrice7
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label8.Location = new System.Drawing.Point(15, 361);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 27);
-            this.label8.TabIndex = 78;
-            this.label8.Text = "$80.00";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice7.AutoSize = true;
+            this.lbSkinCarePrice7.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice7.Location = new System.Drawing.Point(15, 361);
+            this.lbSkinCarePrice7.Name = "lbSkinCarePrice7";
+            this.lbSkinCarePrice7.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice7.TabIndex = 78;
+            this.lbSkinCarePrice7.Text = "$80.00";
+            this.lbSkinCarePrice7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button5
+            // btnSkincareDetail7
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(0, 406);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(149, 38);
-            this.button5.TabIndex = 77;
-            this.button5.Text = "ADD";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail7.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail7.Location = new System.Drawing.Point(119, 406);
+            this.btnSkincareDetail7.Name = "btnSkincareDetail7";
+            this.btnSkincareDetail7.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail7.TabIndex = 84;
+            this.btnSkincareDetail7.Text = "DETAIL";
+            this.btnSkincareDetail7.UseVisualStyleBackColor = false;
             // 
-            // label9
+            // btnAddToCartSC7
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(6, 253);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(194, 21);
-            this.label9.TabIndex = 36;
-            this.label9.Text = "2 Oz Deal Watermelon ";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC7.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC7.Name = "btnAddToCartSC7";
+            this.btnAddToCartSC7.Size = new System.Drawing.Size(125, 38);
+            this.btnAddToCartSC7.TabIndex = 77;
+            this.btnAddToCartSC7.Text = "ADD";
+            this.btnAddToCartSC7.UseVisualStyleBackColor = false;
             // 
-            // pictureBox9
+            // lbSkinCare7
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(255, 240);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
+            this.lbSkinCare7.AutoSize = true;
+            this.lbSkinCare7.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare7.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare7.Name = "lbSkinCare7";
+            this.lbSkinCare7.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare7.TabIndex = 36;
+            this.lbSkinCare7.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare7
+            // 
+            this.pictureBoxSkinCare7.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare7.Image")));
+            this.pictureBoxSkinCare7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare7.Name = "pictureBoxSkinCare7";
+            this.pictureBoxSkinCare7.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxSkinCare7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare7.TabIndex = 0;
+            this.pictureBoxSkinCare7.TabStop = false;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.button6);
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Controls.Add(this.label11);
-            this.panel5.Controls.Add(this.pictureBox10);
+            this.panel5.Controls.Add(this.btnAddToCartSC6);
+            this.panel5.Controls.Add(this.btnSkincareDetail6);
+            this.panel5.Controls.Add(this.lbSkinCarePrice6);
+            this.panel5.Controls.Add(this.lbSkinCare6);
+            this.panel5.Controls.Add(this.pictureBoxSkinCare6);
             this.panel5.Location = new System.Drawing.Point(112, 1695);
             this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(261, 444);
             this.panel5.TabIndex = 92;
             // 
-            // button6
+            // btnAddToCartSC6
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(0, 406);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(149, 38);
-            this.button6.TabIndex = 77;
-            this.button6.Text = "ADD";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnAddToCartSC6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC6.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC6.Name = "btnAddToCartSC6";
+            this.btnAddToCartSC6.Size = new System.Drawing.Size(129, 38);
+            this.btnAddToCartSC6.TabIndex = 77;
+            this.btnAddToCartSC6.Text = "ADD";
+            this.btnAddToCartSC6.UseVisualStyleBackColor = false;
             // 
-            // label10
+            // btnSkincareDetail6
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label10.Location = new System.Drawing.Point(5, 361);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 27);
-            this.label10.TabIndex = 39;
-            this.label10.Text = "$80.00";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSkincareDetail6.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail6.Location = new System.Drawing.Point(125, 406);
+            this.btnSkincareDetail6.Name = "btnSkincareDetail6";
+            this.btnSkincareDetail6.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail6.TabIndex = 85;
+            this.btnSkincareDetail6.Text = "DETAIL";
+            this.btnSkincareDetail6.UseVisualStyleBackColor = false;
             // 
-            // label11
+            // lbSkinCarePrice6
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(6, 253);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(194, 21);
-            this.label11.TabIndex = 36;
-            this.label11.Text = "2 Oz Deal Watermelon ";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice6.AutoSize = true;
+            this.lbSkinCarePrice6.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice6.Location = new System.Drawing.Point(5, 361);
+            this.lbSkinCarePrice6.Name = "lbSkinCarePrice6";
+            this.lbSkinCarePrice6.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice6.TabIndex = 39;
+            this.lbSkinCarePrice6.Text = "$80.00";
+            this.lbSkinCarePrice6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox10
+            // lbSkinCare6
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(261, 240);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
+            this.lbSkinCare6.AutoSize = true;
+            this.lbSkinCare6.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare6.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare6.Name = "lbSkinCare6";
+            this.lbSkinCare6.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare6.TabIndex = 36;
+            this.lbSkinCare6.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare6
+            // 
+            this.pictureBoxSkinCare6.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare6.Image")));
+            this.pictureBoxSkinCare6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare6.Name = "pictureBoxSkinCare6";
+            this.pictureBoxSkinCare6.Size = new System.Drawing.Size(261, 240);
+            this.pictureBoxSkinCare6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare6.TabIndex = 0;
+            this.pictureBoxSkinCare6.TabStop = false;
             // 
             // panel24
             // 
-            this.panel24.Controls.Add(this.label24);
-            this.panel24.Controls.Add(this.button21);
-            this.panel24.Controls.Add(this.label33);
-            this.panel24.Controls.Add(this.pictureBox25);
+            this.panel24.Controls.Add(this.lbSkinCarePrice4);
+            this.panel24.Controls.Add(this.btnSkincareDetail4);
+            this.panel24.Controls.Add(this.btnAddToCartSC4);
+            this.panel24.Controls.Add(this.lbSkinCare4);
+            this.panel24.Controls.Add(this.pictureBoxSkinCare4);
             this.panel24.Location = new System.Drawing.Point(902, 1203);
             this.panel24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(255, 444);
             this.panel24.TabIndex = 88;
             // 
-            // label24
+            // lbSkinCarePrice4
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label24.Location = new System.Drawing.Point(10, 361);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(67, 27);
-            this.label24.TabIndex = 78;
-            this.label24.Text = "$80.00";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice4.AutoSize = true;
+            this.lbSkinCarePrice4.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice4.Location = new System.Drawing.Point(10, 361);
+            this.lbSkinCarePrice4.Name = "lbSkinCarePrice4";
+            this.lbSkinCarePrice4.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice4.TabIndex = 78;
+            this.lbSkinCarePrice4.Text = "$80.00";
+            this.lbSkinCarePrice4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button21
+            // btnSkincareDetail4
             // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Location = new System.Drawing.Point(0, 406);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(149, 38);
-            this.button21.TabIndex = 77;
-            this.button21.Text = "ADD";
-            this.button21.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail4.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail4.Location = new System.Drawing.Point(119, 406);
+            this.btnSkincareDetail4.Name = "btnSkincareDetail4";
+            this.btnSkincareDetail4.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail4.TabIndex = 87;
+            this.btnSkincareDetail4.Text = "DETAIL";
+            this.btnSkincareDetail4.UseVisualStyleBackColor = false;
             // 
-            // label33
+            // btnAddToCartSC4
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(6, 253);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(194, 21);
-            this.label33.TabIndex = 36;
-            this.label33.Text = "2 Oz Deal Watermelon ";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC4.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC4.Name = "btnAddToCartSC4";
+            this.btnAddToCartSC4.Size = new System.Drawing.Size(121, 38);
+            this.btnAddToCartSC4.TabIndex = 77;
+            this.btnAddToCartSC4.Text = "ADD";
+            this.btnAddToCartSC4.UseVisualStyleBackColor = false;
             // 
-            // pictureBox25
+            // lbSkinCare4
             // 
-            this.pictureBox25.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox25.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(255, 240);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox25.TabIndex = 0;
-            this.pictureBox25.TabStop = false;
+            this.lbSkinCare4.AutoSize = true;
+            this.lbSkinCare4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare4.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare4.Name = "lbSkinCare4";
+            this.lbSkinCare4.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare4.TabIndex = 36;
+            this.lbSkinCare4.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare4
+            // 
+            this.pictureBoxSkinCare4.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare4.Image")));
+            this.pictureBoxSkinCare4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare4.Name = "pictureBoxSkinCare4";
+            this.pictureBoxSkinCare4.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxSkinCare4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare4.TabIndex = 0;
+            this.pictureBoxSkinCare4.TabStop = false;
             // 
             // panel25
             // 
-            this.panel25.Controls.Add(this.label34);
-            this.panel25.Controls.Add(this.button22);
-            this.panel25.Controls.Add(this.label35);
-            this.panel25.Controls.Add(this.pictureBox26);
+            this.panel25.Controls.Add(this.lbSkinCarePrice5);
+            this.panel25.Controls.Add(this.btnSkincareDetail5);
+            this.panel25.Controls.Add(this.btnAddToCartSC5);
+            this.panel25.Controls.Add(this.lbSkinCare5);
+            this.panel25.Controls.Add(this.pictureBoxSkinCare5);
             this.panel25.Location = new System.Drawing.Point(1163, 1203);
             this.panel25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(257, 444);
             this.panel25.TabIndex = 89;
             // 
-            // label34
+            // lbSkinCarePrice5
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label34.Location = new System.Drawing.Point(13, 361);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(67, 27);
-            this.label34.TabIndex = 78;
-            this.label34.Text = "$80.00";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice5.AutoSize = true;
+            this.lbSkinCarePrice5.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice5.Location = new System.Drawing.Point(13, 361);
+            this.lbSkinCarePrice5.Name = "lbSkinCarePrice5";
+            this.lbSkinCarePrice5.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice5.TabIndex = 78;
+            this.lbSkinCarePrice5.Text = "$80.00";
+            this.lbSkinCarePrice5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button22
+            // btnSkincareDetail5
             // 
-            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Location = new System.Drawing.Point(0, 406);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(149, 38);
-            this.button22.TabIndex = 77;
-            this.button22.Text = "ADD";
-            this.button22.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail5.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail5.Location = new System.Drawing.Point(121, 406);
+            this.btnSkincareDetail5.Name = "btnSkincareDetail5";
+            this.btnSkincareDetail5.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail5.TabIndex = 86;
+            this.btnSkincareDetail5.Text = "DETAIL";
+            this.btnSkincareDetail5.UseVisualStyleBackColor = false;
             // 
-            // label35
+            // btnAddToCartSC5
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(6, 253);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(194, 21);
-            this.label35.TabIndex = 36;
-            this.label35.Text = "2 Oz Deal Watermelon ";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC5.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC5.Name = "btnAddToCartSC5";
+            this.btnAddToCartSC5.Size = new System.Drawing.Size(128, 38);
+            this.btnAddToCartSC5.TabIndex = 77;
+            this.btnAddToCartSC5.Text = "ADD";
+            this.btnAddToCartSC5.UseVisualStyleBackColor = false;
             // 
-            // pictureBox26
+            // lbSkinCare5
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox26.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(257, 240);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox26.TabIndex = 0;
-            this.pictureBox26.TabStop = false;
+            this.lbSkinCare5.AutoSize = true;
+            this.lbSkinCare5.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare5.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare5.Name = "lbSkinCare5";
+            this.lbSkinCare5.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare5.TabIndex = 36;
+            this.lbSkinCare5.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare5
+            // 
+            this.pictureBoxSkinCare5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare5.Image")));
+            this.pictureBoxSkinCare5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare5.Name = "pictureBoxSkinCare5";
+            this.pictureBoxSkinCare5.Size = new System.Drawing.Size(257, 240);
+            this.pictureBoxSkinCare5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare5.TabIndex = 0;
+            this.pictureBoxSkinCare5.TabStop = false;
             // 
             // panel26
             // 
-            this.panel26.Controls.Add(this.label36);
-            this.panel26.Controls.Add(this.button23);
-            this.panel26.Controls.Add(this.label37);
-            this.panel26.Controls.Add(this.pictureBox27);
+            this.panel26.Controls.Add(this.lbSkinCarePrice3);
+            this.panel26.Controls.Add(this.btnSkincareDetail3);
+            this.panel26.Controls.Add(this.btnAddToCartSC3);
+            this.panel26.Controls.Add(this.lbSkinCare3);
+            this.panel26.Controls.Add(this.pictureBoxSkinCare3);
             this.panel26.Location = new System.Drawing.Point(640, 1203);
             this.panel26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(256, 444);
             this.panel26.TabIndex = 90;
             // 
-            // label36
+            // lbSkinCarePrice3
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label36.Location = new System.Drawing.Point(14, 361);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(67, 27);
-            this.label36.TabIndex = 78;
-            this.label36.Text = "$80.00";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice3.AutoSize = true;
+            this.lbSkinCarePrice3.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice3.Location = new System.Drawing.Point(14, 361);
+            this.lbSkinCarePrice3.Name = "lbSkinCarePrice3";
+            this.lbSkinCarePrice3.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice3.TabIndex = 78;
+            this.lbSkinCarePrice3.Text = "$80.00";
+            this.lbSkinCarePrice3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button23
+            // btnSkincareDetail3
             // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(0, 406);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(149, 38);
-            this.button23.TabIndex = 77;
-            this.button23.Text = "ADD";
-            this.button23.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail3.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail3.Location = new System.Drawing.Point(120, 406);
+            this.btnSkincareDetail3.Name = "btnSkincareDetail3";
+            this.btnSkincareDetail3.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail3.TabIndex = 88;
+            this.btnSkincareDetail3.Text = "DETAIL";
+            this.btnSkincareDetail3.UseVisualStyleBackColor = false;
             // 
-            // label37
+            // btnAddToCartSC3
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(6, 253);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(194, 21);
-            this.label37.TabIndex = 36;
-            this.label37.Text = "2 Oz Deal Watermelon ";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC3.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC3.Name = "btnAddToCartSC3";
+            this.btnAddToCartSC3.Size = new System.Drawing.Size(123, 38);
+            this.btnAddToCartSC3.TabIndex = 77;
+            this.btnAddToCartSC3.Text = "ADD";
+            this.btnAddToCartSC3.UseVisualStyleBackColor = false;
             // 
-            // pictureBox27
+            // lbSkinCare3
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(256, 240);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 0;
-            this.pictureBox27.TabStop = false;
+            this.lbSkinCare3.AutoSize = true;
+            this.lbSkinCare3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare3.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare3.Name = "lbSkinCare3";
+            this.lbSkinCare3.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare3.TabIndex = 36;
+            this.lbSkinCare3.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare3
+            // 
+            this.pictureBoxSkinCare3.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare3.Image")));
+            this.pictureBoxSkinCare3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare3.Name = "pictureBoxSkinCare3";
+            this.pictureBoxSkinCare3.Size = new System.Drawing.Size(256, 240);
+            this.pictureBoxSkinCare3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare3.TabIndex = 0;
+            this.pictureBoxSkinCare3.TabStop = false;
             // 
             // panel27
             // 
-            this.panel27.Controls.Add(this.label38);
-            this.panel27.Controls.Add(this.button24);
-            this.panel27.Controls.Add(this.label39);
-            this.panel27.Controls.Add(this.pictureBox28);
+            this.panel27.Controls.Add(this.lbSkinCarePrice2);
+            this.panel27.Controls.Add(this.btnSkincareDetail2);
+            this.panel27.Controls.Add(this.btnAddToCartSC2);
+            this.panel27.Controls.Add(this.lbSkinCare2);
+            this.panel27.Controls.Add(this.pictureBoxSkinCare2);
             this.panel27.Location = new System.Drawing.Point(379, 1203);
             this.panel27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(255, 444);
             this.panel27.TabIndex = 91;
             // 
-            // label38
+            // lbSkinCarePrice2
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label38.Location = new System.Drawing.Point(15, 361);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(67, 27);
-            this.label38.TabIndex = 78;
-            this.label38.Text = "$80.00";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice2.AutoSize = true;
+            this.lbSkinCarePrice2.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice2.Location = new System.Drawing.Point(15, 361);
+            this.lbSkinCarePrice2.Name = "lbSkinCarePrice2";
+            this.lbSkinCarePrice2.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice2.TabIndex = 78;
+            this.lbSkinCarePrice2.Text = "$80.00";
+            this.lbSkinCarePrice2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button24
+            // btnSkincareDetail2
             // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Location = new System.Drawing.Point(0, 406);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(149, 38);
-            this.button24.TabIndex = 77;
-            this.button24.Text = "ADD";
-            this.button24.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail2.Location = new System.Drawing.Point(119, 406);
+            this.btnSkincareDetail2.Name = "btnSkincareDetail2";
+            this.btnSkincareDetail2.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail2.TabIndex = 89;
+            this.btnSkincareDetail2.Text = "DETAIL";
+            this.btnSkincareDetail2.UseVisualStyleBackColor = false;
             // 
-            // label39
+            // btnAddToCartSC2
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(6, 253);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(194, 21);
-            this.label39.TabIndex = 36;
-            this.label39.Text = "2 Oz Deal Watermelon ";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC2.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC2.Name = "btnAddToCartSC2";
+            this.btnAddToCartSC2.Size = new System.Drawing.Size(125, 38);
+            this.btnAddToCartSC2.TabIndex = 77;
+            this.btnAddToCartSC2.Text = "ADD";
+            this.btnAddToCartSC2.UseVisualStyleBackColor = false;
             // 
-            // pictureBox28
+            // lbSkinCare2
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox28.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(255, 240);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox28.TabIndex = 0;
-            this.pictureBox28.TabStop = false;
+            this.lbSkinCare2.AutoSize = true;
+            this.lbSkinCare2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare2.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare2.Name = "lbSkinCare2";
+            this.lbSkinCare2.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare2.TabIndex = 36;
+            this.lbSkinCare2.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare2
+            // 
+            this.pictureBoxSkinCare2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare2.Image")));
+            this.pictureBoxSkinCare2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare2.Name = "pictureBoxSkinCare2";
+            this.pictureBoxSkinCare2.Size = new System.Drawing.Size(255, 240);
+            this.pictureBoxSkinCare2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare2.TabIndex = 0;
+            this.pictureBoxSkinCare2.TabStop = false;
             // 
             // panel28
             // 
-            this.panel28.Controls.Add(this.button25);
-            this.panel28.Controls.Add(this.label40);
-            this.panel28.Controls.Add(this.label41);
-            this.panel28.Controls.Add(this.pictureBox29);
+            this.panel28.Controls.Add(this.btnSkincareDetail1);
+            this.panel28.Controls.Add(this.btnAddToCartSC1);
+            this.panel28.Controls.Add(this.lbSkinCarePrice1);
+            this.panel28.Controls.Add(this.lbSkinCare1);
+            this.panel28.Controls.Add(this.pictureBoxSkinCare1);
             this.panel28.Location = new System.Drawing.Point(112, 1203);
             this.panel28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(261, 444);
             this.panel28.TabIndex = 87;
             // 
-            // button25
+            // btnSkincareDetail1
             // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.Location = new System.Drawing.Point(0, 406);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(149, 38);
-            this.button25.TabIndex = 77;
-            this.button25.Text = "ADD";
-            this.button25.UseVisualStyleBackColor = false;
+            this.btnSkincareDetail1.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnSkincareDetail1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSkincareDetail1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkincareDetail1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincareDetail1.Location = new System.Drawing.Point(125, 406);
+            this.btnSkincareDetail1.Name = "btnSkincareDetail1";
+            this.btnSkincareDetail1.Size = new System.Drawing.Size(136, 38);
+            this.btnSkincareDetail1.TabIndex = 90;
+            this.btnSkincareDetail1.Text = "DETAIL";
+            this.btnSkincareDetail1.UseVisualStyleBackColor = false;
             // 
-            // label40
+            // btnAddToCartSC1
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label40.Location = new System.Drawing.Point(5, 361);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(67, 27);
-            this.label40.TabIndex = 39;
-            this.label40.Text = "$80.00";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddToCartSC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCartSC1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCartSC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCartSC1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCartSC1.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCartSC1.Name = "btnAddToCartSC1";
+            this.btnAddToCartSC1.Size = new System.Drawing.Size(129, 38);
+            this.btnAddToCartSC1.TabIndex = 77;
+            this.btnAddToCartSC1.Text = "ADD";
+            this.btnAddToCartSC1.UseVisualStyleBackColor = false;
             // 
-            // label41
+            // lbSkinCarePrice1
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(6, 253);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(194, 21);
-            this.label41.TabIndex = 36;
-            this.label41.Text = "2 Oz Deal Watermelon ";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbSkinCarePrice1.AutoSize = true;
+            this.lbSkinCarePrice1.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCarePrice1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbSkinCarePrice1.Location = new System.Drawing.Point(5, 361);
+            this.lbSkinCarePrice1.Name = "lbSkinCarePrice1";
+            this.lbSkinCarePrice1.Size = new System.Drawing.Size(67, 27);
+            this.lbSkinCarePrice1.TabIndex = 39;
+            this.lbSkinCarePrice1.Text = "$80.00";
+            this.lbSkinCarePrice1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox29
+            // lbSkinCare1
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.pictureBox29.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(261, 240);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox29.TabIndex = 0;
-            this.pictureBox29.TabStop = false;
+            this.lbSkinCare1.AutoSize = true;
+            this.lbSkinCare1.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSkinCare1.Location = new System.Drawing.Point(6, 253);
+            this.lbSkinCare1.Name = "lbSkinCare1";
+            this.lbSkinCare1.Size = new System.Drawing.Size(194, 21);
+            this.lbSkinCare1.TabIndex = 36;
+            this.lbSkinCare1.Text = "2 Oz Deal Watermelon ";
+            this.lbSkinCare1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxSkinCare1
+            // 
+            this.pictureBoxSkinCare1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pictureBoxSkinCare1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBoxSkinCare1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSkinCare1.Image")));
+            this.pictureBoxSkinCare1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSkinCare1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxSkinCare1.Name = "pictureBoxSkinCare1";
+            this.pictureBoxSkinCare1.Size = new System.Drawing.Size(261, 240);
+            this.pictureBoxSkinCare1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSkinCare1.TabIndex = 0;
+            this.pictureBoxSkinCare1.TabStop = false;
             // 
             // panel29
             // 
@@ -1214,7 +1377,7 @@
             // 
             this.panelProduct9.Controls.Add(this.lbProductPrice9);
             this.panelProduct9.Controls.Add(this.btnProductDetail9);
-            this.panelProduct9.Controls.Add(this.button7);
+            this.panelProduct9.Controls.Add(this.btnAddToCart9);
             this.panelProduct9.Controls.Add(this.lbProductName9);
             this.panelProduct9.Controls.Add(this.pictureBoxProduct9);
             this.panelProduct9.Location = new System.Drawing.Point(902, 613);
@@ -1235,18 +1398,31 @@
             this.lbProductPrice9.Text = "$80.00";
             this.lbProductPrice9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button7
+            // btnProductDetail9
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(1, 406);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(120, 38);
-            this.button7.TabIndex = 77;
-            this.button7.Text = "ADD";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnProductDetail9.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail9.Location = new System.Drawing.Point(119, 406);
+            this.btnProductDetail9.Name = "btnProductDetail9";
+            this.btnProductDetail9.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail9.TabIndex = 80;
+            this.btnProductDetail9.Text = "DETAIL";
+            this.btnProductDetail9.UseVisualStyleBackColor = false;
+            // 
+            // btnAddToCart9
+            // 
+            this.btnAddToCart9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart9.Location = new System.Drawing.Point(1, 406);
+            this.btnAddToCart9.Name = "btnAddToCart9";
+            this.btnAddToCart9.Size = new System.Drawing.Size(120, 38);
+            this.btnAddToCart9.TabIndex = 77;
+            this.btnAddToCart9.Text = "ADD";
+            this.btnAddToCart9.UseVisualStyleBackColor = false;
             // 
             // lbProductName9
             // 
@@ -1275,7 +1451,7 @@
             // panelProduct10
             // 
             this.panelProduct10.Controls.Add(this.lbProductPrice10);
-            this.panelProduct10.Controls.Add(this.button8);
+            this.panelProduct10.Controls.Add(this.btnAddToCart10);
             this.panelProduct10.Controls.Add(this.lbProductName10);
             this.panelProduct10.Controls.Add(this.pictureBoxProduct10);
             this.panelProduct10.Location = new System.Drawing.Point(1163, 613);
@@ -1296,18 +1472,18 @@
             this.lbProductPrice10.Text = "$80.00";
             this.lbProductPrice10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button8
+            // btnAddToCart10
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(0, 406);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(128, 38);
-            this.button8.TabIndex = 77;
-            this.button8.Text = "ADD";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnAddToCart10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart10.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart10.Name = "btnAddToCart10";
+            this.btnAddToCart10.Size = new System.Drawing.Size(128, 38);
+            this.btnAddToCart10.TabIndex = 77;
+            this.btnAddToCart10.Text = "ADD";
+            this.btnAddToCart10.UseVisualStyleBackColor = false;
             // 
             // lbProductName10
             // 
@@ -1337,7 +1513,7 @@
             // 
             this.panelProduct8.Controls.Add(this.lbProductPrice8);
             this.panelProduct8.Controls.Add(this.btnProductDetail8);
-            this.panelProduct8.Controls.Add(this.button9);
+            this.panelProduct8.Controls.Add(this.btnAddToCart8);
             this.panelProduct8.Controls.Add(this.lbProductName8);
             this.panelProduct8.Controls.Add(this.pictureBoxProduct8);
             this.panelProduct8.Location = new System.Drawing.Point(640, 613);
@@ -1358,18 +1534,31 @@
             this.lbProductPrice8.Text = "$80.00";
             this.lbProductPrice8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button9
+            // btnProductDetail8
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(0, 406);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(123, 38);
-            this.button9.TabIndex = 77;
-            this.button9.Text = "ADD";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnProductDetail8.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail8.Location = new System.Drawing.Point(121, 406);
+            this.btnProductDetail8.Name = "btnProductDetail8";
+            this.btnProductDetail8.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail8.TabIndex = 81;
+            this.btnProductDetail8.Text = "DETAIL";
+            this.btnProductDetail8.UseVisualStyleBackColor = false;
+            // 
+            // btnAddToCart8
+            // 
+            this.btnAddToCart8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart8.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart8.Name = "btnAddToCart8";
+            this.btnAddToCart8.Size = new System.Drawing.Size(123, 38);
+            this.btnAddToCart8.TabIndex = 77;
+            this.btnAddToCart8.Text = "ADD";
+            this.btnAddToCart8.UseVisualStyleBackColor = false;
             // 
             // lbProductName8
             // 
@@ -1399,7 +1588,7 @@
             // 
             this.panelProduct7.Controls.Add(this.btnProductDetail7);
             this.panelProduct7.Controls.Add(this.lbProductPrice7);
-            this.panelProduct7.Controls.Add(this.button10);
+            this.panelProduct7.Controls.Add(this.btnAddToCart7);
             this.panelProduct7.Controls.Add(this.lbProductName7);
             this.panelProduct7.Controls.Add(this.pictureBoxProduct7);
             this.panelProduct7.Location = new System.Drawing.Point(379, 613);
@@ -1407,6 +1596,19 @@
             this.panelProduct7.Name = "panelProduct7";
             this.panelProduct7.Size = new System.Drawing.Size(255, 444);
             this.panelProduct7.TabIndex = 84;
+            // 
+            // btnProductDetail7
+            // 
+            this.btnProductDetail7.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail7.Location = new System.Drawing.Point(119, 406);
+            this.btnProductDetail7.Name = "btnProductDetail7";
+            this.btnProductDetail7.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail7.TabIndex = 82;
+            this.btnProductDetail7.Text = "DETAIL";
+            this.btnProductDetail7.UseVisualStyleBackColor = false;
             // 
             // lbProductPrice7
             // 
@@ -1420,18 +1622,18 @@
             this.lbProductPrice7.Text = "$80.00";
             this.lbProductPrice7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button10
+            // btnAddToCart7
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(0, 406);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(125, 38);
-            this.button10.TabIndex = 77;
-            this.button10.Text = "ADD";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btnAddToCart7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart7.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart7.Name = "btnAddToCart7";
+            this.btnAddToCart7.Size = new System.Drawing.Size(125, 38);
+            this.btnAddToCart7.TabIndex = 77;
+            this.btnAddToCart7.Text = "ADD";
+            this.btnAddToCart7.UseVisualStyleBackColor = false;
             // 
             // lbProductName7
             // 
@@ -1461,7 +1663,7 @@
             // 
             this.panelProduct6.Controls.Add(this.lbProductPrice6);
             this.panelProduct6.Controls.Add(this.btnProductDetail6);
-            this.panelProduct6.Controls.Add(this.button11);
+            this.panelProduct6.Controls.Add(this.btnAddToCart6);
             this.panelProduct6.Controls.Add(this.lbProductName6);
             this.panelProduct6.Controls.Add(this.pictureBoxProduct6);
             this.panelProduct6.Location = new System.Drawing.Point(112, 613);
@@ -1482,18 +1684,31 @@
             this.lbProductPrice6.Text = "$80.00";
             this.lbProductPrice6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button11
+            // btnProductDetail6
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(0, 406);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(121, 38);
-            this.button11.TabIndex = 77;
-            this.button11.Text = "ADD";
-            this.button11.UseVisualStyleBackColor = false;
+            this.btnProductDetail6.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail6.Location = new System.Drawing.Point(121, 406);
+            this.btnProductDetail6.Name = "btnProductDetail6";
+            this.btnProductDetail6.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail6.TabIndex = 83;
+            this.btnProductDetail6.Text = "DETAIL";
+            this.btnProductDetail6.UseVisualStyleBackColor = false;
+            // 
+            // btnAddToCart6
+            // 
+            this.btnAddToCart6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart6.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart6.Name = "btnAddToCart6";
+            this.btnAddToCart6.Size = new System.Drawing.Size(121, 38);
+            this.btnAddToCart6.TabIndex = 77;
+            this.btnAddToCart6.Text = "ADD";
+            this.btnAddToCart6.UseVisualStyleBackColor = false;
             // 
             // lbProductName6
             // 
@@ -1523,7 +1738,7 @@
             // 
             this.panelProduct4.Controls.Add(this.lbProductPrice4);
             this.panelProduct4.Controls.Add(this.btnProductDetail4);
-            this.panelProduct4.Controls.Add(this.button13);
+            this.panelProduct4.Controls.Add(this.btnAddToCart4);
             this.panelProduct4.Controls.Add(this.lbProductName4);
             this.panelProduct4.Controls.Add(this.pictureBoxProduct4);
             this.panelProduct4.Location = new System.Drawing.Point(902, 123);
@@ -1544,18 +1759,31 @@
             this.lbProductPrice4.Text = "$80.00";
             this.lbProductPrice4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button13
+            // btnProductDetail4
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(0, 406);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(121, 38);
-            this.button13.TabIndex = 77;
-            this.button13.Text = "ADD";
-            this.button13.UseVisualStyleBackColor = false;
+            this.btnProductDetail4.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail4.Location = new System.Drawing.Point(119, 406);
+            this.btnProductDetail4.Name = "btnProductDetail4";
+            this.btnProductDetail4.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail4.TabIndex = 85;
+            this.btnProductDetail4.Text = "DETAIL";
+            this.btnProductDetail4.UseVisualStyleBackColor = false;
+            // 
+            // btnAddToCart4
+            // 
+            this.btnAddToCart4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart4.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart4.Name = "btnAddToCart4";
+            this.btnAddToCart4.Size = new System.Drawing.Size(121, 38);
+            this.btnAddToCart4.TabIndex = 77;
+            this.btnAddToCart4.Text = "ADD";
+            this.btnAddToCart4.UseVisualStyleBackColor = false;
             // 
             // lbProductName4
             // 
@@ -1585,7 +1813,7 @@
             // 
             this.panelProduct5.Controls.Add(this.lbProductPrice5);
             this.panelProduct5.Controls.Add(this.btnProductDetail5);
-            this.panelProduct5.Controls.Add(this.button14);
+            this.panelProduct5.Controls.Add(this.btnAddToCart5);
             this.panelProduct5.Controls.Add(this.lbProductName5);
             this.panelProduct5.Controls.Add(this.pictureBoxProduct5);
             this.panelProduct5.Location = new System.Drawing.Point(1163, 123);
@@ -1606,18 +1834,31 @@
             this.lbProductPrice5.Text = "$80.00";
             this.lbProductPrice5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button14
+            // btnProductDetail5
             // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(0, 406);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(128, 38);
-            this.button14.TabIndex = 77;
-            this.button14.Text = "ADD";
-            this.button14.UseVisualStyleBackColor = false;
+            this.btnProductDetail5.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail5.Location = new System.Drawing.Point(121, 406);
+            this.btnProductDetail5.Name = "btnProductDetail5";
+            this.btnProductDetail5.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail5.TabIndex = 84;
+            this.btnProductDetail5.Text = "DETAIL";
+            this.btnProductDetail5.UseVisualStyleBackColor = false;
+            // 
+            // btnAddToCart5
+            // 
+            this.btnAddToCart5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart5.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart5.Name = "btnAddToCart5";
+            this.btnAddToCart5.Size = new System.Drawing.Size(128, 38);
+            this.btnAddToCart5.TabIndex = 77;
+            this.btnAddToCart5.Text = "ADD";
+            this.btnAddToCart5.UseVisualStyleBackColor = false;
             // 
             // lbProductName5
             // 
@@ -1647,7 +1888,7 @@
             // 
             this.panelProduct3.Controls.Add(this.lbProductPrice3);
             this.panelProduct3.Controls.Add(this.btnProductDetail3);
-            this.panelProduct3.Controls.Add(this.button15);
+            this.panelProduct3.Controls.Add(this.btnAddToCart3);
             this.panelProduct3.Controls.Add(this.lbProductName3);
             this.panelProduct3.Controls.Add(this.pictureBoxProduct3);
             this.panelProduct3.Location = new System.Drawing.Point(640, 123);
@@ -1668,18 +1909,31 @@
             this.lbProductPrice3.Text = "$80.00";
             this.lbProductPrice3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button15
+            // btnProductDetail3
             // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(0, 406);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(123, 38);
-            this.button15.TabIndex = 77;
-            this.button15.Text = "ADD";
-            this.button15.UseVisualStyleBackColor = false;
+            this.btnProductDetail3.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail3.Location = new System.Drawing.Point(120, 406);
+            this.btnProductDetail3.Name = "btnProductDetail3";
+            this.btnProductDetail3.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail3.TabIndex = 86;
+            this.btnProductDetail3.Text = "DETAIL";
+            this.btnProductDetail3.UseVisualStyleBackColor = false;
+            // 
+            // btnAddToCart3
+            // 
+            this.btnAddToCart3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart3.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart3.Name = "btnAddToCart3";
+            this.btnAddToCart3.Size = new System.Drawing.Size(123, 38);
+            this.btnAddToCart3.TabIndex = 77;
+            this.btnAddToCart3.Text = "ADD";
+            this.btnAddToCart3.UseVisualStyleBackColor = false;
             // 
             // lbProductName3
             // 
@@ -1709,7 +1963,7 @@
             // 
             this.panelProduct2.Controls.Add(this.btnProductDetail2);
             this.panelProduct2.Controls.Add(this.lbProductPrice2);
-            this.panelProduct2.Controls.Add(this.button12);
+            this.panelProduct2.Controls.Add(this.btnAddToCart2);
             this.panelProduct2.Controls.Add(this.lbProductName2);
             this.panelProduct2.Controls.Add(this.pictureBoxProduct2);
             this.panelProduct2.Location = new System.Drawing.Point(379, 123);
@@ -1717,6 +1971,19 @@
             this.panelProduct2.Name = "panelProduct2";
             this.panelProduct2.Size = new System.Drawing.Size(255, 444);
             this.panelProduct2.TabIndex = 79;
+            // 
+            // btnProductDetail2
+            // 
+            this.btnProductDetail2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail2.Location = new System.Drawing.Point(119, 406);
+            this.btnProductDetail2.Name = "btnProductDetail2";
+            this.btnProductDetail2.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail2.TabIndex = 87;
+            this.btnProductDetail2.Text = "DETAIL";
+            this.btnProductDetail2.UseVisualStyleBackColor = false;
             // 
             // lbProductPrice2
             // 
@@ -1730,18 +1997,18 @@
             this.lbProductPrice2.Text = "$80.00";
             this.lbProductPrice2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button12
+            // btnAddToCart2
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(0, 406);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(125, 38);
-            this.button12.TabIndex = 77;
-            this.button12.Text = "ADD";
-            this.button12.UseVisualStyleBackColor = false;
+            this.btnAddToCart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart2.Location = new System.Drawing.Point(0, 406);
+            this.btnAddToCart2.Name = "btnAddToCart2";
+            this.btnAddToCart2.Size = new System.Drawing.Size(125, 38);
+            this.btnAddToCart2.TabIndex = 77;
+            this.btnAddToCart2.Text = "ADD";
+            this.btnAddToCart2.UseVisualStyleBackColor = false;
             // 
             // lbProductName2
             // 
@@ -1830,6 +2097,19 @@
             this.panelProduct1.Size = new System.Drawing.Size(261, 444);
             this.panelProduct1.TabIndex = 32;
             // 
+            // btnProductDetail1
+            // 
+            this.btnProductDetail1.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnProductDetail1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProductDetail1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDetail1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductDetail1.Location = new System.Drawing.Point(125, 406);
+            this.btnProductDetail1.Name = "btnProductDetail1";
+            this.btnProductDetail1.Size = new System.Drawing.Size(136, 38);
+            this.btnProductDetail1.TabIndex = 78;
+            this.btnProductDetail1.Text = "DETAIL";
+            this.btnProductDetail1.UseVisualStyleBackColor = false;
+            // 
             // btnAddToCart1
             // 
             this.btnAddToCart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
@@ -1900,136 +2180,6 @@
             this.label42.TabIndex = 50;
             this.label42.Text = "SKIN CARE";
             // 
-            // btnProductDetail1
-            // 
-            this.btnProductDetail1.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail1.Location = new System.Drawing.Point(125, 406);
-            this.btnProductDetail1.Name = "btnProductDetail1";
-            this.btnProductDetail1.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail1.TabIndex = 78;
-            this.btnProductDetail1.Text = "DETAIL";
-            this.btnProductDetail1.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail10
-            // 
-            this.btnProductDetail10.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail10.Location = new System.Drawing.Point(1284, 1019);
-            this.btnProductDetail10.Name = "btnProductDetail10";
-            this.btnProductDetail10.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail10.TabIndex = 79;
-            this.btnProductDetail10.Text = "DETAIL";
-            this.btnProductDetail10.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail9
-            // 
-            this.btnProductDetail9.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail9.Location = new System.Drawing.Point(119, 406);
-            this.btnProductDetail9.Name = "btnProductDetail9";
-            this.btnProductDetail9.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail9.TabIndex = 80;
-            this.btnProductDetail9.Text = "DETAIL";
-            this.btnProductDetail9.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail8
-            // 
-            this.btnProductDetail8.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail8.Location = new System.Drawing.Point(121, 406);
-            this.btnProductDetail8.Name = "btnProductDetail8";
-            this.btnProductDetail8.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail8.TabIndex = 81;
-            this.btnProductDetail8.Text = "DETAIL";
-            this.btnProductDetail8.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail7
-            // 
-            this.btnProductDetail7.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail7.Location = new System.Drawing.Point(119, 406);
-            this.btnProductDetail7.Name = "btnProductDetail7";
-            this.btnProductDetail7.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail7.TabIndex = 82;
-            this.btnProductDetail7.Text = "DETAIL";
-            this.btnProductDetail7.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail6
-            // 
-            this.btnProductDetail6.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail6.Location = new System.Drawing.Point(121, 406);
-            this.btnProductDetail6.Name = "btnProductDetail6";
-            this.btnProductDetail6.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail6.TabIndex = 83;
-            this.btnProductDetail6.Text = "DETAIL";
-            this.btnProductDetail6.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail5
-            // 
-            this.btnProductDetail5.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail5.Location = new System.Drawing.Point(121, 406);
-            this.btnProductDetail5.Name = "btnProductDetail5";
-            this.btnProductDetail5.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail5.TabIndex = 84;
-            this.btnProductDetail5.Text = "DETAIL";
-            this.btnProductDetail5.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail4
-            // 
-            this.btnProductDetail4.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail4.Location = new System.Drawing.Point(119, 406);
-            this.btnProductDetail4.Name = "btnProductDetail4";
-            this.btnProductDetail4.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail4.TabIndex = 85;
-            this.btnProductDetail4.Text = "DETAIL";
-            this.btnProductDetail4.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail3
-            // 
-            this.btnProductDetail3.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail3.Location = new System.Drawing.Point(120, 406);
-            this.btnProductDetail3.Name = "btnProductDetail3";
-            this.btnProductDetail3.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail3.TabIndex = 86;
-            this.btnProductDetail3.Text = "DETAIL";
-            this.btnProductDetail3.UseVisualStyleBackColor = false;
-            // 
-            // btnProductDetail2
-            // 
-            this.btnProductDetail2.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.btnProductDetail2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnProductDetail2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductDetail2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductDetail2.Location = new System.Drawing.Point(119, 406);
-            this.btnProductDetail2.Name = "btnProductDetail2";
-            this.btnProductDetail2.Size = new System.Drawing.Size(136, 38);
-            this.btnProductDetail2.TabIndex = 87;
-            this.btnProductDetail2.Text = "DETAIL";
-            this.btnProductDetail2.UseVisualStyleBackColor = false;
-            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2069,34 +2219,34 @@
             this.panel10.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare9)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare10)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare8)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare7)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare6)).EndInit();
             this.panel24.ResumeLayout(false);
             this.panel24.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare4)).EndInit();
             this.panel25.ResumeLayout(false);
             this.panel25.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare5)).EndInit();
             this.panel26.ResumeLayout(false);
             this.panel26.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare3)).EndInit();
             this.panel27.ResumeLayout(false);
             this.panel27.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare2)).EndInit();
             this.panel28.ResumeLayout(false);
             this.panel28.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSkinCare1)).EndInit();
             this.panelProduct9.ResumeLayout(false);
             this.panelProduct9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct9)).EndInit();
@@ -2165,101 +2315,101 @@
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lbSkinCarePrice9;
+        private System.Windows.Forms.Button btnAddToCartSC9;
+        private System.Windows.Forms.Label lbSkinCare9;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare9;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label lbSkinCarePrice10;
+        private System.Windows.Forms.Button btnAddToCartSC10;
+        private System.Windows.Forms.Label lbSkinCare10;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare10;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label lbSkinCarePrice8;
+        private System.Windows.Forms.Button btnAddToCartSC8;
+        private System.Windows.Forms.Label lbSkinCare8;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare8;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label lbSkinCarePrice7;
+        private System.Windows.Forms.Button btnAddToCartSC7;
+        private System.Windows.Forms.Label lbSkinCare7;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare7;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Button btnAddToCartSC6;
+        private System.Windows.Forms.Label lbSkinCarePrice6;
+        private System.Windows.Forms.Label lbSkinCare6;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare6;
         private System.Windows.Forms.Panel panel24;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.Label lbSkinCarePrice4;
+        private System.Windows.Forms.Button btnAddToCartSC4;
+        private System.Windows.Forms.Label lbSkinCare4;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare4;
         private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.Label lbSkinCarePrice5;
+        private System.Windows.Forms.Button btnAddToCartSC5;
+        private System.Windows.Forms.Label lbSkinCare5;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare5;
         private System.Windows.Forms.Panel panel26;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.Label lbSkinCarePrice3;
+        private System.Windows.Forms.Button btnAddToCartSC3;
+        private System.Windows.Forms.Label lbSkinCare3;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare3;
         private System.Windows.Forms.Panel panel27;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.Label lbSkinCarePrice2;
+        private System.Windows.Forms.Button btnAddToCartSC2;
+        private System.Windows.Forms.Label lbSkinCare2;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare2;
         private System.Windows.Forms.Panel panel28;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.Button btnAddToCartSC1;
+        private System.Windows.Forms.Label lbSkinCarePrice1;
+        private System.Windows.Forms.Label lbSkinCare1;
+        private System.Windows.Forms.PictureBox pictureBoxSkinCare1;
         private System.Windows.Forms.Panel panel29;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Panel panelProduct9;
         private System.Windows.Forms.Label lbProductPrice9;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnAddToCart9;
         private System.Windows.Forms.Label lbProductName9;
         private System.Windows.Forms.PictureBox pictureBoxProduct9;
         private System.Windows.Forms.Panel panelProduct10;
         private System.Windows.Forms.Label lbProductPrice10;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnAddToCart10;
         private System.Windows.Forms.Label lbProductName10;
         private System.Windows.Forms.PictureBox pictureBoxProduct10;
         private System.Windows.Forms.Panel panelProduct8;
         private System.Windows.Forms.Label lbProductPrice8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnAddToCart8;
         private System.Windows.Forms.Label lbProductName8;
         private System.Windows.Forms.PictureBox pictureBoxProduct8;
         private System.Windows.Forms.Panel panelProduct7;
         private System.Windows.Forms.Label lbProductPrice7;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnAddToCart7;
         private System.Windows.Forms.Label lbProductName7;
         private System.Windows.Forms.PictureBox pictureBoxProduct7;
         private System.Windows.Forms.Panel panelProduct6;
         private System.Windows.Forms.Label lbProductPrice6;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnAddToCart6;
         private System.Windows.Forms.Label lbProductName6;
         private System.Windows.Forms.PictureBox pictureBoxProduct6;
         private System.Windows.Forms.Panel panelProduct4;
         private System.Windows.Forms.Label lbProductPrice4;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btnAddToCart4;
         private System.Windows.Forms.Label lbProductName4;
         private System.Windows.Forms.PictureBox pictureBoxProduct4;
         private System.Windows.Forms.Panel panelProduct5;
         private System.Windows.Forms.Label lbProductPrice5;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button btnAddToCart5;
         private System.Windows.Forms.Label lbProductName5;
         private System.Windows.Forms.PictureBox pictureBoxProduct5;
         private System.Windows.Forms.Panel panelProduct3;
         private System.Windows.Forms.Label lbProductPrice3;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button btnAddToCart3;
         private System.Windows.Forms.Label lbProductName3;
         private System.Windows.Forms.PictureBox pictureBoxProduct3;
         private System.Windows.Forms.Panel panelProduct2;
         private System.Windows.Forms.Label lbProductPrice2;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnAddToCart2;
         private System.Windows.Forms.Label lbProductName2;
         private System.Windows.Forms.PictureBox pictureBoxProduct2;
         private System.Windows.Forms.Panel panel19;
@@ -2282,5 +2432,15 @@
         private System.Windows.Forms.Button btnProductDetail5;
         private System.Windows.Forms.Button btnProductDetail3;
         private System.Windows.Forms.Button btnProductDetail2;
+        private System.Windows.Forms.Button btnSkincareDetail9;
+        private System.Windows.Forms.Button btnSkincareDetail10;
+        private System.Windows.Forms.Button btnSkincareDetail8;
+        private System.Windows.Forms.Button btnSkincareDetail7;
+        private System.Windows.Forms.Button btnSkincareDetail6;
+        private System.Windows.Forms.Button btnSkincareDetail4;
+        private System.Windows.Forms.Button btnSkincareDetail5;
+        private System.Windows.Forms.Button btnSkincareDetail3;
+        private System.Windows.Forms.Button btnSkincareDetail2;
+        private System.Windows.Forms.Button btnSkincareDetail1;
     }
 }

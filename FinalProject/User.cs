@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace FinalProject
 {
@@ -21,12 +22,14 @@ namespace FinalProject
             if (ShoppingCart == null)
             {
                 ShoppingCart = new int[] { itemID };
+                MessageBox.Show("Add to cart successful!!");
             }
             else
             {
                 List<int> items = new List<int>(ShoppingCart);
                 items.Add(itemID);
                 ShoppingCart = items.ToArray();
+                MessageBox.Show("Add to cart successful!!");
             }
         }
 

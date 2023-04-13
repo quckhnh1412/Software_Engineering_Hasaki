@@ -46,25 +46,25 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lbProductName = new System.Windows.Forms.Label();
-            this.lbCategory = new System.Windows.Forms.Label();
-            this.lbMoney = new System.Windows.Forms.Label();
-            this.lbSuplier = new System.Windows.Forms.Label();
-            this.btnAddToCart = new System.Windows.Forms.Button();
-            this.pictureBoxProduct = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.lbProductDescription = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.lbProductDescription = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBoxProduct = new System.Windows.Forms.PictureBox();
+            this.btnAddToCart = new System.Windows.Forms.Button();
+            this.lbSuplier = new System.Windows.Forms.Label();
+            this.lbMoney = new System.Windows.Forms.Label();
+            this.lbCategory = new System.Windows.Forms.Label();
+            this.lbProductName = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -75,9 +75,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
             this.panel12.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct)).BeginInit();
-            this.panel7.SuspendLayout();
             this.panel17.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -290,121 +290,50 @@
             this.panel2.Size = new System.Drawing.Size(1548, 1154);
             this.panel2.TabIndex = 79;
             // 
-            // panel3
+            // panel17
             // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(100, 1154);
-            this.panel3.TabIndex = 0;
+            this.panel17.BackColor = System.Drawing.Color.White;
+            this.panel17.Controls.Add(this.lbProductDescription);
+            this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel17.Location = new System.Drawing.Point(100, 601);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(989, 494);
+            this.panel17.TabIndex = 99;
             // 
-            // lbProductName
+            // lbProductDescription
             // 
-            this.lbProductName.AutoSize = true;
-            this.lbProductName.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbProductName.Location = new System.Drawing.Point(431, 38);
-            this.lbProductName.Name = "lbProductName";
-            this.lbProductName.Size = new System.Drawing.Size(380, 40);
-            this.lbProductName.TabIndex = 37;
-            this.lbProductName.Text = "2 Oz Deal Watermelon ";
-            this.lbProductName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbProductDescription.AutoSize = true;
+            this.lbProductDescription.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductDescription.Location = new System.Drawing.Point(60, 54);
+            this.lbProductDescription.Name = "lbProductDescription";
+            this.lbProductDescription.Size = new System.Drawing.Size(123, 26);
+            this.lbProductDescription.TabIndex = 39;
+            this.lbProductDescription.Text = "Category : ";
             // 
-            // lbCategory
+            // panel14
             // 
-            this.lbCategory.AutoSize = true;
-            this.lbCategory.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCategory.Location = new System.Drawing.Point(429, 210);
-            this.lbCategory.Name = "lbCategory";
-            this.lbCategory.Size = new System.Drawing.Size(149, 32);
-            this.lbCategory.TabIndex = 38;
-            this.lbCategory.Text = "Category : ";
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel14.Location = new System.Drawing.Point(100, 587);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(989, 14);
+            this.panel14.TabIndex = 98;
             // 
-            // lbMoney
+            // panel18
             // 
-            this.lbMoney.AutoSize = true;
-            this.lbMoney.BackColor = System.Drawing.Color.White;
-            this.lbMoney.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMoney.ForeColor = System.Drawing.Color.Red;
-            this.lbMoney.Location = new System.Drawing.Point(432, 332);
-            this.lbMoney.Name = "lbMoney";
-            this.lbMoney.Size = new System.Drawing.Size(96, 32);
-            this.lbMoney.TabIndex = 39;
-            this.lbMoney.Text = "Money";
+            this.panel18.BackColor = System.Drawing.Color.White;
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel18.Location = new System.Drawing.Point(100, 528);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(989, 59);
+            this.panel18.TabIndex = 97;
             // 
-            // lbSuplier
+            // panel13
             // 
-            this.lbSuplier.AutoSize = true;
-            this.lbSuplier.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSuplier.Location = new System.Drawing.Point(429, 271);
-            this.lbSuplier.Name = "lbSuplier";
-            this.lbSuplier.Size = new System.Drawing.Size(149, 32);
-            this.lbSuplier.TabIndex = 40;
-            this.lbSuplier.Text = "Category : ";
-            // 
-            // btnAddToCart
-            // 
-            this.btnAddToCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
-            this.btnAddToCart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnAddToCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddToCart.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddToCart.Location = new System.Drawing.Point(438, 397);
-            this.btnAddToCart.Name = "btnAddToCart";
-            this.btnAddToCart.Size = new System.Drawing.Size(216, 38);
-            this.btnAddToCart.TabIndex = 86;
-            this.btnAddToCart.Text = "ADD TO CART";
-            this.btnAddToCart.UseVisualStyleBackColor = false;
-            // 
-            // pictureBoxProduct
-            // 
-            this.pictureBoxProduct.Location = new System.Drawing.Point(65, 38);
-            this.pictureBoxProduct.Name = "pictureBoxProduct";
-            this.pictureBoxProduct.Size = new System.Drawing.Size(339, 397);
-            this.pictureBoxProduct.TabIndex = 87;
-            this.pictureBoxProduct.TabStop = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.SystemColors.Window;
-            this.panel7.Controls.Add(this.panel6);
-            this.panel7.Controls.Add(this.panel5);
-            this.panel7.Controls.Add(this.panel4);
-            this.panel7.Controls.Add(this.pictureBoxProduct);
-            this.panel7.Controls.Add(this.btnAddToCart);
-            this.panel7.Controls.Add(this.lbSuplier);
-            this.panel7.Controls.Add(this.lbMoney);
-            this.panel7.Controls.Add(this.lbCategory);
-            this.panel7.Controls.Add(this.lbProductName);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(100, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1448, 497);
-            this.panel7.TabIndex = 4;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Control;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1380, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(68, 497);
-            this.panel4.TabIndex = 88;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.Control;
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(989, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(45, 497);
-            this.panel6.TabIndex = 90;
-            // 
-            // panel5
-            // 
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(1034, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(346, 497);
-            this.panel5.TabIndex = 89;
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel13.Location = new System.Drawing.Point(100, 497);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(989, 31);
+            this.panel13.TabIndex = 94;
             // 
             // panel8
             // 
@@ -432,50 +361,121 @@
             this.panel11.Size = new System.Drawing.Size(68, 657);
             this.panel11.TabIndex = 91;
             // 
-            // panel13
+            // panel7
             // 
-            this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel13.Location = new System.Drawing.Point(100, 497);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(989, 31);
-            this.panel13.TabIndex = 94;
+            this.panel7.BackColor = System.Drawing.SystemColors.Window;
+            this.panel7.Controls.Add(this.panel6);
+            this.panel7.Controls.Add(this.panel5);
+            this.panel7.Controls.Add(this.panel4);
+            this.panel7.Controls.Add(this.pictureBoxProduct);
+            this.panel7.Controls.Add(this.btnAddToCart);
+            this.panel7.Controls.Add(this.lbSuplier);
+            this.panel7.Controls.Add(this.lbMoney);
+            this.panel7.Controls.Add(this.lbCategory);
+            this.panel7.Controls.Add(this.lbProductName);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(100, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1448, 497);
+            this.panel7.TabIndex = 4;
             // 
-            // panel18
+            // panel6
             // 
-            this.panel18.BackColor = System.Drawing.Color.White;
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel18.Location = new System.Drawing.Point(100, 528);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(989, 59);
-            this.panel18.TabIndex = 97;
+            this.panel6.BackColor = System.Drawing.SystemColors.Control;
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel6.Location = new System.Drawing.Point(989, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(45, 497);
+            this.panel6.TabIndex = 90;
             // 
-            // panel14
+            // panel5
             // 
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel14.Location = new System.Drawing.Point(100, 587);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(989, 14);
-            this.panel14.TabIndex = 98;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel5.Location = new System.Drawing.Point(1034, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(346, 497);
+            this.panel5.TabIndex = 89;
             // 
-            // panel17
+            // panel4
             // 
-            this.panel17.BackColor = System.Drawing.Color.White;
-            this.panel17.Controls.Add(this.lbProductDescription);
-            this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel17.Location = new System.Drawing.Point(100, 601);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(989, 494);
-            this.panel17.TabIndex = 99;
+            this.panel4.BackColor = System.Drawing.SystemColors.Control;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(1380, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(68, 497);
+            this.panel4.TabIndex = 88;
             // 
-            // lbProductDescription
+            // pictureBoxProduct
             // 
-            this.lbProductDescription.AutoSize = true;
-            this.lbProductDescription.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbProductDescription.Location = new System.Drawing.Point(60, 54);
-            this.lbProductDescription.Name = "lbProductDescription";
-            this.lbProductDescription.Size = new System.Drawing.Size(123, 26);
-            this.lbProductDescription.TabIndex = 39;
-            this.lbProductDescription.Text = "Category : ";
+            this.pictureBoxProduct.Location = new System.Drawing.Point(65, 38);
+            this.pictureBoxProduct.Name = "pictureBoxProduct";
+            this.pictureBoxProduct.Size = new System.Drawing.Size(339, 397);
+            this.pictureBoxProduct.TabIndex = 87;
+            this.pictureBoxProduct.TabStop = false;
+            // 
+            // btnAddToCart
+            // 
+            this.btnAddToCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(45)))));
+            this.btnAddToCart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddToCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddToCart.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddToCart.Location = new System.Drawing.Point(438, 397);
+            this.btnAddToCart.Name = "btnAddToCart";
+            this.btnAddToCart.Size = new System.Drawing.Size(216, 38);
+            this.btnAddToCart.TabIndex = 86;
+            this.btnAddToCart.Text = "ADD TO CART";
+            this.btnAddToCart.UseVisualStyleBackColor = false;
+            // 
+            // lbSuplier
+            // 
+            this.lbSuplier.AutoSize = true;
+            this.lbSuplier.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSuplier.Location = new System.Drawing.Point(429, 271);
+            this.lbSuplier.Name = "lbSuplier";
+            this.lbSuplier.Size = new System.Drawing.Size(149, 32);
+            this.lbSuplier.TabIndex = 40;
+            this.lbSuplier.Text = "Category : ";
+            // 
+            // lbMoney
+            // 
+            this.lbMoney.AutoSize = true;
+            this.lbMoney.BackColor = System.Drawing.Color.White;
+            this.lbMoney.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMoney.ForeColor = System.Drawing.Color.Red;
+            this.lbMoney.Location = new System.Drawing.Point(432, 332);
+            this.lbMoney.Name = "lbMoney";
+            this.lbMoney.Size = new System.Drawing.Size(96, 32);
+            this.lbMoney.TabIndex = 39;
+            this.lbMoney.Text = "Money";
+            // 
+            // lbCategory
+            // 
+            this.lbCategory.AutoSize = true;
+            this.lbCategory.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCategory.Location = new System.Drawing.Point(429, 210);
+            this.lbCategory.Name = "lbCategory";
+            this.lbCategory.Size = new System.Drawing.Size(149, 32);
+            this.lbCategory.TabIndex = 38;
+            this.lbCategory.Text = "Category : ";
+            // 
+            // lbProductName
+            // 
+            this.lbProductName.AutoSize = true;
+            this.lbProductName.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProductName.Location = new System.Drawing.Point(431, 38);
+            this.lbProductName.Name = "lbProductName";
+            this.lbProductName.Size = new System.Drawing.Size(367, 38);
+            this.lbProductName.TabIndex = 37;
+            this.lbProductName.Text = "2 Oz Deal Watermelon ";
+            this.lbProductName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(100, 1154);
+            this.panel3.TabIndex = 0;
             // 
             // Product_detail
             // 
@@ -502,11 +502,11 @@
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct)).EndInit();
             this.ResumeLayout(false);
 
         }
