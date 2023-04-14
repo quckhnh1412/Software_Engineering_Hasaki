@@ -24,7 +24,7 @@ namespace FinalProject
         private void Cart_Load(object sender, EventArgs e)
         {
             int[] ShoppingCart = user.ShoppingCart;
-
+           
             string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
             string query = "SELECT p.ProductName, p.UnitPrice, c.CategoryName FROM Products p JOIN Categories c ON p.CategoryID = c.CategoryID WHERE ProductID IN (" + string.Join(",", ShoppingCart) + ");";
 
@@ -53,8 +53,8 @@ namespace FinalProject
                         // Add the product name label to the first column
                         Label productNameLabel = new Label();
                         productNameLabel.Text = productName;
-                        productNameLabel.Font = labelFont;
-                        productNameLabel.Width = 400; // set the label width to 400 pixels
+                        productNameLabel.Font = new Font("Microsoft Sans Serif", 9f);
+                        productNameLabel.Width = 400; // set the label width to 400 pixel
                         tableLayoutCart.Controls.Add(productNameLabel, 0, row);
 
                         // Add the price label to the second column
@@ -68,6 +68,66 @@ namespace FinalProject
                         categoryIDLabel.Text = categoryName.ToString();
                         categoryIDLabel.Font = labelFont;
                         tableLayoutCart.Controls.Add(categoryIDLabel, 2, row);
+
+                        // Add the quantity selector to the fourth column
+                        NumericUpDown quantityNumericUpDown = new NumericUpDown();
+                        quantityNumericUpDown.Minimum = 1;
+                        quantityNumericUpDown.Maximum = 999;
+                        quantityNumericUpDown.Value = 1;
+                        quantityNumericUpDown.Font = labelFont;
+                        tableLayoutCart.Controls.Add(quantityNumericUpDown, 3, row);
+
+                        // Add the total price label to the fifth column
+                        Label totalPriceLabel = new Label();
+                        totalPriceLabel.Text = FormatCurrency(unitPrice);
+                        totalPriceLabel.Font = labelFont;
+                        tableLayoutCart.Controls.Add(totalPriceLabel, 4, row);
+                        
+                        // Attach event handler to the quantityNumericUpDown control
+                        quantityNumericUpDown.ValueChanged += (a, args) => {
+                            int quantity = (int)quantityNumericUpDown.Value;
+                            totalPriceLabel.Text = FormatCurrency(unitPrice * quantity);
+                            UpdateTotalAmount();
+
+                        };
+                        // Add the delete button to the sixth column
+                        Button deleteButton = new Button();
+                        deleteButton.Text = "Delete";
+                        deleteButton.Font = labelFont;
+                        tableLayoutCart.Controls.Add(deleteButton, 5, row);
+
+                        // Attach event handler to the delete button
+                        deleteButton.Click += (a, args) =>
+                        {
+                            tableLayoutCart.Controls.Remove(productNameLabel);
+                            tableLayoutCart.Controls.Remove(priceLabel);
+                            tableLayoutCart.Controls.Remove(categoryIDLabel);
+                            tableLayoutCart.Controls.Remove(quantityNumericUpDown);
+                            tableLayoutCart.Controls.Remove(totalPriceLabel);
+                            tableLayoutCart.Controls.Remove(deleteButton);
+                           
+
+                            // Adjust the row count and total price
+                            tableLayoutCart.RowCount--;
+                            UpdateTotalAmount();
+
+
+                        };
+                        UpdateTotalAmount();
+                        void UpdateTotalAmount()
+                        {
+                            int totalAmount = 0;
+                            for (int j = 0; j < tableLayoutCart.RowStyles.Count; j++)
+                            {
+                                Label rowTotalPriceLabel = (Label)tableLayoutCart.GetControlFromPosition(4, j);
+                                if (rowTotalPriceLabel != null)
+                                {
+                                    totalAmount += int.Parse(rowTotalPriceLabel.Text.Replace("vnđ", "").Replace(",", ""));
+                                }
+                            }
+                            // Update the total amount label
+                            totalAmountLabel.Text = FormatCurrency(totalAmount);
+                        }
                     }
 
                     reader.Close();

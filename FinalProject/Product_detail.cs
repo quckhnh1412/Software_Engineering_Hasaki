@@ -113,5 +113,10 @@ namespace FinalProject
             homePage.Show();
             this.Hide();
         }
+
+        private void btnAddToCart_Click(object sender, EventArgs e)
+        {
+            user.addToCart(productID);
+        }
     }
 }

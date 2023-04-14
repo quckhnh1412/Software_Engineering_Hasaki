@@ -425,6 +425,7 @@
             this.btnAddToCart.TabIndex = 86;
             this.btnAddToCart.Text = "ADD TO CART";
             this.btnAddToCart.UseVisualStyleBackColor = false;
+            this.btnAddToCart.Click += new System.EventHandler(this.btnAddToCart_Click);
             // 
             // lbSuplier
             // 
