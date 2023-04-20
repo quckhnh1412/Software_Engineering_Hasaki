@@ -154,6 +154,72 @@ namespace FinalProject
                 MessageBox.Show("Please choose a shipping method.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return; // Exit the method if no shipping method is selected
             }
+            else
+            {
+                DateTime now = DateTime.Now;
+
+                // Insert a new row into the Orders table
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO Orders (OrderDate, CustomerID, ShippingMethod, ShippingFee, OrderStatus, TotalAmount) " +
+                        "VALUES (@OrderDate, @CustomerID, @ShippingMethod, @ShippingFee, @OrderStatus, @TotalAmount); " +
+                        "SELECT SCOPE_IDENTITY();", conn))
+                    {
+                        string shippingMethod = "";
+                        int shippingFee = 0;
+                        int total = totalAmout;
+                        if (rdbNormalShipping.Checked)
+                        {
+                            shippingMethod = "Normal shipping";
+                            total += 15000;
+                            shippingFee = 15000;
+                             
+                        }
+                        if (rdbFastShipping.Checked)
+                        {
+                            shippingMethod = "Fast shipping in 2 hours";
+                            total += 25000;
+                            shippingFee = 25000;
+                        }
+                        cmd.Parameters.AddWithValue("@OrderDate", now);
+                        cmd.Parameters.AddWithValue("@CustomerID", user.UserID);
+                        cmd.Parameters.AddWithValue("@ShippingMethod", shippingMethod);
+                        cmd.Parameters.AddWithValue("@ShippingFee", shippingFee);
+                        cmd.Parameters.AddWithValue("@OrderStatus", "on the way");
+                        cmd.Parameters.AddWithValue("@TotalAmount", total);
+
+                        int orderID = Convert.ToInt32(cmd.ExecuteScalar());
+
+                        // Insert rows into the OrderDetails table for each product in the shopping cart
+                        foreach (KeyValuePair<int, int> item in product_quantity)
+                        {
+                            int productID = item.Key;
+                            int quantity = item.Value;
+
+                            using (SqlCommand cmd2 = new SqlCommand("INSERT INTO OrderDetails (OrderID, ProductID, Quantity) " +
+                                "VALUES (@OrderID, @ProductID, @Quantity);", conn))
+                            {
+                                cmd2.Parameters.AddWithValue("@OrderID", orderID);
+                                cmd2.Parameters.AddWithValue("@ProductID", productID);
+                                cmd2.Parameters.AddWithValue("@Quantity", quantity);
+
+                                cmd2.ExecuteNonQuery();
+                            }
+                        }
+                    }
+                    
+                    MessageBox.Show("Your order has been recorded !!!");
+                    user.ShoppingCart = new int[] { };
+                    product_quantity = new Dictionary<int, int> { };
+                    HomePage homePage = new HomePage(user);
+                    homePage.Show();
+                    this.Hide();
+                   
+                }
+                
+
+            }
 
         }
     }

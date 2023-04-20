@@ -26,7 +26,12 @@ namespace FinalProject
         private void Cart_Load(object sender, EventArgs e)
         {
             int[] ShoppingCart = user.ShoppingCart;
-
+            Load_Cart_Item(ShoppingCart);
+            
+           
+        }
+        private void Load_Cart_Item(int[] ShoppingCart)
+        {
             product_quantity = new Dictionary<int, int>();
             string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
             string query = "SELECT p.ProductName, p.UnitPrice, c.CategoryName FROM Products p JOIN Categories c ON p.CategoryID = c.CategoryID WHERE ProductID IN (" + string.Join(",", ShoppingCart) + ");";
@@ -38,7 +43,6 @@ namespace FinalProject
                 for (int i = 0; i < ShoppingCart.Length; i++)
                 {
                     int productId = ShoppingCart[i];
-                    MessageBox.Show(productId + "");
                     SqlCommand command = new SqlCommand("SELECT p.ProductName, c.CategoryName, p.UnitPrice FROM Products p JOIN Categories c ON p.CategoryID = c.CategoryID WHERE p.ProductID = @ProductId", connection);
                     command.Parameters.AddWithValue("@ProductId", productId);
                     SqlDataReader reader = command.ExecuteReader();
@@ -87,7 +91,7 @@ namespace FinalProject
                         totalPriceLabel.Text = FormatCurrency(unitPrice);
                         totalPriceLabel.Font = labelFont;
                         tableLayoutCart.Controls.Add(totalPriceLabel, 4, row);
-                        
+
                         // Attach event handler to the quantityNumericUpDown control
                         quantityNumericUpDown.ValueChanged += (a, args) => {
                             int quantity = (int)quantityNumericUpDown.Value;
