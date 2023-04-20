@@ -571,6 +571,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Admin_report_by_day";
             this.Text = "Admin_report_by_day";
+            this.Load += new System.EventHandler(this.Admin_report_by_day_Load);
             this.panel2.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();

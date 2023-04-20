@@ -15,6 +15,8 @@ namespace FinalProject
     public partial class Cart : Form
     {
         User user;
+        Dictionary<int, int> product_quantity;
+        int totalAmount;
         public Cart(User user)
         {
             InitializeComponent();
@@ -24,7 +26,8 @@ namespace FinalProject
         private void Cart_Load(object sender, EventArgs e)
         {
             int[] ShoppingCart = user.ShoppingCart;
-           
+
+            product_quantity = new Dictionary<int, int>();
             string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
             string query = "SELECT p.ProductName, p.UnitPrice, c.CategoryName FROM Products p JOIN Categories c ON p.CategoryID = c.CategoryID WHERE ProductID IN (" + string.Join(",", ShoppingCart) + ");";
 
@@ -35,6 +38,7 @@ namespace FinalProject
                 for (int i = 0; i < ShoppingCart.Length; i++)
                 {
                     int productId = ShoppingCart[i];
+                    MessageBox.Show(productId + "");
                     SqlCommand command = new SqlCommand("SELECT p.ProductName, c.CategoryName, p.UnitPrice FROM Products p JOIN Categories c ON p.CategoryID = c.CategoryID WHERE p.ProductID = @ProductId", connection);
                     command.Parameters.AddWithValue("@ProductId", productId);
                     SqlDataReader reader = command.ExecuteReader();
@@ -76,6 +80,7 @@ namespace FinalProject
                         quantityNumericUpDown.Value = 1;
                         quantityNumericUpDown.Font = labelFont;
                         tableLayoutCart.Controls.Add(quantityNumericUpDown, 3, row);
+                        product_quantity[productId] = (int)quantityNumericUpDown.Value;
 
                         // Add the total price label to the fifth column
                         Label totalPriceLabel = new Label();
@@ -88,11 +93,12 @@ namespace FinalProject
                             int quantity = (int)quantityNumericUpDown.Value;
                             totalPriceLabel.Text = FormatCurrency(unitPrice * quantity);
                             UpdateTotalAmount();
+                            product_quantity[productId] = quantity;
 
                         };
                         // Add the delete button to the sixth column
                         Button deleteButton = new Button();
-                        deleteButton.Text = "Delete";
+                        deleteButton.Text = "X";
                         deleteButton.Font = labelFont;
                         tableLayoutCart.Controls.Add(deleteButton, 5, row);
 
@@ -105,8 +111,8 @@ namespace FinalProject
                             tableLayoutCart.Controls.Remove(quantityNumericUpDown);
                             tableLayoutCart.Controls.Remove(totalPriceLabel);
                             tableLayoutCart.Controls.Remove(deleteButton);
-                           
-
+                            product_quantity.Remove(productId);
+                            user.ShoppingCart = user.ShoppingCart.Where(x => x != productId).ToArray();
                             // Adjust the row count and total price
                             tableLayoutCart.RowCount--;
                             UpdateTotalAmount();
@@ -116,7 +122,7 @@ namespace FinalProject
                         UpdateTotalAmount();
                         void UpdateTotalAmount()
                         {
-                            int totalAmount = 0;
+                            totalAmount = 0;
                             for (int j = 0; j < tableLayoutCart.RowStyles.Count; j++)
                             {
                                 Label rowTotalPriceLabel = (Label)tableLayoutCart.GetControlFromPosition(4, j);
@@ -156,6 +162,22 @@ namespace FinalProject
         public string FormatCurrency(int amount)
         {
             return amount.ToString("N0") + " vnđ";
+        }
+
+        private void btnCheckOut_Click(object sender, EventArgs e)
+        {
+            
+            if (user.ShoppingCart.Length == 0)
+            {
+                MessageBox.Show("Your cart is empty please add product!");
+            }
+            else
+            {
+                Checkout checkout = new Checkout(user, product_quantity, totalAmount);
+                checkout.Show();
+                this.Hide();
+            }
+            
         }
     }
 }

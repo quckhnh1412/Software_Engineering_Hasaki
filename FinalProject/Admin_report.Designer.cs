@@ -497,6 +497,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Admin_report";
             this.Text = "Admin_report";
+            this.Load += new System.EventHandler(this.Admin_report_Load);
             this.panel2.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();

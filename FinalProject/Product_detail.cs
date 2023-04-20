@@ -54,7 +54,7 @@ namespace FinalProject
                     string description = reader.GetString(5);
                    
                     lbProductName.Text = WrapText( productName, lbProductName,450);
-                    pictureBoxProduct.Image = Image.FromFile(@"C:\Users\HP\source\repos\Picture\productImages\" + imageFileName);
+                    pictureBoxProduct.Image = Image.FromFile(@"Images\productImages\" + imageFileName);
                     lbCategory.Text = "Category: " + categoryName;
                     lbSuplier.Text = "Supplier: " + supplierName;
                     lbMoney.Text = unitPrice + " đ";

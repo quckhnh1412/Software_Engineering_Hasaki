@@ -31,5 +31,10 @@ namespace FinalProject
         {
 
         }
+
+        private void Main_admin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace FinalProject
         {
             InitializeComponent();
         }
+
+        private void Admin_report_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

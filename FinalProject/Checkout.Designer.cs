@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Checkout));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbSearch = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
             this.pictureBoxSearch = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lbHomepage = new System.Windows.Forms.Label();
             this.pbCart = new System.Windows.Forms.PictureBox();
             this.pbProfile = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -54,43 +54,33 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rdbFastShipping = new System.Windows.Forms.RadioButton();
+            this.rdbNormalShipping = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbCustomerAddress = new System.Windows.Forms.Label();
+            this.lbCustomerName = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
             this.panel24 = new System.Windows.Forms.Panel();
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lbOverall = new System.Windows.Forms.Label();
+            this.lbShippingCost = new System.Windows.Forms.Label();
+            this.totalAmountLabel = new System.Windows.Forms.Label();
+            this.btnEditProduct = new System.Windows.Forms.Button();
             this.panel28 = new System.Windows.Forms.Panel();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.tableLayoutProduct = new System.Windows.Forms.TableLayoutPanel();
+            this.btnCheckout = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -99,6 +89,9 @@
             this.panel36 = new System.Windows.Forms.Panel();
             this.panel37 = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.hasakiDataSet1 = new FinalProject.HASAKIDataSet();
+            this.lbDateTime = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -114,16 +107,15 @@
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel22.SuspendLayout();
-            this.panel23.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel25.SuspendLayout();
             this.panel26.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.panel28.SuspendLayout();
-            this.panel29.SuspendLayout();
+            this.panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hasakiDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -145,24 +137,24 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Controls.Add(this.textBox1);
+            this.panel9.Controls.Add(this.tbSearch);
             this.panel9.Location = new System.Drawing.Point(50, 25);
             this.panel9.Margin = new System.Windows.Forms.Padding(50, 25, 0, 3);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(358, 41);
             this.panel9.TabIndex = 48;
             // 
-            // textBox1
+            // tbSearch
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(10, 8);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(298, 25);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "Search";
+            this.tbSearch.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tbSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.Location = new System.Drawing.Point(10, 8);
+            this.tbSearch.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(298, 25);
+            this.tbSearch.TabIndex = 11;
+            this.tbSearch.Text = "Search";
             // 
             // panel16
             // 
@@ -187,6 +179,7 @@
             this.pictureBoxSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxSearch.TabIndex = 12;
             this.pictureBoxSearch.TabStop = false;
+            this.pictureBoxSearch.Click += new System.EventHandler(this.pictureBoxSearch_Click);
             // 
             // pictureBox4
             // 
@@ -201,7 +194,7 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.label19);
+            this.panel15.Controls.Add(this.lbHomepage);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(833, 3);
             this.panel15.Margin = new System.Windows.Forms.Padding(3, 3, 150, 3);
@@ -209,16 +202,17 @@
             this.panel15.Size = new System.Drawing.Size(200, 82);
             this.panel15.TabIndex = 49;
             // 
-            // label19
+            // lbHomepage
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Bold);
-            this.label19.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label19.Location = new System.Drawing.Point(26, 22);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(161, 44);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "HASAKI";
+            this.lbHomepage.AutoSize = true;
+            this.lbHomepage.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Bold);
+            this.lbHomepage.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lbHomepage.Location = new System.Drawing.Point(26, 22);
+            this.lbHomepage.Name = "lbHomepage";
+            this.lbHomepage.Size = new System.Drawing.Size(161, 44);
+            this.lbHomepage.TabIndex = 1;
+            this.lbHomepage.Text = "HASAKI";
+            this.lbHomepage.Click += new System.EventHandler(this.lbHomepage_Click);
             // 
             // pbCart
             // 
@@ -243,6 +237,7 @@
             this.pbProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbProfile.TabIndex = 14;
             this.pbProfile.TabStop = false;
+            this.pbProfile.Click += new System.EventHandler(this.pbProfile_Click);
             // 
             // panel12
             // 
@@ -313,9 +308,9 @@
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(40, 140);
+            this.panel8.Location = new System.Drawing.Point(40, 146);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1165, 32);
+            this.panel8.Size = new System.Drawing.Size(1165, 26);
             this.panel8.TabIndex = 1;
             // 
             // panel18
@@ -324,25 +319,25 @@
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel18.Location = new System.Drawing.Point(40, 0);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(1128, 27);
+            this.panel18.Size = new System.Drawing.Size(1134, 21);
             this.panel18.TabIndex = 3;
             // 
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel19.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel19.Location = new System.Drawing.Point(1168, 0);
+            this.panel19.Location = new System.Drawing.Point(1174, 0);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(37, 98);
+            this.panel19.Size = new System.Drawing.Size(31, 105);
             this.panel19.TabIndex = 2;
             // 
             // panel20
             // 
             this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel20.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel20.Location = new System.Drawing.Point(40, 98);
+            this.panel20.Location = new System.Drawing.Point(40, 105);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(1165, 32);
+            this.panel20.Size = new System.Drawing.Size(1165, 25);
             this.panel20.TabIndex = 1;
             // 
             // panel21
@@ -372,69 +367,71 @@
             // 
             this.panel11.Controls.Add(this.groupBox1);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel11.Location = new System.Drawing.Point(40, 27);
+            this.panel11.Location = new System.Drawing.Point(40, 21);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1128, 115);
+            this.panel11.Size = new System.Drawing.Size(1134, 127);
             this.panel11.TabIndex = 4;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rdbFastShipping);
+            this.groupBox1.Controls.Add(this.rdbNormalShipping);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1128, 115);
+            this.groupBox1.Size = new System.Drawing.Size(1134, 127);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Hình thức vận chuyển";
+            this.groupBox1.Text = "Shipping method";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(321, 76);
+            this.label2.Location = new System.Drawing.Point(224, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(23, 16);
+            this.label2.Size = new System.Drawing.Size(119, 25);
             this.label2.TabIndex = 3;
-            this.label2.Text = "$1";
+            this.label2.Text = "25,000 vnd";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(229, 37);
+            this.label1.Location = new System.Drawing.Point(224, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 16);
+            this.label1.Size = new System.Drawing.Size(119, 25);
             this.label1.TabIndex = 2;
-            this.label1.Text = "$0";
+            this.label1.Text = "15,000 vnd";
             // 
-            // radioButton2
+            // rdbFastShipping
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(33, 74);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(265, 20);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Vận chuyển giao hàng nhanh trong 2 giờ";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdbFastShipping.AutoSize = true;
+            this.rdbFastShipping.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbFastShipping.Location = new System.Drawing.Point(33, 74);
+            this.rdbFastShipping.Name = "rdbFastShipping";
+            this.rdbFastShipping.Size = new System.Drawing.Size(138, 26);
+            this.rdbFastShipping.TabIndex = 1;
+            this.rdbFastShipping.TabStop = true;
+            this.rdbFastShipping.Text = "Fast shipping";
+            this.rdbFastShipping.UseVisualStyleBackColor = true;
+            this.rdbFastShipping.CheckedChanged += new System.EventHandler(this.rdbFastShipping_CheckedChanged);
             // 
-            // radioButton1
+            // rdbNormalShipping
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(33, 33);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(177, 20);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Vận chuyển thông thường";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbNormalShipping.AutoSize = true;
+            this.rdbNormalShipping.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbNormalShipping.Location = new System.Drawing.Point(33, 33);
+            this.rdbNormalShipping.Name = "rdbNormalShipping";
+            this.rdbNormalShipping.Size = new System.Drawing.Size(160, 26);
+            this.rdbNormalShipping.TabIndex = 0;
+            this.rdbNormalShipping.TabStop = true;
+            this.rdbNormalShipping.Text = "Normal shipping";
+            this.rdbNormalShipping.UseVisualStyleBackColor = true;
+            this.rdbNormalShipping.CheckedChanged += new System.EventHandler(this.rdbNormalShipping_CheckedChanged);
             // 
             // panel1
             // 
@@ -442,25 +439,25 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(40, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1128, 27);
+            this.panel1.Size = new System.Drawing.Size(1134, 21);
             this.panel1.TabIndex = 3;
             // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel13.Location = new System.Drawing.Point(1168, 0);
+            this.panel13.Location = new System.Drawing.Point(1174, 0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(37, 142);
+            this.panel13.Size = new System.Drawing.Size(31, 148);
             this.panel13.TabIndex = 2;
             // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel14.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel14.Location = new System.Drawing.Point(40, 142);
+            this.panel14.Location = new System.Drawing.Point(40, 148);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(1165, 30);
+            this.panel14.Size = new System.Drawing.Size(1165, 24);
             this.panel14.TabIndex = 1;
             // 
             // panel2
@@ -471,18 +468,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(40, 172);
             this.panel2.TabIndex = 0;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(33, 32);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(90, 20);
-            this.radioButton3.TabIndex = 0;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "In hóa đơn";
-            this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -504,63 +489,41 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(40, 27);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1128, 113);
+            this.panel5.Size = new System.Drawing.Size(1134, 119);
             this.panel5.TabIndex = 4;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox2);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.lbCustomerAddress);
+            this.groupBox3.Controls.Add(this.lbCustomerName);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1128, 113);
+            this.groupBox3.Size = new System.Drawing.Size(1134, 119);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Thông tin nhận hàng";
+            this.groupBox3.Text = "Personal Infomation";
             // 
-            // textBox2
+            // lbCustomerAddress
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(39, 85);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(413, 22);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "Nhập ghi chú (nếu có)";
+            this.lbCustomerAddress.AutoSize = true;
+            this.lbCustomerAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCustomerAddress.Location = new System.Drawing.Point(33, 67);
+            this.lbCustomerAddress.Name = "lbCustomerAddress";
+            this.lbCustomerAddress.Size = new System.Drawing.Size(74, 22);
+            this.lbCustomerAddress.TabIndex = 1;
+            this.lbCustomerAddress.Text = "address";
             // 
-            // label5
+            // lbCustomerName
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 67);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 16);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Ghi chú :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(36, 42);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Địa chỉ";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Tên khách hàng - sđt";
+            this.lbCustomerName.AutoSize = true;
+            this.lbCustomerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCustomerName.Location = new System.Drawing.Point(33, 36);
+            this.lbCustomerName.Name = "lbCustomerName";
+            this.lbCustomerName.Size = new System.Drawing.Size(188, 22);
+            this.lbCustomerName.TabIndex = 0;
+            this.lbCustomerName.Text = "Name - phone number";
             // 
             // panel10
             // 
@@ -568,16 +531,16 @@
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel10.Location = new System.Drawing.Point(40, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1128, 27);
+            this.panel10.Size = new System.Drawing.Size(1134, 27);
             this.panel10.TabIndex = 3;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1168, 0);
+            this.panel3.Location = new System.Drawing.Point(1174, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(37, 140);
+            this.panel3.Size = new System.Drawing.Size(31, 146);
             this.panel3.TabIndex = 2;
             // 
             // panel7
@@ -588,18 +551,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(40, 172);
             this.panel7.TabIndex = 0;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1128, 71);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Thông tin xuất hóa đơn";
             // 
             // panel17
             // 
@@ -626,15 +577,6 @@
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(1205, 130);
             this.panel22.TabIndex = 2;
-            // 
-            // panel23
-            // 
-            this.panel23.Controls.Add(this.groupBox2);
-            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel23.Location = new System.Drawing.Point(40, 27);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(1128, 71);
-            this.panel23.TabIndex = 4;
             // 
             // panel24
             // 
@@ -664,201 +606,168 @@
             // 
             this.panel26.Controls.Add(this.groupBox4);
             this.panel26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel26.Location = new System.Drawing.Point(28, 27);
+            this.panel26.Location = new System.Drawing.Point(22, 27);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(283, 536);
+            this.panel26.Size = new System.Drawing.Size(313, 546);
             this.panel26.TabIndex = 4;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.button1);
+            this.groupBox4.Controls.Add(this.lbOverall);
+            this.groupBox4.Controls.Add(this.lbShippingCost);
+            this.groupBox4.Controls.Add(this.totalAmountLabel);
+            this.groupBox4.Controls.Add(this.btnEditProduct);
             this.groupBox4.Controls.Add(this.panel28);
-            this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Controls.Add(this.label14);
-            this.groupBox4.Controls.Add(this.label13);
-            this.groupBox4.Controls.Add(this.button2);
+            this.groupBox4.Controls.Add(this.btnCheckout);
             this.groupBox4.Controls.Add(this.label12);
             this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.label10);
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(0, 0);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(283, 536);
+            this.groupBox4.Size = new System.Drawing.Size(313, 546);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Đơn hàng";
+            this.groupBox4.Text = "Order";
             // 
-            // button1
+            // lbOverall
             // 
-            this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(222, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(61, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Sửa";
-            this.button1.UseVisualStyleBackColor = false;
+            this.lbOverall.AutoSize = true;
+            this.lbOverall.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbOverall.ForeColor = System.Drawing.Color.Red;
+            this.lbOverall.Location = new System.Drawing.Point(131, 467);
+            this.lbOverall.Name = "lbOverall";
+            this.lbOverall.Size = new System.Drawing.Size(40, 30);
+            this.lbOverall.TabIndex = 11;
+            this.lbOverall.Text = "$...";
+            // 
+            // lbShippingCost
+            // 
+            this.lbShippingCost.AutoSize = true;
+            this.lbShippingCost.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbShippingCost.ForeColor = System.Drawing.Color.Red;
+            this.lbShippingCost.Location = new System.Drawing.Point(177, 436);
+            this.lbShippingCost.Name = "lbShippingCost";
+            this.lbShippingCost.Size = new System.Drawing.Size(40, 30);
+            this.lbShippingCost.TabIndex = 10;
+            this.lbShippingCost.Text = "$...";
+            // 
+            // totalAmountLabel
+            // 
+            this.totalAmountLabel.AutoSize = true;
+            this.totalAmountLabel.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalAmountLabel.ForeColor = System.Drawing.Color.Red;
+            this.totalAmountLabel.Location = new System.Drawing.Point(143, 403);
+            this.totalAmountLabel.Name = "totalAmountLabel";
+            this.totalAmountLabel.Size = new System.Drawing.Size(40, 30);
+            this.totalAmountLabel.TabIndex = 9;
+            this.totalAmountLabel.Text = "$...";
+            // 
+            // btnEditProduct
+            // 
+            this.btnEditProduct.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEditProduct.BackColor = System.Drawing.Color.Green;
+            this.btnEditProduct.ForeColor = System.Drawing.Color.White;
+            this.btnEditProduct.Location = new System.Drawing.Point(216, -7);
+            this.btnEditProduct.Name = "btnEditProduct";
+            this.btnEditProduct.Size = new System.Drawing.Size(74, 38);
+            this.btnEditProduct.TabIndex = 0;
+            this.btnEditProduct.Text = "edit";
+            this.btnEditProduct.UseVisualStyleBackColor = false;
+            this.btnEditProduct.Click += new System.EventHandler(this.btnEditProduct_Click);
             // 
             // panel28
             // 
             this.panel28.BackColor = System.Drawing.Color.White;
-            this.panel28.Controls.Add(this.panel29);
+            this.panel28.Controls.Add(this.tableLayoutProduct);
             this.panel28.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel28.Location = new System.Drawing.Point(3, 18);
+            this.panel28.Location = new System.Drawing.Point(3, 26);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(277, 394);
+            this.panel28.Size = new System.Drawing.Size(307, 343);
             this.panel28.TabIndex = 8;
             // 
-            // panel29
+            // tableLayoutProduct
             // 
-            this.panel29.BackColor = System.Drawing.Color.White;
-            this.panel29.Controls.Add(this.panel34);
-            this.panel29.Controls.Add(this.panel33);
-            this.panel29.Controls.Add(this.panel32);
-            this.panel29.Controls.Add(this.panel31);
-            this.panel29.Controls.Add(this.panel30);
-            this.panel29.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel29.Location = new System.Drawing.Point(0, 0);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(277, 95);
-            this.panel29.TabIndex = 0;
+            this.tableLayoutProduct.AutoScroll = true;
+            this.tableLayoutProduct.ColumnCount = 1;
+            this.tableLayoutProduct.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutProduct.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutProduct.Name = "tableLayoutProduct";
+            this.tableLayoutProduct.RowCount = 2;
+            this.tableLayoutProduct.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutProduct.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutProduct.Size = new System.Drawing.Size(307, 343);
+            this.tableLayoutProduct.TabIndex = 1;
             // 
-            // panel34
+            // btnCheckout
             // 
-            this.panel34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel34.Location = new System.Drawing.Point(10, 10);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(257, 75);
-            this.panel34.TabIndex = 4;
-            // 
-            // panel33
-            // 
-            this.panel33.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel33.Location = new System.Drawing.Point(10, 0);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(257, 10);
-            this.panel33.TabIndex = 3;
-            // 
-            // panel32
-            // 
-            this.panel32.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel32.Location = new System.Drawing.Point(10, 85);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(257, 10);
-            this.panel32.TabIndex = 2;
-            // 
-            // panel31
-            // 
-            this.panel31.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel31.Location = new System.Drawing.Point(267, 0);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(10, 95);
-            this.panel31.TabIndex = 1;
-            // 
-            // panel30
-            // 
-            this.panel30.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel30.Location = new System.Drawing.Point(0, 0);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(10, 95);
-            this.panel30.TabIndex = 0;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(232, 440);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(27, 16);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "$...";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(232, 468);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(27, 16);
-            this.label14.TabIndex = 6;
-            this.label14.Text = "$...";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(232, 415);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(27, 16);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "$...";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Green;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(77, 495);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 38);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Đặt hàng";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnCheckout.BackColor = System.Drawing.Color.Green;
+            this.btnCheckout.ForeColor = System.Drawing.Color.White;
+            this.btnCheckout.Location = new System.Drawing.Point(0, 505);
+            this.btnCheckout.Name = "btnCheckout";
+            this.btnCheckout.Size = new System.Drawing.Size(313, 38);
+            this.btnCheckout.TabIndex = 4;
+            this.btnCheckout.Text = "Checkout";
+            this.btnCheckout.UseVisualStyleBackColor = false;
+            this.btnCheckout.Click += new System.EventHandler(this.btnCheckout_Click);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(20, 468);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(6, 467);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(87, 16);
+            this.label12.Size = new System.Drawing.Size(94, 25);
             this.label12.TabIndex = 3;
-            this.label12.Text = "Thành tiền :";
+            this.label12.Text = "Overall :";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(20, 440);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(-2, 438);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 16);
+            this.label11.Size = new System.Drawing.Size(150, 25);
             this.label11.TabIndex = 2;
-            this.label11.Text = "Phí vận chuyển :";
+            this.label11.Text = "Shipping cost:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(20, 415);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(-2, 408);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 16);
+            this.label10.Size = new System.Drawing.Size(139, 25);
             this.label10.TabIndex = 1;
-            this.label10.Text = "Tạm tính :";
+            this.label10.Text = "Total amout :";
             // 
             // panel27
             // 
             this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel27.Location = new System.Drawing.Point(28, 0);
+            this.panel27.Location = new System.Drawing.Point(22, 0);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(283, 27);
+            this.panel27.Size = new System.Drawing.Size(313, 27);
             this.panel27.TabIndex = 3;
             // 
             // panel35
             // 
             this.panel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel35.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel35.Location = new System.Drawing.Point(311, 0);
+            this.panel35.Location = new System.Drawing.Point(335, 0);
             this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(43, 563);
+            this.panel35.Size = new System.Drawing.Size(19, 573);
             this.panel35.TabIndex = 2;
             // 
             // panel36
             // 
             this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel36.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel36.Location = new System.Drawing.Point(28, 563);
+            this.panel36.Location = new System.Drawing.Point(22, 573);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(326, 20);
+            this.panel36.Size = new System.Drawing.Size(332, 10);
             this.panel36.TabIndex = 1;
             // 
             // panel37
@@ -867,7 +776,7 @@
             this.panel37.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel37.Location = new System.Drawing.Point(0, 0);
             this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(28, 583);
+            this.panel37.Size = new System.Drawing.Size(22, 583);
             this.panel37.TabIndex = 0;
             // 
             // splitter1
@@ -878,6 +787,31 @@
             this.splitter1.Size = new System.Drawing.Size(10, 672);
             this.splitter1.TabIndex = 80;
             this.splitter1.TabStop = false;
+            // 
+            // panel23
+            // 
+            this.panel23.BackColor = System.Drawing.Color.White;
+            this.panel23.Controls.Add(this.lbDateTime);
+            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel23.Location = new System.Drawing.Point(40, 21);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(1134, 84);
+            this.panel23.TabIndex = 4;
+            // 
+            // hasakiDataSet1
+            // 
+            this.hasakiDataSet1.DataSetName = "HASAKIDataSet";
+            this.hasakiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // lbDateTime
+            // 
+            this.lbDateTime.AutoSize = true;
+            this.lbDateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDateTime.Location = new System.Drawing.Point(33, 28);
+            this.lbDateTime.Name = "lbDateTime";
+            this.lbDateTime.Size = new System.Drawing.Size(103, 22);
+            this.lbDateTime.TabIndex = 0;
+            this.lbDateTime.Text = "Date : Time";
             // 
             // Checkout
             // 
@@ -890,6 +824,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Checkout";
             this.Text = "Checkout";
+            this.Load += new System.EventHandler(this.Checkout_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
@@ -910,18 +845,17 @@
             this.panel5.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.panel17.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
-            this.panel23.ResumeLayout(false);
             this.panel24.ResumeLayout(false);
             this.panel25.ResumeLayout(false);
             this.panel26.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.panel28.ResumeLayout(false);
-            this.panel29.ResumeLayout(false);
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hasakiDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -930,12 +864,12 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.PictureBox pictureBoxSearch;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lbHomepage;
         private System.Windows.Forms.PictureBox pbCart;
         private System.Windows.Forms.PictureBox pbProfile;
         private System.Windows.Forms.Panel panel12;
@@ -953,43 +887,29 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdbFastShipping;
+        private System.Windows.Forms.RadioButton rdbNormalShipping;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbCustomerAddress;
+        private System.Windows.Forms.Label lbCustomerName;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel22;
-        private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Panel panel26;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEditProduct;
         private System.Windows.Forms.Panel panel28;
-        private System.Windows.Forms.Panel panel29;
-        private System.Windows.Forms.Panel panel34;
-        private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Panel panel32;
-        private System.Windows.Forms.Panel panel31;
-        private System.Windows.Forms.Panel panel30;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCheckout;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -998,5 +918,12 @@
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Panel panel37;
         private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutProduct;
+        private System.Windows.Forms.Label lbOverall;
+        private System.Windows.Forms.Label lbShippingCost;
+        private System.Windows.Forms.Label totalAmountLabel;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.Label lbDateTime;
+        private HASAKIDataSet hasakiDataSet1;
     }
 }

@@ -570,6 +570,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Main_admin";
             this.Text = "Main_admin";
+            this.Load += new System.EventHandler(this.Main_admin_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
