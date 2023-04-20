@@ -185,6 +185,9 @@
             this.pictureBoxProduct1 = new System.Windows.Forms.PictureBox();
             this.panel30 = new System.Windows.Forms.Panel();
             this.label42 = new System.Windows.Forms.Label();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
@@ -241,9 +244,11 @@
             this.panelProduct2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct2)).BeginInit();
             this.panel19.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.panelProduct1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).BeginInit();
             this.panel30.SuspendLayout();
+            this.panel16.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbSearch
@@ -594,8 +599,8 @@
             this.panel10.Controls.Add(this.panel19);
             this.panel10.Controls.Add(this.panel18);
             this.panel10.Controls.Add(this.panel11);
-            this.panel10.Controls.Add(this.panelProduct1);
             this.panel10.Controls.Add(this.panel30);
+            this.panel10.Controls.Add(this.panel16);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Name = "panel10";
@@ -1367,10 +1372,11 @@
             // 
             // panel29
             // 
-            this.panel29.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel29.Location = new System.Drawing.Point(100, 1103);
+            this.panel29.BackColor = System.Drawing.Color.White;
+            this.panel29.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel29.Location = new System.Drawing.Point(100, 83);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(1356, 29);
+            this.panel29.Size = new System.Drawing.Size(1356, 35);
             this.panel29.TabIndex = 85;
             // 
             // panelProduct9
@@ -2078,6 +2084,7 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel11.Controls.Add(this.panel20);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Name = "panel11";
@@ -2180,6 +2187,31 @@
             this.label42.TabIndex = 50;
             this.label42.Text = "SKIN CARE";
             // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.panel7);
+            this.panel16.Controls.Add(this.panelProduct1);
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel16.Location = new System.Drawing.Point(0, 0);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(1548, 2500);
+            this.panel16.TabIndex = 99;
+            // 
+            // panel20
+            // 
+            this.panel20.Location = new System.Drawing.Point(100, 1087);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(1356, 50);
+            this.panel20.TabIndex = 33;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel7.Location = new System.Drawing.Point(100, 1090);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1366, 47);
+            this.panel7.TabIndex = 87;
+            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2276,11 +2308,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct2)).EndInit();
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
+            this.panel11.ResumeLayout(false);
             this.panelProduct1.ResumeLayout(false);
             this.panelProduct1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).EndInit();
             this.panel30.ResumeLayout(false);
             this.panel30.PerformLayout();
+            this.panel16.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2442,5 +2476,8 @@
         private System.Windows.Forms.Button btnSkincareDetail3;
         private System.Windows.Forms.Button btnSkincareDetail2;
         private System.Windows.Forms.Button btnSkincareDetail1;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel7;
     }
 }
