@@ -177,17 +177,17 @@
             this.label30 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.panelProduct1 = new System.Windows.Forms.Panel();
             this.btnProductDetail1 = new System.Windows.Forms.Button();
             this.btnAddToCart1 = new System.Windows.Forms.Button();
             this.lbProductPrice1 = new System.Windows.Forms.Label();
             this.lbProductName1 = new System.Windows.Forms.Label();
             this.pictureBoxProduct1 = new System.Windows.Forms.PictureBox();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.label42 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProfile)).BeginInit();
@@ -245,10 +245,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct2)).BeginInit();
             this.panel19.SuspendLayout();
             this.panel11.SuspendLayout();
-            this.panelProduct1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).BeginInit();
             this.panel30.SuspendLayout();
             this.panel16.SuspendLayout();
+            this.panelProduct1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbSearch
@@ -2091,6 +2091,52 @@
             this.panel11.Size = new System.Drawing.Size(100, 2500);
             this.panel11.TabIndex = 51;
             // 
+            // panel20
+            // 
+            this.panel20.Location = new System.Drawing.Point(100, 1087);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(1356, 50);
+            this.panel20.TabIndex = 33;
+            // 
+            // panel30
+            // 
+            this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(161)))), ((int)(((byte)(138)))));
+            this.panel30.Controls.Add(this.label42);
+            this.panel30.Location = new System.Drawing.Point(100, 1127);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(1366, 55);
+            this.panel30.TabIndex = 86;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(45)))), ((int)(((byte)(0)))));
+            this.label42.Location = new System.Drawing.Point(13, 13);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(168, 33);
+            this.label42.TabIndex = 50;
+            this.label42.Text = "SKIN CARE";
+            // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.panel7);
+            this.panel16.Controls.Add(this.panelProduct1);
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel16.Location = new System.Drawing.Point(0, 0);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(1548, 2500);
+            this.panel16.TabIndex = 99;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel7.Location = new System.Drawing.Point(100, 1090);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1366, 47);
+            this.panel7.TabIndex = 87;
+            // 
             // panelProduct1
             // 
             this.panelProduct1.Controls.Add(this.btnProductDetail1);
@@ -2165,52 +2211,6 @@
             this.pictureBoxProduct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxProduct1.TabIndex = 0;
             this.pictureBoxProduct1.TabStop = false;
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(161)))), ((int)(((byte)(138)))));
-            this.panel30.Controls.Add(this.label42);
-            this.panel30.Location = new System.Drawing.Point(100, 1127);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(1366, 55);
-            this.panel30.TabIndex = 86;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.BackColor = System.Drawing.Color.Transparent;
-            this.label42.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(45)))), ((int)(((byte)(0)))));
-            this.label42.Location = new System.Drawing.Point(13, 13);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(168, 33);
-            this.label42.TabIndex = 50;
-            this.label42.Text = "SKIN CARE";
-            // 
-            // panel16
-            // 
-            this.panel16.Controls.Add(this.panel7);
-            this.panel16.Controls.Add(this.panelProduct1);
-            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel16.Location = new System.Drawing.Point(0, 0);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1548, 2500);
-            this.panel16.TabIndex = 99;
-            // 
-            // panel20
-            // 
-            this.panel20.Location = new System.Drawing.Point(100, 1087);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(1356, 50);
-            this.panel20.TabIndex = 33;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel7.Location = new System.Drawing.Point(100, 1090);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1366, 47);
-            this.panel7.TabIndex = 87;
             // 
             // HomePage
             // 
@@ -2309,12 +2309,12 @@
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
             this.panel11.ResumeLayout(false);
-            this.panelProduct1.ResumeLayout(false);
-            this.panelProduct1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).EndInit();
             this.panel30.ResumeLayout(false);
             this.panel30.PerformLayout();
             this.panel16.ResumeLayout(false);
+            this.panelProduct1.ResumeLayout(false);
+            this.panelProduct1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Order));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbSearch = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxSearch = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.lbBrand = new System.Windows.Forms.Label();
@@ -51,6 +51,7 @@
             this.linkLabel7 = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.tblOrders = new System.Windows.Forms.TableLayoutPanel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -58,7 +59,7 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.lbSignOut = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lbShoppingHistory = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -68,11 +69,11 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.tblOrder = new System.Windows.Forms.TableLayoutPanel();
+            this.hasakiDataSet1 = new FinalProject.HASAKIDataSet();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,6 +90,7 @@
             this.panel6.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hasakiDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -110,48 +112,49 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Controls.Add(this.textBox1);
+            this.panel9.Controls.Add(this.tbSearch);
             this.panel9.Location = new System.Drawing.Point(50, 25);
             this.panel9.Margin = new System.Windows.Forms.Padding(50, 25, 0, 3);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(358, 41);
             this.panel9.TabIndex = 48;
             // 
-            // textBox1
+            // tbSearch
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(10, 8);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(298, 25);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "Search";
+            this.tbSearch.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tbSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.Location = new System.Drawing.Point(10, 8);
+            this.tbSearch.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(298, 25);
+            this.tbSearch.TabIndex = 11;
+            this.tbSearch.Text = "Search";
             // 
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.panel16.Controls.Add(this.pictureBox3);
+            this.panel16.Controls.Add(this.pictureBoxSearch);
             this.panel16.Location = new System.Drawing.Point(408, 25);
             this.panel16.Margin = new System.Windows.Forms.Padding(0, 25, 3, 3);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(96, 41);
             this.panel16.TabIndex = 50;
             // 
-            // pictureBox3
+            // pictureBoxSearch
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(21, 1);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 25, 4, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(49, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 12;
-            this.pictureBox3.TabStop = false;
+            this.pictureBoxSearch.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxSearch.ErrorImage = null;
+            this.pictureBoxSearch.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSearch.Image")));
+            this.pictureBoxSearch.InitialImage = null;
+            this.pictureBoxSearch.Location = new System.Drawing.Point(21, 1);
+            this.pictureBoxSearch.Margin = new System.Windows.Forms.Padding(4, 25, 4, 4);
+            this.pictureBoxSearch.Name = "pictureBoxSearch";
+            this.pictureBoxSearch.Size = new System.Drawing.Size(49, 40);
+            this.pictureBoxSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSearch.TabIndex = 12;
+            this.pictureBoxSearch.TabStop = false;
+            this.pictureBoxSearch.Click += new System.EventHandler(this.pictureBoxSearch_Click);
             // 
             // pictureBox4
             // 
@@ -355,13 +358,33 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.tblOrder);
+            this.panel7.Controls.Add(this.tblOrders);
             this.panel7.Controls.Add(this.label12);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(387, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1182, 708);
             this.panel7.TabIndex = 74;
+            // 
+            // tblOrders
+            // 
+            this.tblOrders.AutoSize = true;
+            this.tblOrders.BackColor = System.Drawing.Color.White;
+            this.tblOrders.ColumnCount = 7;
+            this.tblOrders.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.5656F));
+            this.tblOrders.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 57.4344F));
+            this.tblOrders.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 171F));
+            this.tblOrders.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 181F));
+            this.tblOrders.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 157F));
+            this.tblOrders.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 156F));
+            this.tblOrders.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
+            this.tblOrders.Location = new System.Drawing.Point(42, 74);
+            this.tblOrders.Name = "tblOrders";
+            this.tblOrders.RowCount = 2;
+            this.tblOrders.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblOrders.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblOrders.Size = new System.Drawing.Size(1085, 100);
+            this.tblOrders.TabIndex = 76;
             // 
             // label12
             // 
@@ -427,22 +450,22 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.lbShoppingHistory);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 88);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(304, 44);
             this.panel4.TabIndex = 66;
             // 
-            // label11
+            // lbShoppingHistory
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(23, 10);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(137, 21);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Shoping History";
+            this.lbShoppingHistory.AutoSize = true;
+            this.lbShoppingHistory.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbShoppingHistory.Location = new System.Drawing.Point(23, 10);
+            this.lbShoppingHistory.Name = "lbShoppingHistory";
+            this.lbShoppingHistory.Size = new System.Drawing.Size(147, 21);
+            this.lbShoppingHistory.TabIndex = 0;
+            this.lbShoppingHistory.Text = "Shopping History";
             // 
             // panel5
             // 
@@ -530,24 +553,10 @@
             this.panel10.Size = new System.Drawing.Size(72, 708);
             this.panel10.TabIndex = 1;
             // 
-            // tblOrder
+            // hasakiDataSet1
             // 
-            this.tblOrder.BackColor = System.Drawing.Color.White;
-            this.tblOrder.ColumnCount = 7;
-            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.1831F));
-            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.8169F));
-            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 99F));
-            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 104F));
-            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 143F));
-            this.tblOrder.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 474F));
-            this.tblOrder.Location = new System.Drawing.Point(42, 74);
-            this.tblOrder.Name = "tblOrder";
-            this.tblOrder.RowCount = 2;
-            this.tblOrder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tblOrder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tblOrder.Size = new System.Drawing.Size(1085, 100);
-            this.tblOrder.TabIndex = 76;
+            this.hasakiDataSet1.DataSetName = "HASAKIDataSet";
+            this.hasakiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // Order
             // 
@@ -564,7 +573,7 @@
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel16.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
@@ -590,6 +599,7 @@
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hasakiDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -598,9 +608,9 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBoxSearch;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Label lbBrand;
@@ -623,7 +633,7 @@
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Label lbSignOut;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lbShoppingHistory;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel6;
@@ -635,6 +645,7 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TableLayoutPanel tblOrder;
+        private System.Windows.Forms.TableLayoutPanel tblOrders;
+        private HASAKIDataSet hasakiDataSet1;
     }
 }

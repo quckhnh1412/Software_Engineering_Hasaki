@@ -14,7 +14,7 @@ namespace FinalProject
     public partial class ProfilePage : Form
     {
         public User user;
-
+        string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
         public ProfilePage(User user)
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace FinalProject
 
         private void ProfilePage_Load(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
+            
             SqlConnection connection = new SqlConnection(connectionString);
             string query = "SELECT * FROM Customers WHERE CustomerID = @customerId";
             SqlCommand command = new SqlCommand(query, connection);
@@ -75,7 +75,7 @@ namespace FinalProject
             int customerId = user.UserID; // Replace with the actual customer ID
 
             // Update the values in the SQL database
-            string connectionString = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=HASAKI;Integrated Security=True";
+            
             SqlConnection connection = new SqlConnection(connectionString);
             string query = "UPDATE Customers SET Name = @name, Email = @email, Phone = @phone, Address = @address, Password = @password WHERE CustomerID = @customerId";
             SqlCommand command = new SqlCommand(query, connection);
@@ -142,6 +142,14 @@ namespace FinalProject
         {
             HomePage homePage = new HomePage(user);
             homePage.Show();
+            this.Hide();
+        }
+
+        private void pictureBoxSeach_Click(object sender, EventArgs e)
+        {
+            string searchText = tbSearch.Text;
+            HomePage_Search homePage_Search = new HomePage_Search(user, searchText);
+            homePage_Search.Show();
             this.Hide();
         }
     }

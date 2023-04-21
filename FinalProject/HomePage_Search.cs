@@ -250,7 +250,10 @@ namespace FinalProject
 
         private void pictureBoxSearch_Click(object sender, EventArgs e)
         {
-
+            string searchText = tbSearch.Text;
+            HomePage_Search homePage_Search = new HomePage_Search(user, searchText);
+            homePage_Search.Show();
+            this.Hide();
         }
 
         private void lbBrand_Click(object sender, EventArgs e)

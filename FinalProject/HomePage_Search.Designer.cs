@@ -35,7 +35,7 @@
             this.redLowestPrice = new System.Windows.Forms.RadioButton();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbSearch = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
             this.pictureBoxSearch = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -146,24 +146,24 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Controls.Add(this.textBox1);
+            this.panel9.Controls.Add(this.tbSearch);
             this.panel9.Location = new System.Drawing.Point(50, 25);
             this.panel9.Margin = new System.Windows.Forms.Padding(50, 25, 0, 3);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(358, 41);
             this.panel9.TabIndex = 48;
             // 
-            // textBox1
+            // tbSearch
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(10, 8);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(298, 25);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "Search";
+            this.tbSearch.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tbSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.Location = new System.Drawing.Point(10, 8);
+            this.tbSearch.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(298, 25);
+            this.tbSearch.TabIndex = 11;
+            this.tbSearch.Text = "Search";
             // 
             // panel16
             // 
@@ -481,7 +481,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.PictureBox pictureBoxSearch;
         private System.Windows.Forms.PictureBox pictureBox4;

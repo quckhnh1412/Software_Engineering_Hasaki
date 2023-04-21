@@ -88,3 +88,4 @@ C:\Users\HP\Source\Repos\Final_app1\FinalProject\obj\Debug\FinalProject.csproj.G
 C:\Users\HP\Source\Repos\Final_app1\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
 C:\Users\HP\Source\Repos\Final_app1\FinalProject\obj\Debug\FinalProject.exe
 C:\Users\HP\Source\Repos\Final_app1\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\HP\source\repos\Final_app1\FinalProject\obj\Debug\FinalProject.OrderDetail.resources

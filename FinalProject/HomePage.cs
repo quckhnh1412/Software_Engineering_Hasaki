@@ -322,12 +322,18 @@ namespace FinalProject
 
         private void pbCart_Click(object sender, EventArgs e)
         {
-            if (user.ShoppingCart.Length != 0)
+            if (user.ShoppingCart == null)
+            {
+                MessageBox.Show("You don't have any products in your cart !!!");
+            }
+
+            else if (user.ShoppingCart.Length != 0)
             {
                 Cart cart = new Cart(user);
                 cart.Show();
                 this.Hide();
             }
+            
             else
             {
                 MessageBox.Show("You don't have any products in your cart !!!");

@@ -56,9 +56,9 @@
             this.button3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbSearch = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxSeach = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.lbBrand = new System.Windows.Forms.Label();
@@ -94,7 +94,7 @@
             this.flowLayoutPanel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
@@ -372,48 +372,49 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Controls.Add(this.textBox1);
+            this.panel9.Controls.Add(this.tbSearch);
             this.panel9.Location = new System.Drawing.Point(50, 25);
             this.panel9.Margin = new System.Windows.Forms.Padding(50, 25, 0, 3);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(358, 41);
             this.panel9.TabIndex = 48;
             // 
-            // textBox1
+            // tbSearch
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(10, 8);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(298, 25);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "Search";
+            this.tbSearch.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tbSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.Location = new System.Drawing.Point(10, 8);
+            this.tbSearch.Margin = new System.Windows.Forms.Padding(10, 4, 4, 4);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(298, 25);
+            this.tbSearch.TabIndex = 11;
+            this.tbSearch.Text = "Search";
             // 
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.panel16.Controls.Add(this.pictureBox3);
+            this.panel16.Controls.Add(this.pictureBoxSeach);
             this.panel16.Location = new System.Drawing.Point(408, 25);
             this.panel16.Margin = new System.Windows.Forms.Padding(0, 25, 3, 3);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(96, 41);
             this.panel16.TabIndex = 50;
             // 
-            // pictureBox3
+            // pictureBoxSeach
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(21, 1);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 25, 4, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(49, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 12;
-            this.pictureBox3.TabStop = false;
+            this.pictureBoxSeach.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxSeach.ErrorImage = null;
+            this.pictureBoxSeach.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSeach.Image")));
+            this.pictureBoxSeach.InitialImage = null;
+            this.pictureBoxSeach.Location = new System.Drawing.Point(21, 1);
+            this.pictureBoxSeach.Margin = new System.Windows.Forms.Padding(4, 25, 4, 4);
+            this.pictureBoxSeach.Name = "pictureBoxSeach";
+            this.pictureBoxSeach.Size = new System.Drawing.Size(49, 40);
+            this.pictureBoxSeach.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSeach.TabIndex = 12;
+            this.pictureBoxSeach.TabStop = false;
+            this.pictureBoxSeach.Click += new System.EventHandler(this.pictureBoxSeach_Click);
             // 
             // pictureBox4
             // 
@@ -697,7 +698,7 @@
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel16.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
@@ -739,9 +740,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBoxSeach;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Label lbBrand;
