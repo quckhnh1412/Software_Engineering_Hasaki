@@ -83,5 +83,10 @@ namespace FinalProject
                 MessageBox.Show("No Data");
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

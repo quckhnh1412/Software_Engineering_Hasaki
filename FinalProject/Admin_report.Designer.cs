@@ -65,8 +65,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnfrmByDay = new System.Windows.Forms.Button();
+            this.btnfrmByProductType = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -457,39 +457,41 @@
             this.label2.TabIndex = 81;
             this.label2.Text = "LẬP BÁO CÁO";
             // 
-            // button2
+            // btnfrmByDay
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(313, 165);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 141);
-            this.button2.TabIndex = 82;
-            this.button2.Text = "BY DAY";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnfrmByDay.BackColor = System.Drawing.Color.White;
+            this.btnfrmByDay.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.btnfrmByDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnfrmByDay.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnfrmByDay.Location = new System.Drawing.Point(313, 165);
+            this.btnfrmByDay.Name = "btnfrmByDay";
+            this.btnfrmByDay.Size = new System.Drawing.Size(180, 141);
+            this.btnfrmByDay.TabIndex = 82;
+            this.btnfrmByDay.Text = "BY DAY";
+            this.btnfrmByDay.UseVisualStyleBackColor = false;
+            this.btnfrmByDay.Click += new System.EventHandler(this.btnfrmByDay_Click);
             // 
-            // button4
+            // btnfrmByProductType
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(511, 165);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(180, 141);
-            this.button4.TabIndex = 85;
-            this.button4.Text = "BY PRODUCT\r\nTYPE\r\n";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnfrmByProductType.BackColor = System.Drawing.Color.White;
+            this.btnfrmByProductType.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.btnfrmByProductType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnfrmByProductType.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnfrmByProductType.Location = new System.Drawing.Point(511, 165);
+            this.btnfrmByProductType.Name = "btnfrmByProductType";
+            this.btnfrmByProductType.Size = new System.Drawing.Size(180, 141);
+            this.btnfrmByProductType.TabIndex = 85;
+            this.btnfrmByProductType.Text = "BY PRODUCT\r\nTYPE\r\n";
+            this.btnfrmByProductType.UseVisualStyleBackColor = false;
+            this.btnfrmByProductType.Click += new System.EventHandler(this.btnfrmByProductType_Click);
             // 
             // Admin_report
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1189, 723);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnfrmByProductType);
+            this.Controls.Add(this.btnfrmByDay);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -574,7 +576,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnfrmByDay;
+        private System.Windows.Forms.Button btnfrmByProductType;
     }
 }

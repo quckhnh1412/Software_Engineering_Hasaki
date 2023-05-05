@@ -68,11 +68,13 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnSignUp = new System.Windows.Forms.Button();
+            this.labelTongDon = new System.Windows.Forms.Label();
+            this.labelTongTien = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.btnSearchByDay = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -458,9 +460,9 @@
             this.label12.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(334, 119);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(146, 27);
+            this.label12.Size = new System.Drawing.Size(137, 27);
             this.label12.TabIndex = 83;
-            this.label12.Text = "Chọn ngày :";
+            this.label12.Text = "Điền ngày :";
             // 
             // dataGridView1
             // 
@@ -469,14 +471,14 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(638, 397);
+            this.dataGridView1.Size = new System.Drawing.Size(742, 397);
             this.dataGridView1.TabIndex = 84;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(396, 633);
+            this.label2.Location = new System.Drawing.Point(336, 633);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 27);
             this.label2.TabIndex = 85;
@@ -488,80 +490,107 @@
             this.label14.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(334, 591);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(182, 27);
+            this.label14.Size = new System.Drawing.Size(122, 27);
             this.label14.TabIndex = 86;
-            this.label14.Text = "Tổng sản phẩm :";
+            this.label14.Text = "Tổng đơn :";
             // 
-            // label15
+            // labelTongDon
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(545, 591);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(51, 27);
-            this.label15.TabIndex = 87;
-            this.label15.Text = "150";
+            this.labelTongDon.AutoSize = true;
+            this.labelTongDon.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTongDon.Location = new System.Drawing.Point(516, 591);
+            this.labelTongDon.Name = "labelTongDon";
+            this.labelTongDon.Size = new System.Drawing.Size(30, 27);
+            this.labelTongDon.TabIndex = 87;
+            this.labelTongDon.Text = "...";
+            this.labelTongDon.Click += new System.EventHandler(this.labelTongDon_Click);
             // 
-            // label16
+            // labelTongTien
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(545, 633);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(115, 27);
-            this.label16.TabIndex = 88;
-            this.label16.Text = "5.000.000";
+            this.labelTongTien.AutoSize = true;
+            this.labelTongTien.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTongTien.Location = new System.Drawing.Point(516, 633);
+            this.labelTongTien.Name = "labelTongTien";
+            this.labelTongTien.Size = new System.Drawing.Size(30, 27);
+            this.labelTongTien.TabIndex = 88;
+            this.labelTongTien.Text = "...";
             // 
-            // button1
+            // btnBack
             // 
-            this.button1.BackColor = System.Drawing.Color.Blue;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(651, 678);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(252, 32);
-            this.button1.TabIndex = 100;
-            this.button1.Text = "BACK";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBack.BackColor = System.Drawing.Color.Blue;
+            this.btnBack.FlatAppearance.BorderSize = 0;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(829, 678);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(252, 32);
+            this.btnBack.TabIndex = 100;
+            this.btnBack.Text = "BACK";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // btnSignUp
+            // btnPrint
             // 
-            this.btnSignUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(185)))), ((int)(((byte)(18)))));
-            this.btnSignUp.FlatAppearance.BorderSize = 0;
-            this.btnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSignUp.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignUp.ForeColor = System.Drawing.Color.White;
-            this.btnSignUp.Location = new System.Drawing.Point(339, 678);
-            this.btnSignUp.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSignUp.Name = "btnSignUp";
-            this.btnSignUp.Size = new System.Drawing.Size(259, 32);
-            this.btnSignUp.TabIndex = 99;
-            this.btnSignUp.Text = "PRINT";
-            this.btnSignUp.UseVisualStyleBackColor = false;
+            this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(185)))), ((int)(((byte)(18)))));
+            this.btnPrint.FlatAppearance.BorderSize = 0;
+            this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrint.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.ForeColor = System.Drawing.Color.White;
+            this.btnPrint.Location = new System.Drawing.Point(339, 678);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(259, 32);
+            this.btnPrint.TabIndex = 99;
+            this.btnPrint.Text = "PRINT";
+            this.btnPrint.UseVisualStyleBackColor = false;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(488, 118);
+            this.maskedTextBox1.Location = new System.Drawing.Point(477, 118);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(140, 34);
+            this.maskedTextBox1.Size = new System.Drawing.Size(121, 34);
             this.maskedTextBox1.TabIndex = 101;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
+            // btnSearchByDay
+            // 
+            this.btnSearchByDay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSearchByDay.Location = new System.Drawing.Point(742, 128);
+            this.btnSearchByDay.Name = "btnSearchByDay";
+            this.btnSearchByDay.Size = new System.Drawing.Size(74, 27);
+            this.btnSearchByDay.TabIndex = 102;
+            this.btnSearchByDay.Text = "Search";
+            this.btnSearchByDay.UseVisualStyleBackColor = false;
+            this.btnSearchByDay.Click += new System.EventHandler(this.btnSearchByDay_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(604, 128);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(132, 25);
+            this.label17.TabIndex = 103;
+            this.label17.Text = "(mm/dd/yyyy)";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // Admin_report_by_day
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1189, 723);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.btnSearchByDay);
             this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnSignUp);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnPrint);
+            this.Controls.Add(this.labelTongTien);
+            this.Controls.Add(this.labelTongDon);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
@@ -652,10 +681,12 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnSignUp;
+        private System.Windows.Forms.Label labelTongDon;
+        private System.Windows.Forms.Label labelTongTien;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Button btnSearchByDay;
+        private System.Windows.Forms.Label label17;
     }
 }

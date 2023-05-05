@@ -64,10 +64,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnSignUp = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
+            this.labelTotalSum = new System.Windows.Forms.Label();
+            this.labelCount = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -452,55 +452,57 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "HASAKI";
             // 
-            // button1
+            // btnBack
             // 
-            this.button1.BackColor = System.Drawing.Color.Blue;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(603, 659);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(252, 32);
-            this.button1.TabIndex = 107;
-            this.button1.Text = "BACK";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBack.BackColor = System.Drawing.Color.Blue;
+            this.btnBack.FlatAppearance.BorderSize = 0;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(884, 659);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(252, 32);
+            this.btnBack.TabIndex = 107;
+            this.btnBack.Text = "BACK";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // btnSignUp
+            // btnPrint
             // 
-            this.btnSignUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(185)))), ((int)(((byte)(18)))));
-            this.btnSignUp.FlatAppearance.BorderSize = 0;
-            this.btnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSignUp.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignUp.ForeColor = System.Drawing.Color.White;
-            this.btnSignUp.Location = new System.Drawing.Point(291, 659);
-            this.btnSignUp.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSignUp.Name = "btnSignUp";
-            this.btnSignUp.Size = new System.Drawing.Size(259, 32);
-            this.btnSignUp.TabIndex = 106;
-            this.btnSignUp.Text = "PRINT";
-            this.btnSignUp.UseVisualStyleBackColor = false;
+            this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(185)))), ((int)(((byte)(18)))));
+            this.btnPrint.FlatAppearance.BorderSize = 0;
+            this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrint.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.ForeColor = System.Drawing.Color.White;
+            this.btnPrint.Location = new System.Drawing.Point(291, 659);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(259, 32);
+            this.btnPrint.TabIndex = 106;
+            this.btnPrint.Text = "PRINT";
+            this.btnPrint.UseVisualStyleBackColor = false;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
-            // label16
+            // labelTotalSum
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(497, 614);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(115, 27);
-            this.label16.TabIndex = 105;
-            this.label16.Text = "5.000.000";
+            this.labelTotalSum.AutoSize = true;
+            this.labelTotalSum.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTotalSum.Location = new System.Drawing.Point(497, 614);
+            this.labelTotalSum.Name = "labelTotalSum";
+            this.labelTotalSum.Size = new System.Drawing.Size(30, 27);
+            this.labelTotalSum.TabIndex = 105;
+            this.labelTotalSum.Text = "...";
             // 
-            // label15
+            // labelCount
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(497, 572);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(51, 27);
-            this.label15.TabIndex = 104;
-            this.label15.Text = "150";
+            this.labelCount.AutoSize = true;
+            this.labelCount.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCount.Location = new System.Drawing.Point(497, 572);
+            this.labelCount.Name = "labelCount";
+            this.labelCount.Size = new System.Drawing.Size(30, 27);
+            this.labelCount.TabIndex = 104;
+            this.labelCount.Text = "...";
             // 
             // label14
             // 
@@ -511,6 +513,7 @@
             this.label14.Size = new System.Drawing.Size(182, 27);
             this.label14.TabIndex = 103;
             this.label14.Text = "Tổng sản phẩm :";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label2
             // 
@@ -529,7 +532,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(638, 397);
+            this.dataGridView1.Size = new System.Drawing.Size(845, 397);
             this.dataGridView1.TabIndex = 101;
             // 
             // comboBox1
@@ -540,6 +543,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(449, 37);
             this.comboBox1.TabIndex = 108;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label12
             // 
@@ -558,10 +562,10 @@
             this.ClientSize = new System.Drawing.Size(1189, 723);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnSignUp);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnPrint);
+            this.Controls.Add(this.labelTotalSum);
+            this.Controls.Add(this.labelCount);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
@@ -571,6 +575,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Admin_report_by_product_type";
             this.Text = "Admin_report_by_product_type";
+            this.Load += new System.EventHandler(this.Admin_report_by_product_type_Load);
             this.panel2.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
@@ -647,10 +652,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnSignUp;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.Label labelTotalSum;
+        private System.Windows.Forms.Label labelCount;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
