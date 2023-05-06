@@ -48,11 +48,11 @@ CREATE TABLE Suppliers (--NHÀ CUNG CẤP
     Image nvarchar(50),
     Followers nvarchar(50)
 )
-INSERT INTO Suppliers (SupplierName, Address, Phone, Email)
-VALUES ('LA ROCHE-POSAY', 'q1,tpHCM', '0283123456', 'abc@gmail.com','s1.jpg','10K'),
-('ANESSA', 'q8,tpHCM', '0283000456', 'def@gmail.com','s2.jpg','12K'),
-('L"OREAL', 'q7,tpHCM', '0200023456', 'hehe@gmail.com','s3.jpg','9K'),
-('Klairs', 'q3,tpHCM', '0283120006', 'ok@gmail.com','s4.jpg','10K');
+INSERT INTO Suppliers (SupplierName, Address, Phone, Email, Image, Followers)
+VALUES ('LA ROCHE-POSAY', 'q1,tpHCM', '0283123456', 'abc@gmail.com','s1.jpg','14679'),
+('ANESSA', 'q8,tpHCM', '0283000456', 'def@gmail.com','s2.jpg','2381'),
+('L"OREAL', 'q7,tpHCM', '0200023456', 'hehe@gmail.com','s3.jpg','4802'),
+('Klairs', 'q3,tpHCM', '0283120006', 'ok@gmail.com','s4.jpg','4690');
 
 
 CREATE TABLE Categories (--DANH MỤC SẢN PHẨM(LOẠI SẢN PHẨM)
